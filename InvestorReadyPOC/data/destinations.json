@@ -7,7 +7,7 @@
     "state": "Himachal Pradesh",
     "latitude": 32.2396,
     "longitude": 77.1887,
-    "imageUrl": "manali_hero.png",
+    "imageUrl": "manali_mountain_adventure_landscape.png",
     "highlights": ["Trekking", "Adventure", "Mountains"],
     "bestTime": "March-June & September-November"
   },
@@ -19,7 +19,7 @@
     "state": "Himachal Pradesh",
     "latitude": 31.1048,
     "longitude": 77.1734,
-    "imageUrl": "shimla_panoramic_hero_image.png",
+    "imageUrl": "shimla_mall_road_colonial_beauty.png",
     "highlights": ["Mall Road", "Jakhu Temple", "Adventure"],
     "bestTime": "March-June & September-November"
   },
@@ -91,7 +91,7 @@
     "state": "Ladakh",
     "latitude": 34.1526,
     "longitude": 77.5770,
-    "imageUrl": "ladakh_hero.png",
+    "imageUrl": "ladakh_pangong_lake_pristine_waters.png",
     "highlights": ["Mountain Passes", "Monasteries", "Adventure"],
     "bestTime": "June-September"
   },
@@ -127,7 +127,7 @@
     "state": "Uttar Pradesh",
     "latitude": 27.1751,
     "longitude": 78.0421,
-    "imageUrl": "agra_hero.png",
+    "imageUrl": "agra_taj_mahal_majestic_monument.png",
     "highlights": ["Taj Mahal", "Heritage", "Photography"],
     "bestTime": "October-March"
   },
@@ -139,7 +139,7 @@
     "state": "Rajasthan",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "imageUrl": "jaipur_hero.png",
+    "imageUrl": "jaipur_pink_city_aerial_view.png",
     "highlights": ["City Palace", "Hawa Mahal", "Culture"],
     "bestTime": "October-March"
   },
@@ -199,7 +199,7 @@
     "state": "Goa",
     "latitude": 15.2993,
     "longitude": 73.8243,
-    "imageUrl": "goa_hero.png",
+    "imageUrl": "goa_beach_paradise_sunset.png",
     "highlights": ["Beaches", "Food", "Relaxation"],
     "bestTime": "November-February"
   },
@@ -247,7 +247,7 @@
     "state": "Kerala",
     "latitude": 10.5869,
     "longitude": 77.0595,
-    "imageUrl": "munnar_hero.png",
+    "imageUrl": "munnar_tea_plantations_green_landscape.png",
     "highlights": ["Tea Plantations", "Nature", "Trekking"],
     "bestTime": "October-May"
   },
@@ -307,7 +307,7 @@
     "state": "Karnataka",
     "latitude": 15.3350,
     "longitude": 76.4789,
-    "imageUrl": "hampi_hero.png",
+    "imageUrl": "hampi_ancient_temple_ruins.png",
     "highlights": ["Heritage", "History", "Photography"],
     "bestTime": "November-March"
   },
@@ -319,7 +319,7 @@
     "state": "Kerala",
     "latitude": 9.4981,
     "longitude": 76.3388,
-    "imageUrl": "alleppey_hero.png",
+    "imageUrl": "alleppey_backwaters_houseboat_paradise.png",
     "highlights": ["Backwaters", "Boat Tours", "Relaxation"],
     "bestTime": "November-February"
   },
@@ -331,7 +331,7 @@
     "state": "West Bengal",
     "latitude": 27.0410,
     "longitude": 88.2663,
-    "imageUrl": "darjeeling_hero.png",
+    "imageUrl": "darjeeling_tiger_hill_sunrise_peak.png",
     "highlights": ["Tea Gardens", "Mountain Railway", "Culture"],
     "bestTime": "October-April"
   },

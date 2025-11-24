@@ -101,7 +101,16 @@ export default function Destinations() {
                         className="group cursor-pointer hover:shadow-2xl transition-all duration-300 overflow-hidden border-slate-700 bg-slate-800/50 hover:bg-slate-800"
                         onClick={() => handleSelectDestination(dest.id)}
                       >
-                        <div className={`h-32 bg-gradient-to-br ${colorClass} opacity-60 group-hover:opacity-80 transition-opacity`} />
+                        <div className={`h-40 bg-gradient-to-br ${colorClass} overflow-hidden relative`}>
+                          <img 
+                            src={`/attached_assets/generated_images/${dest.imageUrl}`}
+                            alt={dest.name}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            onError={(e) => {
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        </div>
 
                         <CardHeader className="pb-3">
                           <div className="flex items-start justify-between gap-2">
