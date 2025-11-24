@@ -8,17 +8,49 @@ import {
   chatRequestSchema,
   tagContentRequestSchema,
 } from "@shared/schema";
+import { readFileSync } from "fs";
+import { join } from "path";
+
+// Load destinations data at module level
+function getDestinations() {
+  try {
+    return JSON.parse(
+      readFileSync(join(process.cwd(), "data", "destinations.json"), "utf-8")
+    );
+  } catch (error) {
+    console.error("Error loading destinations:", error);
+    return [];
+  }
+}
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // GET /api/destination/shimla - Get destination info, top spots, and alerts
-  app.get("/api/destination/shimla", async (req, res) => {
+  // GET /api/destinations - Get all destinations
+  app.get("/api/destinations", async (req, res) => {
     try {
-      const spots = await storage.getAllSpots();
-      const alerts = await storage.getAllAlerts();
+      const destinations = getDestinations();
+      res.json(destinations);
+    } catch (error) {
+      console.error("Error fetching destinations:", error);
+      res.status(500).json({ error: "Failed to fetch destinations" });
+    }
+  });
+
+  // GET /api/destination/:name - Get destination info, top spots, and alerts
+  app.get("/api/destination/:name", async (req, res) => {
+    try {
+      const destination = req.params.name;
+      storage.setDestination(destination);
+      
+      const spots = await storage.getAllSpots(destination);
+      const allAlerts = await storage.getAllAlerts();
+      const alerts = allAlerts.filter((alert: any) => alert.destination === destination);
+
+      const destInfo = getDestinations();
+      const destDetails = destInfo.find((d: any) => d.id === destination);
 
       res.json({
-        destination: "Shimla",
-        description: "The Queen of Hills - Colonial charm meets Himalayan beauty",
+        destination: destDetails?.name || destination,
+        description: destDetails?.description || "",
         topSpots: spots.slice(0, 10),
         alerts: alerts.slice(0, 3),
       });
@@ -32,8 +64,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/itinerary", async (req, res) => {
     try {
       const validated = generateItineraryRequestSchema.parse(req.body);
+      storage.setDestination(validated.destination || "shimla");
 
-      const allSpots = await storage.getAllSpots();
+      const allSpots = await storage.getAllSpots(validated.destination || "shimla");
       const plan = await generateItinerary(validated, allSpots);
       const summary = calculateItinerarySummary(plan);
 

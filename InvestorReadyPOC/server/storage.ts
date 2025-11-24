@@ -37,6 +37,7 @@ export class MemStorage implements IStorage {
   private itineraries: Map<string, Itinerary>;
   private alerts: Map<string, Alert>;
   private scrapedContent: Map<string, ScrapedContent>;
+  private currentDestination: string = "shimla";
 
   constructor() {
     this.spots = new Map();
@@ -48,19 +49,28 @@ export class MemStorage implements IStorage {
     this.loadInitialData();
   }
 
+  setDestination(destination: string) {
+    this.currentDestination = destination;
+  }
+
   private loadInitialData() {
     try {
-      // Load spots
-      const spotsData = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "shimla_spots.json"), "utf-8")
+      // Load spots for all destinations
+      const allSpotsData = JSON.parse(
+        readFileSync(join(process.cwd(), "data", "spots-data.json"), "utf-8")
       );
-      spotsData.forEach((spot: Spot) => {
-        this.spots.set(spot.id, spot);
-      });
+      
+      // Add destination info to spots
+      for (const [destination, spots] of Object.entries(allSpotsData)) {
+        (spots as Spot[]).forEach((spot: Spot) => {
+          const spotWithDest = { ...spot, destination };
+          this.spots.set(spot.id, spotWithDest as Spot);
+        });
+      }
 
-      // Load alerts
+      // Load alerts for all destinations
       const alertsData = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "alerts.json"), "utf-8")
+        readFileSync(join(process.cwd(), "data", "multi-alerts.json"), "utf-8")
       );
       alertsData.forEach((alert: Alert) => {
         this.alerts.set(alert.id, alert);
@@ -82,15 +92,18 @@ export class MemStorage implements IStorage {
         this.scrapedContent.set(post.id, post);
       });
 
-      console.log(`Loaded ${this.spots.size} spots, ${this.alerts.size} alerts, ${this.scrapedContent.size} scraped items`);
+      console.log(`Loaded ${this.spots.size} spots from all destinations, ${this.alerts.size} alerts, ${this.scrapedContent.size} scraped items`);
     } catch (error) {
       console.error("Error loading initial data:", error);
     }
   }
 
   // Spots
-  async getAllSpots(): Promise<Spot[]> {
-    return Array.from(this.spots.values());
+  async getAllSpots(destination?: string): Promise<Spot[]> {
+    const dest = destination || this.currentDestination;
+    const allSpots = Array.from(this.spots.values());
+    // Filter spots by destination if in spots data
+    return allSpots.filter((spot: any) => !spot.destination || spot.destination === dest);
   }
 
   async getSpotById(id: string): Promise<Spot | undefined> {

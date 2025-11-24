@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Calendar, DollarSign, Users, Sparkles, TrendingUp, Shield, Bell, Settings } from "lucide-react";
+import { MapPin, Calendar, DollarSign, Users, Sparkles, TrendingUp, Shield, Bell, Settings, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 import heroImage from "@assets/generated_images/shimla_panoramic_hero_image.png";
 
@@ -23,12 +23,30 @@ const interests = [
 
 export default function Home() {
   const [, setLocation] = useLocation();
+  const [destination, setDestination] = useState("shimla");
+  const [destinationName, setDestinationName] = useState("Shimla");
+  
   const [formData, setFormData] = useState({
     days: "2",
     budget: "medium",
     travelerType: "solo",
     selectedInterests: [] as string[],
   });
+
+  useEffect(() => {
+    // Get destination from URL params
+    const params = new URLSearchParams(window.location.search);
+    const dest = params.get("destination") || sessionStorage.getItem("selectedDestination") || "shimla";
+    setDestination(dest);
+
+    // Fetch destination info
+    fetch(`/api/destination/${dest}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setDestinationName(data.destination);
+      })
+      .catch((error) => console.error("Error fetching destination:", error));
+  }, []);
 
   const toggleInterest = (interest: string) => {
     setFormData((prev) => ({
@@ -41,6 +59,7 @@ export default function Home() {
 
   const handleGenerateItinerary = () => {
     const params = new URLSearchParams({
+      destination,
       days: formData.days,
       budget: formData.budget,
       travelerType: formData.travelerType,
@@ -51,10 +70,15 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Admin Link */}
-      <div className="absolute top-4 right-4 z-50">
+      {/* Navigation */}
+      <div className="absolute top-4 right-4 z-50 flex gap-2">
+        <Link href="/">
+          <Button variant="ghost" size="icon" title="Back to destinations">
+            <ArrowLeft className="w-5 h-5" />
+          </Button>
+        </Link>
         <Link href="/admin">
-          <Button variant="ghost" size="icon" data-testid="button-admin">
+          <Button variant="ghost" size="icon" data-testid="button-admin" title="Admin panel">
             <Settings className="w-5 h-5" />
           </Button>
         </Link>
@@ -79,7 +103,7 @@ export default function Home() {
               <div className="flex items-center justify-center gap-2">
                 <MapPin className="w-8 h-8 text-primary" />
                 <h1 className="text-5xl font-bold tracking-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Shimla Travel AI
+                  {destinationName} Travel AI
                 </h1>
               </div>
               <CardDescription className="text-lg text-foreground/80 leading-relaxed">

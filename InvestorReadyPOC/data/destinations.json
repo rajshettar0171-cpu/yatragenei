@@ -1,0 +1,134 @@
+[
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "region": "North",
+    "description": "Colonial hill station in Himachal Pradesh, famous for its peaceful atmosphere and scenic views",
+    "state": "Himachal Pradesh",
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "imageUrl": "shimla_panoramic_hero_image.png",
+    "highlights": ["Mall Road", "Jakhu Temple", "Adventure"]
+  },
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala",
+    "region": "North",
+    "description": "Spiritual hub in the Himalayas, home to Tibetan culture and adventure sports",
+    "state": "Himachal Pradesh",
+    "latitude": 32.2190,
+    "longitude": 76.3260,
+    "imageUrl": "dharamshala_hero.png",
+    "highlights": ["Tibetan Culture", "Trekking", "Spiritual"]
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "region": "North",
+    "description": "The Pink City - India's most colorful capital with magnificent palaces and forts",
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "imageUrl": "jaipur_hero.png",
+    "highlights": ["City Palace", "Hawa Mahal", "Culture"]
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie",
+    "region": "North",
+    "description": "Queen of the Hills in Uttarakhand with pleasant weather year-round",
+    "state": "Uttarakhand",
+    "latitude": 30.4627,
+    "longitude": 78.0646,
+    "imageUrl": "mussoorie_hero.png",
+    "highlights": ["Mall Road", "Scenic Views", "Adventure"]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "region": "West",
+    "description": "Tropical paradise with stunning beaches, Portuguese architecture, and vibrant nightlife",
+    "state": "Goa",
+    "latitude": 15.2993,
+    "longitude": 73.8243,
+    "imageUrl": "goa_hero.png",
+    "highlights": ["Beaches", "Food", "Relaxation"]
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "region": "West",
+    "description": "City of Lakes in Rajasthan, famous for its romantic palaces and lakeside beauty",
+    "state": "Rajasthan",
+    "latitude": 24.5855,
+    "longitude": 73.7144,
+    "imageUrl": "udaipur_hero.png",
+    "highlights": ["Lake Palace", "Culture", "Romance"]
+  },
+  {
+    "id": "mount-abu",
+    "name": "Mount Abu",
+    "region": "West",
+    "description": "Rajasthan's only hill station with cool climate and scenic beauty",
+    "state": "Rajasthan",
+    "latitude": 24.5926,
+    "longitude": 72.7156,
+    "imageUrl": "mount_abu_hero.png",
+    "highlights": ["Temples", "Nature", "Scenic Views"]
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "region": "East",
+    "description": "Land of the Thunderbolt in West Bengal, famous for tea gardens and mountain railways",
+    "state": "West Bengal",
+    "latitude": 27.0410,
+    "longitude": 88.2663,
+    "imageUrl": "darjeeling_hero.png",
+    "highlights": ["Tea Gardens", "Mountain Railway", "Culture"]
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim",
+    "region": "East",
+    "description": "Enchanting Himalayan state known for biodiversity and pristine landscapes",
+    "state": "Sikkim",
+    "latitude": 27.5330,
+    "longitude": 88.5122,
+    "imageUrl": "sikkim_hero.png",
+    "highlights": ["Kanchendzonga", "Adventure", "Nature"]
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "region": "South",
+    "description": "Tea plantation heaven in Kerala's Western Ghats with cool climate and lush greenery",
+    "state": "Kerala",
+    "latitude": 10.5869,
+    "longitude": 77.0595,
+    "imageUrl": "munnar_hero.png",
+    "highlights": ["Tea Plantations", "Nature", "Trekking"]
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "region": "South",
+    "description": "Queen of Hill Stations in Tamil Nadu with pleasant weather and scenic beauty",
+    "state": "Tamil Nadu",
+    "latitude": 11.4102,
+    "longitude": 76.6955,
+    "imageUrl": "ooty_hero.png",
+    "highlights": ["Botanical Garden", "Lake", "Nature"]
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "region": "South",
+    "description": "Land of the Kodavas in Karnataka with coffee plantations and dense forests",
+    "state": "Karnataka",
+    "latitude": 12.3381,
+    "longitude": 75.7402,
+    "imageUrl": "coorg_hero.png",
+    "highlights": ["Coffee Plantations", "Adventure", "Nature"]
+  }
+]

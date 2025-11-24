@@ -86,6 +86,7 @@ export interface ChatMessage {
 
 // API Request/Response Types
 export const generateItineraryRequestSchema = z.object({
+  destination: z.string().optional().default("shimla"),
   days: z.number().min(1).max(7),
   budget: z.enum(["low", "medium", "high"]),
   travelerType: z.enum(["solo", "couple", "family", "group"]),

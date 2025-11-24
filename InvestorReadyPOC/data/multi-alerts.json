@@ -1,0 +1,52 @@
+[
+  {
+    "id": "alert-shimla-road-1",
+    "destination": "shimla",
+    "type": "road_closure",
+    "severity": "high",
+    "title": "Shimla-Kufri Road Partially Closed",
+    "description": "Road repair work ongoing between Mall Road junction and Kufri. Expect delays of 30-45 minutes. Alternate route via Chharabra available.",
+    "affectedAreas": ["Kufri", "Green Valley"],
+    "timestamp": "2024-11-22T08:00:00Z"
+  },
+  {
+    "id": "alert-jaipur-event-1",
+    "destination": "jaipur",
+    "type": "event",
+    "severity": "low",
+    "title": "Diwali Festival Celebrations",
+    "description": "Annual Diwali celebrations happening at City Palace and surrounding areas. Special light displays and cultural performances. Expect increased crowds.",
+    "affectedAreas": ["City Palace", "Hawa Mahal", "Mall Road"],
+    "timestamp": "2024-11-20T10:00:00Z"
+  },
+  {
+    "id": "alert-goa-weather-1",
+    "destination": "goa",
+    "type": "weather",
+    "severity": "low",
+    "title": "Monsoon Season Beginning",
+    "description": "Light rains expected. Best time for lush greenery and reduced crowds. Carry umbrellas and waterproof gear.",
+    "affectedAreas": ["Goa", "Beaches", "Coastal Areas"],
+    "timestamp": "2024-11-21T14:00:00Z"
+  },
+  {
+    "id": "alert-munnar-season-1",
+    "destination": "munnar",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Misty Season - Limited Visibility",
+    "description": "Dense mist expected during mornings and evenings. Reduces visibility but creates magical landscape photography opportunities.",
+    "affectedAreas": ["Tea Plantations", "Anamudi Peak", "All viewpoints"],
+    "timestamp": "2024-11-19T12:00:00Z"
+  },
+  {
+    "id": "alert-darjeeling-train-1",
+    "destination": "darjeeling",
+    "type": "maintenance",
+    "severity": "medium",
+    "title": "Toy Train Maintenance - Limited Schedule",
+    "description": "Heritage toy train operating on limited schedule due to maintenance. Book in advance for guaranteed seats.",
+    "affectedAreas": ["Darjeeling", "Toy Train Route"],
+    "timestamp": "2024-11-18T09:00:00Z"
+  }
+]
