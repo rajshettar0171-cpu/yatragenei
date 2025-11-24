@@ -39,9 +39,18 @@ export default function Itinerary() {
 
   const generateMutation = useMutation({
     mutationFn: async () => {
-      return await apiRequest("POST", "/api/itinerary", params);
+      const payload = {
+        destination: params.destination,
+        days: params.days,
+        budget: params.budget,
+        travelerType: params.travelerType,
+        interests: params.interests
+      };
+      console.log("Sending itinerary request:", payload);
+      return await apiRequest("POST", "/api/itinerary", payload);
     },
     onSuccess: (data) => {
+      console.log("Itinerary generated:", data);
       if (data && data.plan && Array.isArray(data.plan)) {
         setItinerary(data as ItineraryResponse);
       }

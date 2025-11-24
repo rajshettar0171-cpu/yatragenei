@@ -85,7 +85,7 @@ function generateReason(spot: Spot, interests: string[], isHiddenGem: boolean): 
   }
 
   if (reasons.length === 0) {
-    reasons.push("Must-visit landmark in Shimla");
+    reasons.push("Must-visit landmark in this destination");
   }
 
   return reasons.slice(0, 2).join(", ");

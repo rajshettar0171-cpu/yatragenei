@@ -68,10 +68,29 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/itinerary", async (req, res) => {
     try {
       const validated = generateItineraryRequestSchema.parse(req.body);
-      storage.setDestination(validated.destination || "shimla");
+      const destination = validated.destination || "shimla";
+      storage.setDestination(destination);
 
-      const allSpots = await storage.getAllSpots(validated.destination || "shimla");
+      console.log(`Generating itinerary for ${destination}: ${validated.days} days, interests: ${validated.interests.join(", ")}`);
+
+      const allSpots = await storage.getAllSpots(destination);
+      
+      if (!allSpots || allSpots.length === 0) {
+        return res.status(400).json({ 
+          error: `No spots found for destination: ${destination}. Available destinations: manali, shimla, goa, jaipur, delhi, etc.` 
+        });
+      }
+
+      console.log(`Found ${allSpots.length} spots for ${destination}`);
+
       const plan = await generateItinerary(validated, allSpots);
+      
+      if (!plan || plan.length === 0) {
+        return res.status(400).json({ 
+          error: `Could not generate itinerary. Found ${allSpots.length} spots but plan is empty.` 
+        });
+      }
+
       const summary = calculateItinerarySummary(plan);
 
       const itinerary = await storage.createItinerary({
@@ -97,6 +116,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         createdAt: itinerary.createdAt,
       };
 
+      console.log(`Itinerary generated successfully: ${plan.length} days`);
       res.json(response);
     } catch (error: any) {
       console.error("Error generating itinerary:", error);
