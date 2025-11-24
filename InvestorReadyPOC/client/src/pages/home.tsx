@@ -8,7 +8,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, DollarSign, Users, Sparkles, TrendingUp, Shield, Bell, Settings, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
-import heroImage from "@assets/generated_images/shimla_panoramic_hero_image.png";
+
+// Default hero image URL for trip planner
+const heroImage = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80";
 
 const interests = [
   { id: "trekking", label: "Trekking", icon: "🥾" },

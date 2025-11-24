@@ -103,7 +103,7 @@ export default function Destinations() {
                       >
                         <div className={`h-40 bg-gradient-to-br ${colorClass} overflow-hidden relative`}>
                           <img 
-                            src={`/attached_assets/generated_images/${dest.imageUrl}`}
+                            src={dest.imageUrl}
                             alt={dest.name}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                             onError={(e) => {
