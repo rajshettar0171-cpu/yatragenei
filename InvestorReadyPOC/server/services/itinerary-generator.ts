@@ -176,10 +176,10 @@ export async function generateItinerary(
           lat: spot.lat,
           lng: spot.lng,
         },
-        openingHours: spot.openingHours,
+        openingHours: spot.openingHours || undefined,
         crowdScore: spot.crowdScore,
         tags: spot.tags,
-        imageUrl: spot.imageUrl,
+        imageUrl: spot.imageUrl || undefined,
       });
 
       // Add spot duration to time
