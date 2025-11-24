@@ -1,0 +1,38 @@
+[
+  {
+    "id": "alert-road-closure-1",
+    "type": "road_closure",
+    "severity": "high",
+    "title": "Shimla-Kufri Road Partially Closed",
+    "description": "Road repair work ongoing between Mall Road junction and Kufri. Expect delays of 30-45 minutes. Alternate route via Chharabra available but adds 20 minutes to journey. Work expected to complete by November 30th.",
+    "affectedAreas": ["Kufri", "Green Valley", "Chharabra"],
+    "timestamp": "2024-11-22T08:00:00Z"
+  },
+  {
+    "id": "alert-weather-1",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Light Rain Expected This Weekend",
+    "description": "Meteorological department forecasts light to moderate rainfall on November 23-24. Temperature may drop to 8°C. Carry umbrellas and warm layers. Roads may become slippery, drive carefully. Beautiful post-rain views expected!",
+    "affectedAreas": ["Shimla", "Kufri", "Summer Hill", "Tara Devi"],
+    "timestamp": "2024-11-21T18:00:00Z"
+  },
+  {
+    "id": "alert-event-1",
+    "type": "event",
+    "severity": "low",
+    "title": "Winter Carnival at The Ridge",
+    "description": "Annual Winter Carnival happening at The Ridge from November 25-28. Cultural performances, local food stalls, and handicraft exhibition. Free entry. Expect increased crowds near Mall Road and Ridge area during evening hours (5 PM - 9 PM).",
+    "affectedAreas": ["The Ridge", "Mall Road", "Scandal Point"],
+    "timestamp": "2024-11-20T10:00:00Z"
+  },
+  {
+    "id": "alert-maintenance-1",
+    "type": "maintenance",
+    "severity": "medium",
+    "title": "Jakhu Ropeway Maintenance",
+    "description": "Jakhu Ropeway will be closed for annual maintenance on November 26-27. Trek route to Jakhu Temple remains open. Alternative: Take taxi to base and trek remaining distance (approximately 1 km uphill).",
+    "affectedAreas": ["Jakhu Temple", "Ridge Top"],
+    "timestamp": "2024-11-19T12:00:00Z"
+  }
+]

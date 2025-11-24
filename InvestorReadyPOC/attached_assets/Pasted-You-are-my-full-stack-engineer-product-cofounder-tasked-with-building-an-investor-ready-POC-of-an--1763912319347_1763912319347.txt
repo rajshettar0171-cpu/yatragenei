@@ -1,0 +1,102 @@
+You are my full-stack engineer & product cofounder tasked with building an investor-ready POC of an AI-powered travel assistant web app focused on Indian destinations (start with Shimla). Target environment: Replit (single repo that runs in Replit web preview). Use only free/open tools and mock data so the POC runs entirely inside Replit without paid APIs. Provide clean code, clear README, demo script, and acceptance criteria.
+
+GOALS
+- Deliver a single Replit project that runs both frontend and backend and is easy to demo.
+- Clean UI, realistic mock data, and flows that highlight the product's unique value: personalized itineraries, hidden gems, simple chat assistant, and alerts panel.
+- No paid external services required. LLM calls are optional — include a deterministic local fallback.
+
+STACK (choose one of the two options, implement both if easy)
+A) Node.js + Next.js frontend + Express backend (monorepo)
+B) Python + FastAPI backend + React (Vite) frontend
+
+REQUIREMENTS (must-have in POC)
+1) Landing / Destination Page (Shimla)
+   - Hero tagline and short product description.
+   - Form: trip days, budget, traveler type (solo/couple/family), interests (trekking/food/photography/relaxation).
+   - Button: "Generate Itinerary".
+
+2) Itinerary View
+   - Day-by-day plan with time estimates, travel suggestions (walk/taxi), food stops.
+   - For each spot show name, short description, coordinates (mock), opening hours, entry fee, crowd-score (mock), and one-sentence reason.
+   - Buttons: "Download JSON" (save offline) and "Ask Assistant" (opens chat modal).
+
+3) Chat Assistant Modal
+   - Accepts queries (e.g., "Is Kufri crowded today?" or "Alternative to Kufri if road closed?").
+   - Uses mock scraped data + simple rule-based logic to answer. Optionally call an LLM only if the user supplies an API key in .env.
+
+4) Alerts Panel
+   - Show mock road closure, weather advisory, and one local event from mock data.
+
+5) Admin / Data Page
+   - Display scraped mock items (blogs, insta captions, govt alerts). Allow tagging one as "hidden gem" and show that gem reflected in itinerary suggestions.
+
+DATA (include these JSON files in /data)
+- shimla_spots.json (10–15 spot objects: id, name, lat, lng, description, best_time, entry_fee, opening_hours, crowd_score, tags, sample_instagram_captions)
+- blog_posts.json (3 sample posts)
+- insta_posts.json (8–10 captions w/ geo-tags)
+- alerts.json (2 alerts: road closure, weather advisory)
+
+POC LOGIC (implement in backend services)
+- Itinerary generator that:
+  1. Filters spots by interests and tags.
+  2. Scores spots by (interest match * inverse crowd_score) and proximity (use Haversine).
+  3. Orders spots per day by opening hours and proximity.
+  4. Generates descriptions via template text (and provide generate_itinerary_with_llm() stub for optional LLM).
+- Chat assistant uses scraped mock data and simple rule engine (if message contains "crowd" or "road", search alerts + insta posts; else fallback to spot descriptions).
+
+REPLIT-SPECIFIC NOTES
+- Use Replit DB or flat JSON files for mock data. If using Replit DB, seed it from the JSON files at startup.
+- Provide a Procfile or start script so both frontend and backend run (e.g., use concurrently in Node or uvicorn + npm dev in Python).
+- Expose the web app on the default Replit preview port (3000/8000 as required).
+- Include a .replit file with the run command for simplicity.
+
+SECURITY / CONFIG
+- .env.example (OPTIONAL) with OPENAI_API_KEY commented; code should detect absence and use the local fallback.
+- No secrets required for the demo to run.
+
+UI / UX
+- Clean, investor-friendly look (hero, cards for spots, clean itinerary layout, chat modal).
+- Use Tailwind or simple CSS for polished appearance.
+- Loading skeletons when generating itinerary.
+- Mobile responsive.
+
+API CONTRACTS (examples)
+- GET /api/destination/shimla → metadata + top spots + alerts
+- POST /api/itinerary → { days, budget, traveler_type, interests } → returns itinerary JSON
+- POST /api/chat → { message, context } → returns reply
+- GET /api/admin/scraped → returns mock scraped items
+- POST /api/admin/tag → body { id, tag } → tags an item (hidden_gem)
+
+ACCEPTANCE CRITERIA (for investor demo)
+- App runs in Replit preview with one click.
+- Able to generate at least one realistic-looking itinerary for Shimla, downloadable as JSON.
+- Chat can answer at least five travel queries deterministically using mock data.
+- Admin page shows scraped items and tagging a hidden gem updates itinerary suggestions.
+- README contains run steps, demo script, and investor talking points.
+
+DEMO SCRIPT (1–2 minutes)
+1. Open app (hero shows "AI Travel Assistant — Shimla POC").
+2. Fill: 2 days, low budget, solo, interests: trekking + photography. Click Generate.
+3. Show skeleton, then day-by-day plan. Highlight hidden gem and cost/time summary.
+4. Open Chat: ask "Is Kufri crowded today?" — show reasoned answer referencing alerts/insta.
+5. Open Admin: tag an insta post as hidden gem, regenerate itinerary to show it appears.
+6. Download itinerary JSON and show offline/summary panel.
+
+README (must include)
+- How to run in Replit (and locally if preferred).
+- Commands to start both frontend & backend.
+- Where to add OPENAI key if desired (optional).
+- Short investor talking points: USP, TAM, monetization, roadmap.
+
+DELIVERABLES (files/folders)
+- frontend/ (React/Next/Vite)
+- backend/ (Express or FastAPI)
+- data/ (JSON files)
+- README.md, demo_script.md, .replit, .env.example
+
+QUALITY NOTES
+- Add TODO markers where real scraping, vector DB, and LLM integration should be added.
+- Keep modular code so replacing JSON with a real scraper/DB is straightforward.
+- Handle errors gracefully and show helpful UI messages.
+
+If you understood, scaffold the project now in this Replit environment with working starter files and seed data. After scaffolding, print a short one-paragraph investor pitch summary that I can read live during the demo.
