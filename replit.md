@@ -95,12 +95,13 @@ Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generate
 - Assets: All images sourced from internet (Unsplash/Pexels CDN, no local assets)
 
 **Image Strategy**: 
-- All 34 destination images use location-specific Unsplash/Pexels URLs (CC0 licensed, no attribution required)
-- Examples: Manali mountains, Shimla colonial architecture, Goa beaches, Jaisalmer desert, Taj Mahal, Hawa Mahal
-- All 25 attraction images use location-specific URLs for rich visual experience
+- All 34 destination images use direct Unsplash CDN URLs (CC0 licensed, no attribution required)
+- Image sources curated from provided Pexels & Unsplash collections mapped to each destination
+- Each destination has a specific, location-relevant image (e.g., Manali snow peaks, Shimla colonial architecture, Goa beaches, Jaisalmer dunes, Taj Mahal, Hawa Mahal)
+- All attraction images use location-specific URLs for rich visual experience
 - Images load directly from CDN with quality parameters (w=800&q=80 for destinations, w=600&q=80 for attractions)
 - Images embedded directly into React components (destinations.tsx, itinerary.tsx, home.tsx)
-- No local image generation or storage required
+- No local image generation or storage required - all from Unsplash/Pexels CDN
 
 **Scalability Considerations**: Monorepo structure allows future extraction of backend into separate service. Storage interface enables database swap without refactoring. API design follows RESTful conventions for easy client generation (e.g., OpenAPI).
 

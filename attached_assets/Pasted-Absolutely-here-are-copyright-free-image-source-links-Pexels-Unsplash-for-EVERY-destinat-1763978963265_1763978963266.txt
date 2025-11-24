@@ -1,0 +1,174 @@
+Absolutely — here are **copyright-free image source links (Pexels + Unsplash)** for **EVERY destination** listed in your `content.md` file.
+
+All links are **safe, royalty-free, and allowed for commercial use** (Pexels & Unsplash licenses).
+
+I’ve structured them region-wise exactly as your markdown content.
+
+---
+
+# ✅ **NORTH INDIA — Image Links**
+
+### **HILL STATIONS & MOUNTAIN REGIONS**
+
+| Destination     | Pexels                                                                                       | Unsplash                                                                               |
+| --------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Manali**      | [https://www.pexels.com/search/manali/](https://www.pexels.com/search/manali/)               | [https://unsplash.com/s/photos/manali](https://unsplash.com/s/photos/manali)           |
+| **Shimla**      | [https://www.pexels.com/search/shimla/](https://www.pexels.com/search/shimla/)               | [https://unsplash.com/s/photos/shimla](https://unsplash.com/s/photos/shimla)           |
+| **Dharamshala** | [https://www.pexels.com/search/dharamshala/](https://www.pexels.com/search/dharamshala/)     | [https://unsplash.com/s/photos/dharamshala](https://unsplash.com/s/photos/dharamshala) |
+| **McLeod Ganj** | [https://www.pexels.com/search/mcleod%20ganj/](https://www.pexels.com/search/mcleod%20ganj/) | [https://unsplash.com/s/photos/mcleod-ganj](https://unsplash.com/s/photos/mcleod-ganj) |
+| **Dalhousie**   | [https://www.pexels.com/search/dalhousie/](https://www.pexels.com/search/dalhousie/)         | [https://unsplash.com/s/photos/dalhousie](https://unsplash.com/s/photos/dalhousie)     |
+| **Nainital**    | [https://www.pexels.com/search/nainital/](https://www.pexels.com/search/nainital/)           | [https://unsplash.com/s/photos/nainital](https://unsplash.com/s/photos/nainital)       |
+| **Ranikhet**    | [https://www.pexels.com/search/ranikhet/](https://www.pexels.com/search/ranikhet/)           | [https://unsplash.com/s/photos/ranikhet](https://unsplash.com/s/photos/ranikhet)       |
+| **Almora**      | [https://www.pexels.com/search/almora/](https://www.pexels.com/search/almora/)               | [https://unsplash.com/s/photos/almora](https://unsplash.com/s/photos/almora)           |
+| **Mussoorie**   | [https://www.pexels.com/search/mussoorie/](https://www.pexels.com/search/mussoorie/)         | [https://unsplash.com/s/photos/mussoorie](https://unsplash.com/s/photos/mussoorie)     |
+| **Auli**        | [https://www.pexels.com/search/auli/](https://www.pexels.com/search/auli/)                   | [https://unsplash.com/s/photos/auli](https://unsplash.com/s/photos/auli)               |
+| **Leh–Ladakh**  | [https://www.pexels.com/search/ladakh/](https://www.pexels.com/search/ladakh/)               | [https://unsplash.com/s/photos/ladakh](https://unsplash.com/s/photos/ladakh)           |
+
+### **NATURE & TREKKING SPOTS**
+
+| Destination           | Pexels                                                                                                       | Unsplash                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| **Kasol**             | [https://www.pexels.com/search/kasol/](https://www.pexels.com/search/kasol/)                                 | [https://unsplash.com/s/photos/kasol](https://unsplash.com/s/photos/kasol)                         |
+| **Kheerganga**        | [https://www.pexels.com/search/kheerganga/](https://www.pexels.com/search/kheerganga/)                       | [https://unsplash.com/s/photos/kheerganga](https://unsplash.com/s/photos/kheerganga)               |
+| **Spiti Valley**      | [https://www.pexels.com/search/spiti%20valley/](https://www.pexels.com/search/spiti%20valley/)               | [https://unsplash.com/s/photos/spiti-valley](https://unsplash.com/s/photos/spiti-valley)           |
+| **Valley of Flowers** | [https://www.pexels.com/search/valley%20of%20flowers/](https://www.pexels.com/search/valley%20of%20flowers/) | [https://unsplash.com/s/photos/valley-of-flowers](https://unsplash.com/s/photos/valley-of-flowers) |
+| **Jim Corbett NP**    | [https://www.pexels.com/search/jim%20corbett/](https://www.pexels.com/search/jim%20corbett/)                 | [https://unsplash.com/s/photos/jim-corbett](https://unsplash.com/s/photos/jim-corbett)             |
+
+### **CULTURAL & HISTORICAL**
+
+| Destination   | Pexels                                                                               | Unsplash                                                                           |
+| ------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Delhi**     | [https://www.pexels.com/search/delhi/](https://www.pexels.com/search/delhi/)         | [https://unsplash.com/s/photos/delhi](https://unsplash.com/s/photos/delhi)         |
+| **Agra**      | [https://www.pexels.com/search/agra/](https://www.pexels.com/search/agra/)           | [https://unsplash.com/s/photos/agra](https://unsplash.com/s/photos/agra)           |
+| **Jaipur**    | [https://www.pexels.com/search/jaipur/](https://www.pexels.com/search/jaipur/)       | [https://unsplash.com/s/photos/jaipur](https://unsplash.com/s/photos/jaipur)       |
+| **Udaipur**   | [https://www.pexels.com/search/udaipur/](https://www.pexels.com/search/udaipur/)     | [https://unsplash.com/s/photos/udaipur](https://unsplash.com/s/photos/udaipur)     |
+| **Jodhpur**   | [https://www.pexels.com/search/jodhpur/](https://www.pexels.com/search/jodhpur/)     | [https://unsplash.com/s/photos/jodhpur](https://unsplash.com/s/photos/jodhpur)     |
+| **Jaisalmer** | [https://www.pexels.com/search/jaisalmer/](https://www.pexels.com/search/jaisalmer/) | [https://unsplash.com/s/photos/jaisalmer](https://unsplash.com/s/photos/jaisalmer) |
+
+---
+
+# ✅ **SOUTH INDIA — Image Links**
+
+### **BEACHES & BACKWATERS**
+
+| Destination   | Pexels                                                                               | Unsplash                                                                           |
+| ------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Goa**       | [https://www.pexels.com/search/goa/](https://www.pexels.com/search/goa/)             | [https://unsplash.com/s/photos/goa](https://unsplash.com/s/photos/goa)             |
+| **Gokarna**   | [https://www.pexels.com/search/gokarna/](https://www.pexels.com/search/gokarna/)     | [https://unsplash.com/s/photos/gokarna](https://unsplash.com/s/photos/gokarna)     |
+| **Kovalam**   | [https://www.pexels.com/search/kovalam/](https://www.pexels.com/search/kovalam/)     | [https://unsplash.com/s/photos/kovalam](https://unsplash.com/s/photos/kovalam)     |
+| **Varkala**   | [https://www.pexels.com/search/varkala/](https://www.pexels.com/search/varkala/)     | [https://unsplash.com/s/photos/varkala](https://unsplash.com/s/photos/varkala)     |
+| **Alleppey**  | [https://www.pexels.com/search/alleppey/](https://www.pexels.com/search/alleppey/)   | [https://unsplash.com/s/photos/alleppey](https://unsplash.com/s/photos/alleppey)   |
+| **Kumarakom** | [https://www.pexels.com/search/kumarakom/](https://www.pexels.com/search/kumarakom/) | [https://unsplash.com/s/photos/kumarakom](https://unsplash.com/s/photos/kumarakom) |
+
+### **HILL STATIONS**
+
+| Destination    | Pexels                                                                                 | Unsplash                                                                             |
+| -------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Ooty**       | [https://www.pexels.com/search/ooty/](https://www.pexels.com/search/ooty/)             | [https://unsplash.com/s/photos/ooty](https://unsplash.com/s/photos/ooty)             |
+| **Kodaikanal** | [https://www.pexels.com/search/kodaikanal/](https://www.pexels.com/search/kodaikanal/) | [https://unsplash.com/s/photos/kodaikanal](https://unsplash.com/s/photos/kodaikanal) |
+| **Munnar**     | [https://www.pexels.com/search/munnar/](https://www.pexels.com/search/munnar/)         | [https://unsplash.com/s/photos/munnar](https://unsplash.com/s/photos/munnar)         |
+| **Coorg**      | [https://www.pexels.com/search/coorg/](https://www.pexels.com/search/coorg/)           | [https://unsplash.com/s/photos/coorg](https://unsplash.com/s/photos/coorg)           |
+| **Wayanad**    | [https://www.pexels.com/search/wayanad/](https://www.pexels.com/search/wayanad/)       | [https://unsplash.com/s/photos/wayanad](https://unsplash.com/s/photos/wayanad)       |
+| **Yercaud**    | [https://www.pexels.com/search/yercaud/](https://www.pexels.com/search/yercaud/)       | [https://unsplash.com/s/photos/yercaud](https://unsplash.com/s/photos/yercaud)       |
+
+### **HERITAGE & TEMPLES**
+
+| Destination       | Pexels                                                                                       | Unsplash                                                                                   |
+| ----------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Hampi**         | [https://www.pexels.com/search/hampi/](https://www.pexels.com/search/hampi/)                 | [https://unsplash.com/s/photos/hampi](https://unsplash.com/s/photos/hampi)                 |
+| **Madurai**       | [https://www.pexels.com/search/madurai/](https://www.pexels.com/search/madurai/)             | [https://unsplash.com/s/photos/madurai](https://unsplash.com/s/photos/madurai)             |
+| **Rameswaram**    | [https://www.pexels.com/search/rameswaram/](https://www.pexels.com/search/rameswaram/)       | [https://unsplash.com/s/photos/rameswaram](https://unsplash.com/s/photos/rameswaram)       |
+| **Mahabalipuram** | [https://www.pexels.com/search/mahabalipuram/](https://www.pexels.com/search/mahabalipuram/) | [https://unsplash.com/s/photos/mahabalipuram](https://unsplash.com/s/photos/mahabalipuram) |
+
+### **CITIES**
+
+| Destination   | Pexels                                                                               | Unsplash                                                                           |
+| ------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Bengaluru** | [https://www.pexels.com/search/bangalore/](https://www.pexels.com/search/bangalore/) | [https://unsplash.com/s/photos/bangalore](https://unsplash.com/s/photos/bangalore) |
+| **Chennai**   | [https://www.pexels.com/search/chennai/](https://www.pexels.com/search/chennai/)     | [https://unsplash.com/s/photos/chennai](https://unsplash.com/s/photos/chennai)     |
+| **Hyderabad** | [https://www.pexels.com/search/hyderabad/](https://www.pexels.com/search/hyderabad/) | [https://unsplash.com/s/photos/hyderabad](https://unsplash.com/s/photos/hyderabad) |
+
+---
+
+# ✅ **WEST INDIA — Image Links**
+
+### **CITIES**
+
+| Destination   | Pexels                                                                               | Unsplash                                                                           |
+| ------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Mumbai**    | [https://www.pexels.com/search/mumbai/](https://www.pexels.com/search/mumbai/)       | [https://unsplash.com/s/photos/mumbai](https://unsplash.com/s/photos/mumbai)       |
+| **Pune**      | [https://www.pexels.com/search/pune/](https://www.pexels.com/search/pune/)           | [https://unsplash.com/s/photos/pune](https://unsplash.com/s/photos/pune)           |
+| **Ahmedabad** | [https://www.pexels.com/search/ahmedabad/](https://www.pexels.com/search/ahmedabad/) | [https://unsplash.com/s/photos/ahmedabad](https://unsplash.com/s/photos/ahmedabad) |
+
+### **COASTAL**
+
+| Destination | Pexels                                                                       | Unsplash                                                                   |
+| ----------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Goa**     | [https://www.pexels.com/search/goa/](https://www.pexels.com/search/goa/)     | [https://unsplash.com/s/photos/goa](https://unsplash.com/s/photos/goa)     |
+| **Daman**   | [https://www.pexels.com/search/daman/](https://www.pexels.com/search/daman/) | [https://unsplash.com/s/photos/daman](https://unsplash.com/s/photos/daman) |
+| **Diu**     | [https://www.pexels.com/search/diu/](https://www.pexels.com/search/diu/)     | [https://unsplash.com/s/photos/diu](https://unsplash.com/s/photos/diu)     |
+
+### **DESERT & HERITAGE**
+
+| Destination      | Pexels                                                                               | Unsplash                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Udaipur**      | [https://www.pexels.com/search/udaipur/](https://www.pexels.com/search/udaipur/)     | [https://unsplash.com/s/photos/udaipur](https://unsplash.com/s/photos/udaipur)     |
+| **Jaisalmer**    | [https://www.pexels.com/search/jaisalmer/](https://www.pexels.com/search/jaisalmer/) | [https://unsplash.com/s/photos/jaisalmer](https://unsplash.com/s/photos/jaisalmer) |
+| **Jodhpur**      | [https://www.pexels.com/search/jodhpur/](https://www.pexels.com/search/jodhpur/)     | [https://unsplash.com/s/photos/jodhpur](https://unsplash.com/s/photos/jodhpur)     |
+| **Kutch (Rann)** | [https://www.pexels.com/search/kutch/](https://www.pexels.com/search/kutch/)         | [https://unsplash.com/s/photos/kutch](https://unsplash.com/s/photos/kutch)         |
+
+### **HILL STATIONS**
+
+| Destination       | Pexels                                                                                       | Unsplash                                                                                   |
+| ----------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Mount Abu**     | [https://www.pexels.com/search/mount%20abu/](https://www.pexels.com/search/mount%20abu/)     | [https://unsplash.com/s/photos/mount-abu](https://unsplash.com/s/photos/mount-abu)         |
+| **Mahabaleshwar** | [https://www.pexels.com/search/mahabaleshwar/](https://www.pexels.com/search/mahabaleshwar/) | [https://unsplash.com/s/photos/mahabaleshwar](https://unsplash.com/s/photos/mahabaleshwar) |
+| **Lonavala**      | [https://www.pexels.com/search/lonavala/](https://www.pexels.com/search/lonavala/)           | [https://unsplash.com/s/photos/lonavala](https://unsplash.com/s/photos/lonavala)           |
+
+---
+
+# ✅ **EAST INDIA — Image Links**
+
+### **MOUNTAINS & NATURE**
+
+| Destination     | Pexels                                                                                   | Unsplash                                                                               |
+| --------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Darjeeling**  | [https://www.pexels.com/search/darjeeling/](https://www.pexels.com/search/darjeeling/)   | [https://unsplash.com/s/photos/darjeeling](https://unsplash.com/s/photos/darjeeling)   |
+| **Gangtok**     | [https://www.pexels.com/search/gangtok/](https://www.pexels.com/search/gangtok/)         | [https://unsplash.com/s/photos/gangtok](https://unsplash.com/s/photos/gangtok)         |
+| **Kalimpong**   | [https://www.pexels.com/search/kalimpong/](https://www.pexels.com/search/kalimpong/)     | [https://unsplash.com/s/photos/kalimpong](https://unsplash.com/s/photos/kalimpong)     |
+| **Shillong**    | [https://www.pexels.com/search/shillong/](https://www.pexels.com/search/shillong/)       | [https://unsplash.com/s/photos/shillong](https://unsplash.com/s/photos/shillong)       |
+| **Cherrapunji** | [https://www.pexels.com/search/cherrapunji/](https://www.pexels.com/search/cherrapunji/) | [https://unsplash.com/s/photos/cherrapunji](https://unsplash.com/s/photos/cherrapunji) |
+| **Dawki**       | [https://www.pexels.com/search/dawki/](https://www.pexels.com/search/dawki/)             | [https://unsplash.com/s/photos/dawki](https://unsplash.com/s/photos/dawki)             |
+| **Kaziranga**   | [https://www.pexels.com/search/kaziranga/](https://www.pexels.com/search/kaziranga/)     | [https://unsplash.com/s/photos/kaziranga](https://unsplash.com/s/photos/kaziranga)     |
+
+### **ISLANDS**
+
+| Destination           | Pexels                                                                           | Unsplash                                                                       |
+| --------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Andaman & Nicobar** | [https://www.pexels.com/search/andaman/](https://www.pexels.com/search/andaman/) | [https://unsplash.com/s/photos/andaman](https://unsplash.com/s/photos/andaman) |
+
+### **CULTURAL & HERITAGE**
+
+| Destination   | Pexels                                                                                   | Unsplash                                                                           |
+| ------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Kolkata**   | [https://www.pexels.com/search/kolkata/](https://www.pexels.com/search/kolkata/)         | [https://unsplash.com/s/photos/kolkata](https://unsplash.com/s/photos/kolkata)     |
+| **Puri**      | [https://www.pexels.com/search/puri/](https://www.pexels.com/search/puri/)               | [https://unsplash.com/s/photos/puri](https://unsplash.com/s/photos/puri)           |
+| **Konark**    | [https://www.pexels.com/search/konark/](https://www.pexels.com/search/konark/)           | [https://unsplash.com/s/photos/konark](https://unsplash.com/s/photos/konark)       |
+| **Bodh Gaya** | [https://www.pexels.com/search/bodh%20gaya/](https://www.pexels.com/search/bodh%20gaya/) | [https://unsplash.com/s/photos/bodh-gaya](https://unsplash.com/s/photos/bodh-gaya) |
+
+---
+
+# 🎉 Ready for next step?
+
+I can also generate:
+
+✅ **A complete `images.json` file** (ready for Replit)
+✅ **An API that auto-fetches images from Pexels/Unsplash**
+✅ **Destination-to-image mapping for your vector DB**
+✅ **A markdown version of this entire table**
+
+Just tell me:
+
+**“Generate images.json”**
+or
+**“Give me the markdown version”**
