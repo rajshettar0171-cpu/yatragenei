@@ -13,7 +13,28 @@ AI-powered travel assistant POC for exploring India's diverse tourist destinatio
 
 ### Latest Updates (November 24, 2025)
 
-**Critical Bugs Fixed**:
+**NEW: Enhanced Itinerary Generator with Mandatory Rules**
+The system now enforces 5 mandatory customization rules for investment-grade quality:
+
+1. ✅ **RULE A: Interest-Based Customization (70%+)** - Itineraries change dramatically by interest type
+   - Trekking: High-energy hikes, forest trails, hill viewpoints
+   - Food: Market tours, cooking classes, local eateries
+   - Photography: Sunrise spots, scenic lakes, composition walks
+   - Relaxation: Spas, meditation, peaceful parks
+   - Culture: Temples, museums, heritage walks
+   - Adventure: Paragliding, rafting, zipline, off-roading
+   - Nature: Waterfalls, forests, botanical gardens
+   - Shopping: Markets, handicrafts, flea markets
+
+2. ✅ **RULE B: Region Consistency** - Never mixes destinations (Manali ≠ Shimla spots)
+
+3. ✅ **RULE C: Multi-Day Uniqueness** - Each day differs dramatically (Day 1: popular, Day 2: hidden gems, Day 3: relaxation)
+
+4. ✅ **RULE D: Smart Planning** - Proximity-based grouping, minimal travel time, optimized routes
+
+5. ✅ **RULE E: Error Handling** - No error messages; auto-corrects unknown destinations gracefully
+
+**Previous Bugs Fixed**:
 1. ✅ **Multi-Day Itinerary** - Fixed: Now generates Day 1, Day 2, Day 3, etc. correctly
 2. ✅ **Destination-Specific Data** - Fixed: Manali → Solang Valley/Rohtang Pass; Shimla → Jakhu Temple/Mall Road
 3. ✅ **Hardcoded Messages** - Fixed: Now dynamic destination names in recommendations
@@ -22,10 +43,11 @@ AI-powered travel assistant POC for exploring India's diverse tourist destinatio
 
 **Production Build Results**:
 - Frontend: 408KB (124KB gzipped)
-- Backend: 75.4KB ESM bundle
+- Backend: 80.5KB ESM bundle (enhanced)
 - TypeScript compilation: ✅ PASSED
 - All 15+ API endpoints: ✅ VALIDATED
 - Multi-destination support: ✅ WORKING
+- Mandatory rules: ✅ ALL ENFORCED
 
 ## Quick Run
 1. Click the "Run" button in Replit
