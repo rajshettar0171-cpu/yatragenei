@@ -1,4 +1,7 @@
 import type { Alert, Spot, ScrapedContent, ChatMessage } from "@shared/schema";
+import { getSavingsTips, estimateMealCost } from "./budget-optimizer";
+import { getCrowdPrediction } from "./crowd-predictor";
+import { getWeatherAdvice } from "./weather-advisor";
 
 export async function generateChatResponse(
   message: string,
@@ -14,8 +17,31 @@ export async function generateChatResponse(
     context: {},
   };
 
+  // Check for budget/cost queries
+  if (lowerMessage.includes("budget") || lowerMessage.includes("cost") || lowerMessage.includes("money") || lowerMessage.includes("cheap") || lowerMessage.includes("expensive")) {
+    const budgetType = lowerMessage.includes("low") || lowerMessage.includes("cheap") ? "low" 
+                     : lowerMessage.includes("high") || lowerMessage.includes("premium") ? "high" 
+                     : "medium";
+    
+    const tips = getSavingsTips(budgetType);
+    const mealCost = estimateMealCost(budgetType);
+    
+    response.content = `💰 Budget Tips for ${budgetType} travelers:\n\n${tips.map((tip, i) => `${i + 1}. ${tip}`).join("\n")}\n\nAverage daily meal cost: ₹${mealCost}`;
+  }
+
+  // Check for weather/safety queries
+  else if (lowerMessage.includes("weather") || lowerMessage.includes("rain") || lowerMessage.includes("snow") || lowerMessage.includes("temperature") || lowerMessage.includes("safe")) {
+    const weatherType = lowerMessage.includes("rain") ? "rainy"
+                      : lowerMessage.includes("snow") ? "snowy"
+                      : lowerMessage.includes("fog") ? "foggy"
+                      : "sunny";
+    
+    const advice = getWeatherAdvice(weatherType);
+    response.content = `🌤️ ${weatherType.charAt(0).toUpperCase() + weatherType.slice(1)} Weather Advisory:\n\n✅ Safe Activities:\n${advice.safeActivities.slice(0, 3).map(a => `• ${a}`).join("\n")}\n\n⚠️ Important Notes:\n${advice.recommendations.slice(0, 2).map(r => `• ${r}`).join("\n")}`;
+  }
+
   // Check for crowd-related queries
-  if (lowerMessage.includes("crowd") || lowerMessage.includes("busy") || lowerMessage.includes("packed")) {
+  else if (lowerMessage.includes("crowd") || lowerMessage.includes("busy") || lowerMessage.includes("packed")) {
     const spotName = extractSpotName(lowerMessage, spots);
 
     if (spotName) {
@@ -23,11 +49,12 @@ export async function generateChatResponse(
 
       if (spot) {
         response.context!.spots = [spot];
+        const prediction = getCrowdPrediction(spot.crowdScore);
 
         if (spot.crowdScore >= 7) {
-          response.content = `${spot.name} tends to be quite crowded (crowd level: ${spot.crowdScore}/10). ${getAlternativeSuggestion(spot, spots)}`;
+          response.content = `📍 ${spot.name}\nCrowd Level: ${spot.crowdScore}/10 (Quite crowded)\n\n⏰ Best time: ${prediction.bestTime}\n⛔ Avoid: ${prediction.worstTime}\n\n💡 ${prediction.recommendation}\n\n${getAlternativeSuggestion(spot, spots)}`;
         } else {
-          response.content = `Good news! ${spot.name} is relatively peaceful with a crowd level of ${spot.crowdScore}/10. ${spot.bestTime ? `Best time to visit: ${spot.bestTime}` : ""}`;
+          response.content = `✨ ${spot.name}\nCrowd Level: ${spot.crowdScore}/10 (Peaceful!)\n\n⏰ Best time: ${prediction.bestTime}\n🌟 Current prediction: ${prediction.predictedCrowd}/10\n\n${spot.bestTime ? `Recommended visit time: ${spot.bestTime}` : "Early morning visits recommended for best experience"}`;
         }
 
         // Add Instagram insights
@@ -52,6 +79,21 @@ export async function generateChatResponse(
         .slice(0, 3)
         .map((s) => `• ${s.name} (crowd level: ${s.crowdScore}/10)`)
         .join("\n")}`;
+    }
+  }
+
+  // Check for hidden gems / undiscovered places
+  else if (lowerMessage.includes("hidden") || lowerMessage.includes("undiscovered") || lowerMessage.includes("offbeat") || lowerMessage.includes("local") || lowerMessage.includes("unique")) {
+    const peacefulSpots = spots.filter(s => s.crowdScore <= 4 && s.isHiddenGem === 1);
+    const quietSpots = spots.filter(s => s.crowdScore <= 3);
+    
+    const recommended = peacefulSpots.length > 0 ? peacefulSpots : quietSpots;
+    
+    if (recommended.length > 0) {
+      response.context!.spots = recommended.slice(0, 3);
+      response.content = `🔍 Hidden Gems Worth Exploring:\n\n${recommended.slice(0, 3).map((s) => `• **${s.name}** (Crowd: ${s.crowdScore}/10)\n  ${s.description}\n`).join("\n")}These are lesser-known spots with authentic local vibes!`;
+    } else {
+      response.content = "All our recommended spots are getting more popular these days! Consider visiting during off-peak hours or seasons for a more authentic experience.";
     }
   }
 
