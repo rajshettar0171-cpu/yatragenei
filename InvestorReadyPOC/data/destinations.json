@@ -119,7 +119,7 @@
     "state": "Ladakh",
     "latitude": 34.1526,
     "longitude": 77.577,
-    "imageUrl": "ladakh_pangong_lake_pristine_waters.png",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     "highlights": [
       "Mountain Passes",
       "Monasteries",
@@ -247,7 +247,7 @@
     "state": "Rajasthan",
     "latitude": 24.5926,
     "longitude": 72.7156,
-    "imageUrl": "mount_abu_hero.png",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     "highlights": [
       "Temples",
       "Nature",
@@ -279,7 +279,7 @@
     "state": "Daman and Diu",
     "latitude": 20.4283,
     "longitude": 72.8479,
-    "imageUrl": "daman_hero.png",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
     "highlights": [
       "Beaches",
       "Water Sports",
@@ -455,7 +455,7 @@
     "state": "Sikkim",
     "latitude": 27.533,
     "longitude": 88.5122,
-    "imageUrl": "sikkim_hero.png",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     "highlights": [
       "Kanchendzonga",
       "Adventure",
@@ -471,7 +471,7 @@
     "state": "Meghalaya",
     "latitude": 25.5788,
     "longitude": 91.8933,
-    "imageUrl": "meghalaya_hero.png",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     "highlights": [
       "Waterfalls",
       "Living Root Bridges",
@@ -519,7 +519,7 @@
     "state": "Bihar",
     "latitude": 24.6955,
     "longitude": 84.9852,
-    "imageUrl": "bodh_gaya_hero.png",
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
     "highlights": [
       "Spirituality",
       "Heritage",
