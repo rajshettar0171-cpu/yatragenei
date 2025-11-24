@@ -53,17 +53,22 @@ AI-powered travel assistant POC for exploring India's diverse tourist destinatio
 - `GET /api/admin/scraped` - Get all scraped content
 - `POST /api/admin/tag` - Tag content as hidden gem (requires: id, tag)
 
-## Recent Changes (Complete UI Overhaul with Images & Landing Page)
+## Recent Changes (Complete UI Overhaul with Full Image Integration)
 ✅ **Created beautiful landing page** with hero section, features, region preview, and CTA
-✅ **Generated 10 high-quality destination images** (Manali, Shimla, Jaipur, Goa, Munnar, Hampi, Darjeeling, Ladakh, Alleppey, Taj Mahal)
-✅ **Updated destination cards** to display images with hover effects and graceful fallbacks
-✅ **Improved app routing**: Landing page → Destinations → Home (trip planner) → Itinerary
+✅ **Generated 30 high-quality images**:
+   - **10 destination hero images** (Manali, Shimla, Jaipur, Goa, Munnar, Hampi, Darjeeling, Ladakh, Alleppey, Taj Mahal)
+   - **20 attraction images** (Solang Valley, Rohtang Pass, Jakhu Temple, McLeod Ganj, Dal Lake, Naini Lake, Pangong Lake, Hawa Mahal, Baga Beach, Dudhsagar, Tea Plantations, Hampi Temple, Alleppey Houseboat, Tiger Hill, Tsomogo Lake, Living Root Bridges, Radhanagar Beach, Cellular Jail, Cherrapunji, Anamudi Peak)
+✅ **Updated destination cards** to display hero images with hover effects and graceful fallbacks
+✅ **Added attraction images to itinerary cards** - Each spot shows a 192px preview image
+✅ **Improved app routing**: Landing page → Destinations → Home (trip planner) → Itinerary with images
 ✅ **Enhanced visual hierarchy** with regional color coding (North: Blue, South: Green, East: Purple, West: Orange)
 ✅ **Added navigation elements**: Home button on destination page, "Get Started" on landing
 ✅ **Responsive design** optimized for mobile, tablet, and desktop views
 ✅ **Updated destinations.json** with image file references for all 34 destinations
-✅ Destination cards now show 140px images with zoom effect on hover
-✅ Landing page showcases value proposition with statistics (34 destinations, 4 regions, 100K+ plans)
+✅ **Updated spots-data.json** with attraction images for all 28+ places
+✅ **Enhanced TypeScript schema** - Added imageUrl property to ItinerarySpot interface
+✅ **Updated backend generator** - Now includes imageUrl in generated itineraries
+✅ **Full image pipeline**: Images are generated → referenced in data → included in itineraries → displayed in UI
 
 ## Development Notes
 - Workflow auto-restarts on package/file changes
@@ -86,13 +91,19 @@ AI-powered travel assistant POC for exploring India's diverse tourist destinatio
 - Images: `attached_assets/generated_images/` (10+ destination hero images)
 
 ## Testing the App
-1. **Select Destination**: Home page shows regional selector → Click "Plan Trip" on any destination
-2. **Generate Itinerary**: Select preferences (duration, budget, type, interests) → Generate
-3. **View Plan**: See day-by-day breakdown with spots, times, costs
-4. **Switch Destination**: Use back arrow to return to destination selector
-5. **Chat**: Click "Ask Assistant" → Try "What are the best spots in Manali?"
-6. **Admin**: Visit /admin → Tag content as hidden gem → Regenerate itinerary to see changes
-7. **Download**: Click "Download JSON" to save itinerary offline
+1. **Landing Page** (`/`): See beautiful hero, features, regions, and statistics
+2. **Select Destination** (`/destinations`): View 34 destinations organized by region with images
+3. **Plan Trip**: Click "Plan Trip" on any destination card
+4. **Generate Itinerary**: Select preferences (duration, budget, type, interests) → Generate
+5. **View Plan with Images**: See day-by-day breakdown with:
+   - 192px attraction images for each spot
+   - Full details (name, description, time, cost, hours, crowd score)
+   - Travel info between spots (mode, time, distance)
+   - Personalized reasons why you should visit each spot
+6. **Switch Destination**: Click back arrow to return to destination selector
+7. **Chat**: Click "Ask Assistant" → Try "What are the best spots in Manali?"
+8. **Admin**: Visit /admin → Tag content as hidden gem → Regenerate to see changes
+9. **Download**: Click "Download JSON" to save itinerary offline
 
 ## Data Coverage Summary
 - **North India**: Hill stations (Shimla, Manali, Mussoorie), Mountain regions (Ladakh, Nainital), Adventure (Auli), Cultural (Delhi, Agra, Jaipur)

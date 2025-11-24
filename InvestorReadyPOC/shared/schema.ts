@@ -139,4 +139,5 @@ export interface ItinerarySpot {
   openingHours?: string;
   crowdScore?: number;
   tags: string[];
+  imageUrl?: string;
 }

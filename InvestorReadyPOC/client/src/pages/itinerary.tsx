@@ -174,7 +174,19 @@ export default function Itinerary() {
                   <div className="space-y-6">
                     {day.spots.map((spot, spotIndex) => (
                       <div key={spotIndex}>
-                        <Card className="hover-elevate" data-testid={`card-spot-${spot.spotId}`}>
+                        <Card className="hover-elevate overflow-hidden" data-testid={`card-spot-${spot.spotId}`}>
+                          {/* Spot Image */}
+                          <div className="relative h-48 w-full bg-gradient-to-br from-slate-700 to-slate-800 overflow-hidden">
+                            <img 
+                              src={`/attached_assets/generated_images/${spot.imageUrl || 'placeholder.png'}`}
+                              alt={spot.name}
+                              className="w-full h-full object-cover"
+                              onError={(e) => {
+                                e.currentTarget.style.display = 'none';
+                              }}
+                            />
+                          </div>
+                          
                           <CardContent className="p-6">
                             <div className="space-y-4">
                               {/* Spot Header */}

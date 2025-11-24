@@ -179,6 +179,7 @@ export async function generateItinerary(
         openingHours: spot.openingHours,
         crowdScore: spot.crowdScore,
         tags: spot.tags,
+        imageUrl: spot.imageUrl,
       });
 
       // Add spot duration to time
