@@ -7,7 +7,7 @@
     "state": "Himachal Pradesh",
     "latitude": 32.2396,
     "longitude": 77.1887,
-    "imageUrl": "manali_mountain_adventure_landscape.png",
+    "imageUrl": "manali_mountain_adventure.png",
     "highlights": ["Trekking", "Adventure", "Mountains"],
     "bestTime": "March-June & September-November"
   },
@@ -19,7 +19,7 @@
     "state": "Himachal Pradesh",
     "latitude": 31.1048,
     "longitude": 77.1734,
-    "imageUrl": "shimla_mall_road_colonial_beauty.png",
+    "imageUrl": "shimla_colonial_charm.png",
     "highlights": ["Mall Road", "Jakhu Temple", "Adventure"],
     "bestTime": "March-June & September-November"
   },
@@ -175,7 +175,7 @@
     "state": "Rajasthan",
     "latitude": 26.9124,
     "longitude": 70.9312,
-    "imageUrl": "jaisalmer_hero.png",
+    "imageUrl": "desert_golden_dunes.png",
     "highlights": ["Camel Safari", "Desert", "Architecture"],
     "bestTime": "October-March"
   },
