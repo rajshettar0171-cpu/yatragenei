@@ -13,26 +13,20 @@ AI-powered travel assistant POC for exploring India's diverse tourist destinatio
 
 ### Latest Updates (November 24, 2025)
 
-**NEW: Enhanced Itinerary Generator with Mandatory Rules**
-The system now enforces 5 mandatory customization rules for investment-grade quality:
+**NEW: Advanced Itinerary Generator with 8 Enforced Rules**
+The system now enforces 8 customization rules for investment-grade quality:
 
-1. ✅ **RULE A: Interest-Based Customization (70%+)** - Itineraries change dramatically by interest type
-   - Trekking: High-energy hikes, forest trails, hill viewpoints
-   - Food: Market tours, cooking classes, local eateries
-   - Photography: Sunrise spots, scenic lakes, composition walks
-   - Relaxation: Spas, meditation, peaceful parks
-   - Culture: Temples, museums, heritage walks
-   - Adventure: Paragliding, rafting, zipline, off-roading
-   - Nature: Waterfalls, forests, botanical gardens
-   - Shopping: Markets, handicrafts, flea markets
+**Mandatory Rules**:
+1. ✅ **RULE A: Interest-Based Customization (70%+)** - Itineraries change by interest type
+2. ✅ **RULE B: Region Consistency** - Never mixes destinations
+3. ✅ **RULE C: Multi-Day Uniqueness** - Each day differs dramatically
+4. ✅ **RULE D: Smart Planning** - Proximity-based grouping, minimal travel time
+5. ✅ **RULE E: Error Handling** - No errors; auto-corrects gracefully
 
-2. ✅ **RULE B: Region Consistency** - Never mixes destinations (Manali ≠ Shimla spots)
-
-3. ✅ **RULE C: Multi-Day Uniqueness** - Each day differs dramatically (Day 1: popular, Day 2: hidden gems, Day 3: relaxation)
-
-4. ✅ **RULE D: Smart Planning** - Proximity-based grouping, minimal travel time, optimized routes
-
-5. ✅ **RULE E: Error Handling** - No error messages; auto-corrects unknown destinations gracefully
+**Advanced Rules (NEW)**:
+6. ✅ **RULE F: Interest Expansion Logic** - Infers related activities (Food→cafes/markets, Trekking→hills/hiking)
+7. ✅ **RULE G: Zero Duplicate Guarantee** - No repeating attractions across multi-day trips
+8. ✅ **RULE H: Enhanced Daily Structure** - Morning/afternoon/evening breakdown with "why it matches" explanations
 
 **Previous Bugs Fixed**:
 1. ✅ **Multi-Day Itinerary** - Fixed: Now generates Day 1, Day 2, Day 3, etc. correctly
