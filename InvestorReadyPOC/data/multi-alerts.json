@@ -1,52 +1,82 @@
 [
   {
-    "id": "alert-shimla-road-1",
-    "destination": "shimla",
-    "type": "road_closure",
-    "severity": "high",
-    "title": "Shimla-Kufri Road Partially Closed",
-    "description": "Road repair work ongoing between Mall Road junction and Kufri. Expect delays of 30-45 minutes. Alternate route via Chharabra available.",
-    "affectedAreas": ["Kufri", "Green Valley"],
-    "timestamp": "2024-11-22T08:00:00Z"
-  },
-  {
-    "id": "alert-jaipur-event-1",
-    "destination": "jaipur",
+    "id": "alert-manali-1",
+    "destination": "manali",
     "type": "event",
     "severity": "low",
-    "title": "Diwali Festival Celebrations",
-    "description": "Annual Diwali celebrations happening at City Palace and surrounding areas. Special light displays and cultural performances. Expect increased crowds.",
-    "affectedAreas": ["City Palace", "Hawa Mahal", "Mall Road"],
+    "title": "Adventure Festival",
+    "description": "Annual adventure sports festival with paragliding and rock climbing events.",
+    "affectedAreas": ["Solang Valley", "Manali"],
     "timestamp": "2024-11-20T10:00:00Z"
   },
   {
-    "id": "alert-goa-weather-1",
-    "destination": "goa",
-    "type": "weather",
-    "severity": "low",
-    "title": "Monsoon Season Beginning",
-    "description": "Light rains expected. Best time for lush greenery and reduced crowds. Carry umbrellas and waterproof gear.",
-    "affectedAreas": ["Goa", "Beaches", "Coastal Areas"],
-    "timestamp": "2024-11-21T14:00:00Z"
-  },
-  {
-    "id": "alert-munnar-season-1",
-    "destination": "munnar",
+    "id": "alert-shimla-1",
+    "destination": "shimla",
     "type": "weather",
     "severity": "medium",
-    "title": "Misty Season - Limited Visibility",
-    "description": "Dense mist expected during mornings and evenings. Reduces visibility but creates magical landscape photography opportunities.",
-    "affectedAreas": ["Tea Plantations", "Anamudi Peak", "All viewpoints"],
+    "title": "Light Rain Expected",
+    "description": "Light to moderate rainfall expected this weekend. Roads may be slippery.",
+    "affectedAreas": ["Shimla", "Mall Road", "Jakhu Temple"],
+    "timestamp": "2024-11-21T18:00:00Z"
+  },
+  {
+    "id": "alert-ladakh-1",
+    "destination": "leh-ladakh",
+    "type": "weather",
+    "severity": "high",
+    "title": "Snow on High Passes",
+    "description": "Heavy snow expected on Khardung La and Pangong passes. Check road conditions before travel.",
+    "affectedAreas": ["Khardung La", "Pangong Lake"],
     "timestamp": "2024-11-19T12:00:00Z"
   },
   {
-    "id": "alert-darjeeling-train-1",
+    "id": "alert-jaipur-1",
+    "destination": "jaipur",
+    "type": "event",
+    "severity": "low",
+    "title": "Pushkar Camel Fair",
+    "description": "Famous camel fair with cultural performances and traditional market.",
+    "affectedAreas": ["Jaipur Region", "Pushkar"],
+    "timestamp": "2024-11-15T10:00:00Z"
+  },
+  {
+    "id": "alert-goa-1",
+    "destination": "goa",
+    "type": "weather",
+    "severity": "low",
+    "title": "Pleasant Monsoon Season",
+    "description": "Beautiful lush greenery post-monsoon. Lesser crowds on beaches.",
+    "affectedAreas": ["Goa", "Beaches"],
+    "timestamp": "2024-11-21T14:00:00Z"
+  },
+  {
+    "id": "alert-munnar-1",
+    "destination": "munnar",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Misty Weather",
+    "description": "Dense mist during mornings and evenings. Reduces visibility but creates magical photography opportunities.",
+    "affectedAreas": ["Tea Plantations", "Anamudi Peak"],
+    "timestamp": "2024-11-19T12:00:00Z"
+  },
+  {
+    "id": "alert-darjeeling-1",
     "destination": "darjeeling",
     "type": "maintenance",
     "severity": "medium",
-    "title": "Toy Train Maintenance - Limited Schedule",
-    "description": "Heritage toy train operating on limited schedule due to maintenance. Book in advance for guaranteed seats.",
+    "title": "Toy Train Schedule Limited",
+    "description": "Heritage toy train operating on limited schedule due to annual maintenance.",
     "affectedAreas": ["Darjeeling", "Toy Train Route"],
     "timestamp": "2024-11-18T09:00:00Z"
+  },
+  {
+    "id": "alert-andaman-1",
+    "destination": "andaman",
+    "type": "weather",
+    "severity": "low",
+    "title": "Perfect Beach Season",
+    "description": "Best time for beach activities and water sports. Clear skies and calm seas.",
+    "affectedAreas": ["Andaman Islands", "Beaches"],
+    "timestamp": "2024-11-20T14:00:00Z"
   }
 ]

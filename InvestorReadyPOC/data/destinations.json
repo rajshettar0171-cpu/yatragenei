@@ -1,5 +1,17 @@
 [
   {
+    "id": "manali",
+    "name": "Manali",
+    "region": "North",
+    "description": "Adventure hub in Himachal Pradesh with stunning mountain views, adventure activities, and trekking",
+    "state": "Himachal Pradesh",
+    "latitude": 32.2396,
+    "longitude": 77.1887,
+    "imageUrl": "manali_hero.png",
+    "highlights": ["Trekking", "Adventure", "Mountains"],
+    "bestTime": "March-June & September-November"
+  },
+  {
     "id": "shimla",
     "name": "Shimla",
     "region": "North",
@@ -8,29 +20,44 @@
     "latitude": 31.1048,
     "longitude": 77.1734,
     "imageUrl": "shimla_panoramic_hero_image.png",
-    "highlights": ["Mall Road", "Jakhu Temple", "Adventure"]
+    "highlights": ["Mall Road", "Jakhu Temple", "Adventure"],
+    "bestTime": "March-June & September-November"
   },
   {
     "id": "dharamshala",
-    "name": "Dharamshala",
+    "name": "Dharamshala & McLeod Ganj",
     "region": "North",
     "description": "Spiritual hub in the Himalayas, home to Tibetan culture and adventure sports",
     "state": "Himachal Pradesh",
     "latitude": 32.2190,
     "longitude": 76.3260,
     "imageUrl": "dharamshala_hero.png",
-    "highlights": ["Tibetan Culture", "Trekking", "Spiritual"]
+    "highlights": ["Tibetan Culture", "Trekking", "Spiritual"],
+    "bestTime": "March-June & September-November"
   },
   {
-    "id": "jaipur",
-    "name": "Jaipur",
+    "id": "dalhousie",
+    "name": "Dalhousie",
     "region": "North",
-    "description": "The Pink City - India's most colorful capital with magnificent palaces and forts",
-    "state": "Rajasthan",
-    "latitude": 26.9124,
-    "longitude": 75.7873,
-    "imageUrl": "jaipur_hero.png",
-    "highlights": ["City Palace", "Hawa Mahal", "Culture"]
+    "description": "Charming hill station with colonial architecture and scenic pine forests",
+    "state": "Himachal Pradesh",
+    "latitude": 32.5408,
+    "longitude": 75.9922,
+    "imageUrl": "dalhousie_hero.png",
+    "highlights": ["Colonial Architecture", "Trekking", "Nature"],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "nainital",
+    "name": "Nainital",
+    "region": "North",
+    "description": "Lake district in Uttarakhand surrounded by snow-capped mountains and adventure activities",
+    "state": "Uttarakhand",
+    "latitude": 29.3919,
+    "longitude": 79.4504,
+    "imageUrl": "nainital_hero.png",
+    "highlights": ["Lake", "Adventure", "Shopping"],
+    "bestTime": "March-June & September-November"
   },
   {
     "id": "mussoorie",
@@ -41,18 +68,80 @@
     "latitude": 30.4627,
     "longitude": 78.0646,
     "imageUrl": "mussoorie_hero.png",
-    "highlights": ["Mall Road", "Scenic Views", "Adventure"]
+    "highlights": ["Mall Road", "Scenic Views", "Adventure"],
+    "bestTime": "March-June & September-November"
   },
   {
-    "id": "goa",
-    "name": "Goa",
-    "region": "West",
-    "description": "Tropical paradise with stunning beaches, Portuguese architecture, and vibrant nightlife",
-    "state": "Goa",
-    "latitude": 15.2993,
-    "longitude": 73.8243,
-    "imageUrl": "goa_hero.png",
-    "highlights": ["Beaches", "Food", "Relaxation"]
+    "id": "auli",
+    "name": "Auli",
+    "region": "North",
+    "description": "India's premier skiing destination in Uttarakhand with winter sports and scenic beauty",
+    "state": "Uttarakhand",
+    "latitude": 30.0136,
+    "longitude": 79.5904,
+    "imageUrl": "auli_hero.png",
+    "highlights": ["Skiing", "Snow Sports", "Adventure"],
+    "bestTime": "December-February"
+  },
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "region": "North",
+    "description": "High-altitude desert region with breathtaking landscapes, monasteries, and adventure",
+    "state": "Ladakh",
+    "latitude": 34.1526,
+    "longitude": 77.5770,
+    "imageUrl": "ladakh_hero.png",
+    "highlights": ["Mountain Passes", "Monasteries", "Adventure"],
+    "bestTime": "June-September"
+  },
+  {
+    "id": "kasol",
+    "name": "Kasol & Kheerganga",
+    "region": "North",
+    "description": "Scenic Himalayan villages popular for trekking, backpacking, and nature lovers",
+    "state": "Himachal Pradesh",
+    "latitude": 32.3721,
+    "longitude": 77.4364,
+    "imageUrl": "kasol_hero.png",
+    "highlights": ["Trekking", "Nature", "Backpacking"],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "region": "North",
+    "description": "India's capital city with rich history, monuments, and vibrant culture",
+    "state": "Delhi",
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "imageUrl": "delhi_hero.png",
+    "highlights": ["Culture", "History", "Shopping"],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "agra",
+    "name": "Agra (Taj Mahal)",
+    "region": "North",
+    "description": "Home to the iconic Taj Mahal, one of the seven wonders of the world",
+    "state": "Uttar Pradesh",
+    "latitude": 27.1751,
+    "longitude": 78.0421,
+    "imageUrl": "agra_hero.png",
+    "highlights": ["Taj Mahal", "Heritage", "Photography"],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "region": "North",
+    "description": "The Pink City - India's most colorful capital with magnificent palaces and forts",
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "imageUrl": "jaipur_hero.png",
+    "highlights": ["City Palace", "Hawa Mahal", "Culture"],
+    "bestTime": "October-March"
   },
   {
     "id": "udaipur",
@@ -63,7 +152,32 @@
     "latitude": 24.5855,
     "longitude": 73.7144,
     "imageUrl": "udaipur_hero.png",
-    "highlights": ["Lake Palace", "Culture", "Romance"]
+    "highlights": ["Lake Palace", "Culture", "Romance"],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jodhpur",
+    "name": "Jodhpur",
+    "region": "West",
+    "description": "The Blue City of Rajasthan with impressive fort and desert landscape",
+    "state": "Rajasthan",
+    "latitude": 26.2389,
+    "longitude": 73.0243,
+    "imageUrl": "jodhpur_hero.png",
+    "highlights": ["Mehrangarh Fort", "Desert", "Culture"],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer",
+    "region": "West",
+    "description": "Golden city in the Thar Desert with stunning architecture and camel safaris",
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 70.9312,
+    "imageUrl": "jaisalmer_hero.png",
+    "highlights": ["Camel Safari", "Desert", "Architecture"],
+    "bestTime": "October-March"
   },
   {
     "id": "mount-abu",
@@ -74,29 +188,56 @@
     "latitude": 24.5926,
     "longitude": 72.7156,
     "imageUrl": "mount_abu_hero.png",
-    "highlights": ["Temples", "Nature", "Scenic Views"]
+    "highlights": ["Temples", "Nature", "Scenic Views"],
+    "bestTime": "October-March"
   },
   {
-    "id": "darjeeling",
-    "name": "Darjeeling",
-    "region": "East",
-    "description": "Land of the Thunderbolt in West Bengal, famous for tea gardens and mountain railways",
-    "state": "West Bengal",
-    "latitude": 27.0410,
-    "longitude": 88.2663,
-    "imageUrl": "darjeeling_hero.png",
-    "highlights": ["Tea Gardens", "Mountain Railway", "Culture"]
+    "id": "goa",
+    "name": "Goa",
+    "region": "West",
+    "description": "Tropical paradise with stunning beaches, Portuguese architecture, and vibrant nightlife",
+    "state": "Goa",
+    "latitude": 15.2993,
+    "longitude": 73.8243,
+    "imageUrl": "goa_hero.png",
+    "highlights": ["Beaches", "Food", "Relaxation"],
+    "bestTime": "November-February"
   },
   {
-    "id": "sikkim",
-    "name": "Sikkim",
-    "region": "East",
-    "description": "Enchanting Himalayan state known for biodiversity and pristine landscapes",
-    "state": "Sikkim",
-    "latitude": 27.5330,
-    "longitude": 88.5122,
-    "imageUrl": "sikkim_hero.png",
-    "highlights": ["Kanchendzonga", "Adventure", "Nature"]
+    "id": "daman-diu",
+    "name": "Daman & Diu",
+    "region": "West",
+    "description": "Coastal destinations with beaches, water sports, and Portuguese heritage",
+    "state": "Daman and Diu",
+    "latitude": 20.4283,
+    "longitude": 72.8479,
+    "imageUrl": "daman_hero.png",
+    "highlights": ["Beaches", "Water Sports", "Heritage"],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "kutch",
+    "name": "Kutch (Rann Utsav)",
+    "region": "West",
+    "description": "Unique white salt desert with vibrant festival and traditional crafts",
+    "state": "Gujarat",
+    "latitude": 23.7421,
+    "longitude": 69.8194,
+    "imageUrl": "kutch_hero.png",
+    "highlights": ["Festival", "Desert", "Crafts"],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna",
+    "region": "South",
+    "description": "Scenic coastal town in Karnataka with beaches and spiritual significance",
+    "state": "Karnataka",
+    "latitude": 14.5545,
+    "longitude": 74.3163,
+    "imageUrl": "gokarna_hero.png",
+    "highlights": ["Beaches", "Trekking", "Relaxation"],
+    "bestTime": "November-February"
   },
   {
     "id": "munnar",
@@ -107,7 +248,8 @@
     "latitude": 10.5869,
     "longitude": 77.0595,
     "imageUrl": "munnar_hero.png",
-    "highlights": ["Tea Plantations", "Nature", "Trekking"]
+    "highlights": ["Tea Plantations", "Nature", "Trekking"],
+    "bestTime": "October-May"
   },
   {
     "id": "ooty",
@@ -118,7 +260,20 @@
     "latitude": 11.4102,
     "longitude": 76.6955,
     "imageUrl": "ooty_hero.png",
-    "highlights": ["Botanical Garden", "Lake", "Nature"]
+    "highlights": ["Botanical Garden", "Lake", "Nature"],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "kodaikanal",
+    "name": "Kodaikanal",
+    "region": "South",
+    "description": "Princess of Hill Stations with misty peaks and peaceful trekking trails",
+    "state": "Tamil Nadu",
+    "latitude": 10.2381,
+    "longitude": 77.4892,
+    "imageUrl": "kodaikanal_hero.png",
+    "highlights": ["Trekking", "Nature", "Photography"],
+    "bestTime": "October-May"
   },
   {
     "id": "coorg",
@@ -129,6 +284,115 @@
     "latitude": 12.3381,
     "longitude": 75.7402,
     "imageUrl": "coorg_hero.png",
-    "highlights": ["Coffee Plantations", "Adventure", "Nature"]
+    "highlights": ["Coffee Plantations", "Adventure", "Nature"],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad",
+    "region": "South",
+    "description": "Nature paradise in Kerala with wildlife, waterfalls, and adventure activities",
+    "state": "Kerala",
+    "latitude": 11.6271,
+    "longitude": 76.1094,
+    "imageUrl": "wayanad_hero.png",
+    "highlights": ["Wildlife", "Waterfalls", "Adventure"],
+    "bestTime": "June-September or October-May"
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "region": "South",
+    "description": "UNESCO World Heritage site with ancient ruins and unique boulder landscape",
+    "state": "Karnataka",
+    "latitude": 15.3350,
+    "longitude": 76.4789,
+    "imageUrl": "hampi_hero.png",
+    "highlights": ["Heritage", "History", "Photography"],
+    "bestTime": "November-March"
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey (Backwaters)",
+    "region": "South",
+    "description": "Venice of the East with scenic backwaters and houseboat cruises",
+    "state": "Kerala",
+    "latitude": 9.4981,
+    "longitude": 76.3388,
+    "imageUrl": "alleppey_hero.png",
+    "highlights": ["Backwaters", "Boat Tours", "Relaxation"],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "region": "East",
+    "description": "Land of the Thunderbolt in West Bengal, famous for tea gardens and mountain railways",
+    "state": "West Bengal",
+    "latitude": 27.0410,
+    "longitude": 88.2663,
+    "imageUrl": "darjeeling_hero.png",
+    "highlights": ["Tea Gardens", "Mountain Railway", "Culture"],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim & Gangtok",
+    "region": "East",
+    "description": "Enchanting Himalayan state known for biodiversity and pristine landscapes",
+    "state": "Sikkim",
+    "latitude": 27.5330,
+    "longitude": 88.5122,
+    "imageUrl": "sikkim_hero.png",
+    "highlights": ["Kanchendzonga", "Adventure", "Nature"],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "meghalaya",
+    "name": "Meghalaya (Shillong, Cherrapunji, Dawki)",
+    "region": "East",
+    "description": "Abode of Clouds with living root bridges and one of the wettest places on Earth",
+    "state": "Meghalaya",
+    "latitude": 25.5788,
+    "longitude": 91.8933,
+    "imageUrl": "meghalaya_hero.png",
+    "highlights": ["Waterfalls", "Living Root Bridges", "Nature"],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga National Park",
+    "region": "East",
+    "description": "UNESCO World Heritage site famous for Indian one-horned rhinos and wildlife",
+    "state": "Assam",
+    "latitude": 26.6244,
+    "longitude": 93.1541,
+    "imageUrl": "kaziranga_hero.png",
+    "highlights": ["Wildlife", "Safari", "Nature"],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "andaman",
+    "name": "Andaman & Nicobar Islands",
+    "region": "East",
+    "description": "Tropical island paradise with pristine beaches, diving, and water sports",
+    "state": "Andaman & Nicobar",
+    "latitude": 11.7401,
+    "longitude": 92.6586,
+    "imageUrl": "andaman_hero.png",
+    "highlights": ["Beaches", "Water Sports", "Diving"],
+    "bestTime": "November-May"
+  },
+  {
+    "id": "bodh-gaya",
+    "name": "Bodh Gaya",
+    "region": "East",
+    "description": "Sacred Buddhist pilgrimage site where Buddha attained enlightenment",
+    "state": "Bihar",
+    "latitude": 24.6955,
+    "longitude": 84.9852,
+    "imageUrl": "bodh_gaya_hero.png",
+    "highlights": ["Spirituality", "Heritage", "Culture"],
+    "bestTime": "November-February"
   }
 ]
