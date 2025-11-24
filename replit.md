@@ -1,21 +1,13 @@
-# TravelAI - Investor-Ready Multi-Destination Travel Assistant POC
+# TravelAI - Shimla Travel Assistant POC
 
 ## Overview
 
-TravelAI is a production-ready AI-powered travel assistant supporting **ALL 20 major Indian destinations** across 4 regions (North, South, East, West India). It generates intelligent personalized itineraries using algorithmic spot scoring (interest matching, crowd optimization, hidden gem discovery), real-time alerts, dynamic budget optimization, weather-based recommendations, and an enhanced rule-based chat assistant. Features include destination-specific itinerary generation, crowd predictions by time/day, hidden gem discovery via social media analysis, weather advisories, and offline-capable itinerary downloads. The POC demonstrates sophisticated travel planning without external API dependencies.
+TravelAI is an AI-powered travel assistant proof-of-concept for personalized itinerary planning, starting with Indian destinations like Shimla. It generates intelligent itineraries using algorithmic spot scoring (interest matching, crowd optimization, hidden gem discovery), real-time alerts, and a rule-based chat assistant. The project aims to showcase discovering hidden gems through social media analysis, optimizing routes with Haversine distance, and providing context-aware travel recommendations without external API dependencies in its POC phase. Its core value proposition lies in personalized discovery and optimized planning.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
 Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generated images, must be specific to each location.
-Project Scope: Building investor-ready POC with all 20 destinations working simultaneously.
-
-## Supported Destinations (20 Total)
-
-**North India (5)**: Ladakh, Manali, Shimla, Amritsar, Jaipur
-**South India (5)**: Kerala, Coorg, Ooty, Kodaikanal, Rameswaram
-**East India (5)**: Darjeeling, Gangtok, Shillong, Puri, Kolkata
-**West India (5)**: Mumbai, Goa, Udaipur, Rann of Kutch, Mount Abu
 
 ## System Architecture
 

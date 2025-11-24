@@ -1,25 +1,530 @@
 [
-  {"id": "ladakh", "name": "Ladakh", "region": "North", "state": "Ladakh", "description": "High-altitude desert with stunning monasteries, adventure activities, and unique culture", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Buddhist Monasteries", "Adventure Sports", "Himalayan Views"]},
-  {"id": "manali", "name": "Manali", "region": "North", "state": "Himachal Pradesh", "description": "Adventure hub with trekking, rafting, paragliding, and stunning Himalayan views", "imageUrl": "https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=800&q=80", "highlights": ["Mountain Trekking", "River Rafting", "Snow Sports"]},
-  {"id": "shimla", "name": "Shimla", "region": "North", "state": "Himachal Pradesh", "description": "Colonial hill station with heritage buildings, nature walks, and toy train experience", "imageUrl": "https://images.unsplash.com/photo-1584258207866-0be4dfd17fda?w=800&q=80", "highlights": ["Toy Train", "Colonial Architecture", "Hiking"]},
-  {"id": "amritsar", "name": "Amritsar", "region": "North", "state": "Punjab", "description": "Spiritual city home to Golden Temple, rich Sikh heritage, and vibrant culture", "imageUrl": "https://images.unsplash.com/photo-1532339142463-fd0a5d46d4d7?w=800&q=80", "highlights": ["Golden Temple", "Sikh Heritage", "Street Food"]},
-  {"id": "jaipur", "name": "Jaipur", "region": "North", "state": "Rajasthan", "description": "Pink City with palaces, forts, traditional bazaars, and Rajasthani cuisine", "imageUrl": "https://images.unsplash.com/photo-1605655014175-c1cda019bbad?w=800&q=80", "highlights": ["Palace Museum", "Pink City Tour", "Traditional Bazaars"]},
-  
-  {"id": "kerala", "name": "Kerala", "region": "South", "state": "Kerala", "description": "God's own country with backwaters, beaches, tea plantations, and serene houseboats", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Backwater Cruises", "Houseboat Stays", "Beach Relaxation"]},
-  {"id": "coorg", "name": "Coorg", "region": "South", "state": "Karnataka", "description": "Coffee plantation hills with trekking, waterfalls, and misty mountain trails", "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80", "highlights": ["Coffee Plantations", "Waterfall Trekking", "Misty Valleys"]},
-  {"id": "ooty", "name": "Ooty", "region": "South", "state": "Tamil Nadu", "description": "Queen of Nilgiris with botanical garden, toy train, and cool weather", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Toy Train Journey", "Botanical Garden", "Hill Trekking"]},
-  {"id": "kodaikanal", "name": "Kodaikanal", "region": "South", "state": "Tamil Nadu", "description": "Princess of hill stations with lake, waterfalls, cable car, and misty valleys", "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e938286db54?w=800&q=80", "highlights": ["Lake Boating", "Waterfall Hikes", "Cable Car Rides"]},
-  {"id": "rameswaram", "name": "Rameswaram", "region": "South", "state": "Tamil Nadu", "description": "Sacred pilgrimage site on island with temples, beaches, and spiritual significance", "imageUrl": "https://images.unsplash.com/photo-1605070175289-50dc9f0b44ca?w=800&q=80", "highlights": ["Ancient Temples", "Sacred Pilgrimage", "Beach Exploration"]},
-  
-  {"id": "darjeeling", "name": "Darjeeling", "region": "East", "state": "West Bengal", "description": "Queen of hills with tea gardens, toy train, Kanchenjunga views, and Tibetan culture", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Toy Train", "Tea Gardens", "Kanchenjunga Views"]},
-  {"id": "gangtok", "name": "Gangtok", "region": "East", "state": "Sikkim", "description": "Sikkim capital with monasteries, nature trails, festivals, and Kanchenjunga views", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Buddhist Monasteries", "Mountain Trails", "Cultural Festivals"]},
-  {"id": "shillong", "name": "Shillong", "region": "East", "state": "Meghalaya", "description": "Meghalaya capital known as Scotland of East with nature, music, and waterfalls", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Living Root Bridges", "Cherrapunji Falls", "Music Scene"]},
-  {"id": "puri", "name": "Puri", "region": "East", "state": "Odisha", "description": "Pilgrimage city with famous Jagannath Temple, beaches, and spiritual significance", "imageUrl": "https://images.unsplash.com/photo-1605070175289-50dc9f0b44ca?w=800&q=80", "highlights": ["Jagannath Temple", "Sacred Beaches", "Spiritual Festivals"]},
-  {"id": "kolkata", "name": "Kolkata", "region": "East", "state": "West Bengal", "description": "City of joy with heritage sites, art galleries, street food, and cultural vibrancy", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Colonial Heritage", "Art & Culture", "Street Food"]},
-  
-  {"id": "mumbai", "name": "Mumbai", "region": "West", "state": "Maharashtra", "description": "Financial capital with beaches, Bollywood glamour, colonial architecture, and nightlife", "imageUrl": "https://images.unsplash.com/photo-1596176394667-c3e64a8f7557?w=800&q=80", "highlights": ["Gateway of India", "Marine Drive", "Bollywood Culture"]},
-  {"id": "goa", "name": "Goa", "region": "West", "state": "Goa", "description": "Beach paradise with colonial forts, water sports, Portuguese architecture, and parties", "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80", "highlights": ["Beach Relaxation", "Water Sports", "Portuguese Forts"]},
-  {"id": "udaipur", "name": "Udaipur", "region": "West", "state": "Rajasthan", "description": "City of lakes with stunning palaces, romantic settings, and traditional Rajasthani culture", "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80", "highlights": ["Lake Palaces", "Romantic Cruises", "Royal Heritage"]},
-  {"id": "kutch", "name": "Rann of Kutch", "region": "West", "state": "Gujarat", "description": "White salt desert landscape with unique cultural experiences and wildlife viewing", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Salt Desert", "Cultural Festivals", "Wildlife Safaris"]},
-  {"id": "mount-abu", "name": "Mount Abu", "region": "West", "state": "Rajasthan", "description": "Only hill station in Rajasthan with temples, lakes, and cool weather", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "highlights": ["Dilwara Temples", "Scenic Lakes", "Mountain Trekking"]}
+  {
+    "id": "manali",
+    "name": "Manali",
+    "region": "North",
+    "description": "Adventure hub in Himachal Pradesh with stunning mountain views, adventure activities, and trekking",
+    "state": "Himachal Pradesh",
+    "latitude": 32.2396,
+    "longitude": 77.1887,
+    "imageUrl": "https://images.unsplash.com/photo-1526913260776-88b70aad4ab3?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Adventure",
+      "Mountains"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "region": "North",
+    "description": "Colonial hill station in Himachal Pradesh, famous for its peaceful atmosphere and scenic views",
+    "state": "Himachal Pradesh",
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
+    "highlights": [
+      "Mall Road",
+      "Jakhu Temple",
+      "Adventure"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala & McLeod Ganj",
+    "region": "North",
+    "description": "Spiritual hub in the Himalayas, home to Tibetan culture and adventure sports",
+    "state": "Himachal Pradesh",
+    "latitude": 32.219,
+    "longitude": 76.326,
+    "imageUrl": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80",
+    "highlights": [
+      "Tibetan Culture",
+      "Trekking",
+      "Spiritual"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "dalhousie",
+    "name": "Dalhousie",
+    "region": "North",
+    "description": "Charming hill station with colonial architecture and scenic pine forests",
+    "state": "Himachal Pradesh",
+    "latitude": 32.5408,
+    "longitude": 75.9922,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Colonial Architecture",
+      "Trekking",
+      "Nature"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "nainital",
+    "name": "Nainital",
+    "region": "North",
+    "description": "Lake district in Uttarakhand surrounded by snow-capped mountains and adventure activities",
+    "state": "Uttarakhand",
+    "latitude": 29.3919,
+    "longitude": 79.4504,
+    "imageUrl": "https://images.unsplash.com/photo-1511316695145-4992006ffddb?w=800&q=80",
+    "highlights": [
+      "Lake",
+      "Adventure",
+      "Shopping"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie",
+    "region": "North",
+    "description": "Queen of the Hills in Uttarakhand with pleasant weather year-round",
+    "state": "Uttarakhand",
+    "latitude": 30.4627,
+    "longitude": 78.0646,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Mall Road",
+      "Scenic Views",
+      "Adventure"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "auli",
+    "name": "Auli",
+    "region": "North",
+    "description": "India's premier skiing destination in Uttarakhand with winter sports and scenic beauty",
+    "state": "Uttarakhand",
+    "latitude": 30.0136,
+    "longitude": 79.5904,
+    "imageUrl": "https://images.unsplash.com/photo-1551361022-8d5d751675de?w=800&q=80",
+    "highlights": [
+      "Skiing",
+      "Snow Sports",
+      "Adventure"
+    ],
+    "bestTime": "December-February"
+  },
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "region": "North",
+    "description": "High-altitude desert region with breathtaking landscapes, monasteries, and adventure",
+    "state": "Ladakh",
+    "latitude": 34.1526,
+    "longitude": 77.577,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Mountain Passes",
+      "Monasteries",
+      "Adventure"
+    ],
+    "bestTime": "June-September"
+  },
+  {
+    "id": "kasol",
+    "name": "Kasol & Kheerganga",
+    "region": "North",
+    "description": "Scenic Himalayan villages popular for trekking, backpacking, and nature lovers",
+    "state": "Himachal Pradesh",
+    "latitude": 32.3721,
+    "longitude": 77.4364,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Nature",
+      "Backpacking"
+    ],
+    "bestTime": "March-June & September-November"
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "region": "North",
+    "description": "India's capital city with rich history, monuments, and vibrant culture",
+    "state": "Delhi",
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "imageUrl": "https://images.unsplash.com/photo-1514565406046-b633ebf19e2d?w=800&q=80",
+    "highlights": [
+      "Culture",
+      "History",
+      "Shopping"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "agra",
+    "name": "Agra (Taj Mahal)",
+    "region": "North",
+    "description": "Home to the iconic Taj Mahal, one of the seven wonders of the world",
+    "state": "Uttar Pradesh",
+    "latitude": 27.1751,
+    "longitude": 78.0421,
+    "imageUrl": "https://images.unsplash.com/photo-1505694312128-e2fe5c8e6b2b?w=800&q=80",
+    "highlights": [
+      "Taj Mahal",
+      "Heritage",
+      "Photography"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "region": "North",
+    "description": "The Pink City - India's most colorful capital with magnificent palaces and forts",
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+    "highlights": [
+      "City Palace",
+      "Hawa Mahal",
+      "Culture"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "region": "West",
+    "description": "City of Lakes in Rajasthan, famous for its romantic palaces and lakeside beauty",
+    "state": "Rajasthan",
+    "latitude": 24.5855,
+    "longitude": 73.7144,
+    "imageUrl": "https://images.unsplash.com/photo-1505694312128-e2fe5c8e6b2b?w=800&q=80",
+    "highlights": [
+      "Lake Palace",
+      "Culture",
+      "Romance"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jodhpur",
+    "name": "Jodhpur",
+    "region": "West",
+    "description": "The Blue City of Rajasthan with impressive fort and desert landscape",
+    "state": "Rajasthan",
+    "latitude": 26.2389,
+    "longitude": 73.0243,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Mehrangarh Fort",
+      "Desert",
+      "Culture"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer",
+    "region": "West",
+    "description": "Golden city in the Thar Desert with stunning architecture and camel safaris",
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 70.9312,
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    "highlights": [
+      "Camel Safari",
+      "Desert",
+      "Architecture"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "mount-abu",
+    "name": "Mount Abu",
+    "region": "West",
+    "description": "Rajasthan's only hill station with cool climate and scenic beauty",
+    "state": "Rajasthan",
+    "latitude": 24.5926,
+    "longitude": 72.7156,
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
+    "highlights": [
+      "Temples",
+      "Nature",
+      "Scenic Views"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "region": "West",
+    "description": "Tropical paradise with stunning beaches, Portuguese architecture, and vibrant nightlife",
+    "state": "Goa",
+    "latitude": 15.2993,
+    "longitude": 73.8243,
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Food",
+      "Relaxation"
+    ],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "daman-diu",
+    "name": "Daman & Diu",
+    "region": "West",
+    "description": "Coastal destinations with beaches, water sports, and Portuguese heritage",
+    "state": "Daman and Diu",
+    "latitude": 20.4283,
+    "longitude": 72.8479,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Water Sports",
+      "Heritage"
+    ],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "kutch",
+    "name": "Kutch (Rann Utsav)",
+    "region": "West",
+    "description": "Unique white salt desert with vibrant festival and traditional crafts",
+    "state": "Gujarat",
+    "latitude": 23.7421,
+    "longitude": 69.8194,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Festival",
+      "Desert",
+      "Crafts"
+    ],
+    "bestTime": "October-March"
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna",
+    "region": "South",
+    "description": "Scenic coastal town in Karnataka with beaches and spiritual significance",
+    "state": "Karnataka",
+    "latitude": 14.5545,
+    "longitude": 74.3163,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Trekking",
+      "Relaxation"
+    ],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "region": "South",
+    "description": "Tea plantation heaven in Kerala's Western Ghats with cool climate and lush greenery",
+    "state": "Kerala",
+    "latitude": 10.5869,
+    "longitude": 77.0595,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Tea Plantations",
+      "Nature",
+      "Trekking"
+    ],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "region": "South",
+    "description": "Queen of Hill Stations in Tamil Nadu with pleasant weather and scenic beauty",
+    "state": "Tamil Nadu",
+    "latitude": 11.4102,
+    "longitude": 76.6955,
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
+    "highlights": [
+      "Botanical Garden",
+      "Lake",
+      "Nature"
+    ],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "kodaikanal",
+    "name": "Kodaikanal",
+    "region": "South",
+    "description": "Princess of Hill Stations with misty peaks and peaceful trekking trails",
+    "state": "Tamil Nadu",
+    "latitude": 10.2381,
+    "longitude": 77.4892,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Nature",
+      "Photography"
+    ],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "region": "South",
+    "description": "Land of the Kodavas in Karnataka with coffee plantations and dense forests",
+    "state": "Karnataka",
+    "latitude": 12.3381,
+    "longitude": 75.7402,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Coffee Plantations",
+      "Adventure",
+      "Nature"
+    ],
+    "bestTime": "October-May"
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad",
+    "region": "South",
+    "description": "Nature paradise in Kerala with wildlife, waterfalls, and adventure activities",
+    "state": "Kerala",
+    "latitude": 11.6271,
+    "longitude": 76.1094,
+    "imageUrl": "https://images.unsplash.com/photo-1511316695145-4992006ffddb?w=800&q=80",
+    "highlights": [
+      "Wildlife",
+      "Waterfalls",
+      "Adventure"
+    ],
+    "bestTime": "June-September or October-May"
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "region": "South",
+    "description": "UNESCO World Heritage site with ancient ruins and unique boulder landscape",
+    "state": "Karnataka",
+    "latitude": 15.335,
+    "longitude": 76.4789,
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
+    "highlights": [
+      "Heritage",
+      "History",
+      "Photography"
+    ],
+    "bestTime": "November-March"
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey (Backwaters)",
+    "region": "South",
+    "description": "Venice of the East with scenic backwaters and houseboat cruises",
+    "state": "Kerala",
+    "latitude": 9.4981,
+    "longitude": 76.3388,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Backwaters",
+      "Boat Tours",
+      "Relaxation"
+    ],
+    "bestTime": "November-February"
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "region": "East",
+    "description": "Land of the Thunderbolt in West Bengal, famous for tea gardens and mountain railways",
+    "state": "West Bengal",
+    "latitude": 27.041,
+    "longitude": 88.2663,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Tea Gardens",
+      "Mountain Railway",
+      "Culture"
+    ],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim & Gangtok",
+    "region": "East",
+    "description": "Enchanting Himalayan state known for biodiversity and pristine landscapes",
+    "state": "Sikkim",
+    "latitude": 27.533,
+    "longitude": 88.5122,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Kanchendzonga",
+      "Adventure",
+      "Nature"
+    ],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "meghalaya",
+    "name": "Meghalaya (Shillong, Cherrapunji, Dawki)",
+    "region": "East",
+    "description": "Abode of Clouds with living root bridges and one of the wettest places on Earth",
+    "state": "Meghalaya",
+    "latitude": 25.5788,
+    "longitude": 91.8933,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Waterfalls",
+      "Living Root Bridges",
+      "Nature"
+    ],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga National Park",
+    "region": "East",
+    "description": "UNESCO World Heritage site famous for Indian one-horned rhinos and wildlife",
+    "state": "Assam",
+    "latitude": 26.6244,
+    "longitude": 93.1541,
+    "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80",
+    "highlights": [
+      "Wildlife",
+      "Safari",
+      "Nature"
+    ],
+    "bestTime": "October-April"
+  },
+  {
+    "id": "andaman",
+    "name": "Andaman & Nicobar Islands",
+    "region": "East",
+    "description": "Tropical island paradise with pristine beaches, diving, and water sports",
+    "state": "Andaman & Nicobar",
+    "latitude": 11.7401,
+    "longitude": 92.6586,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Water Sports",
+      "Diving"
+    ],
+    "bestTime": "November-May"
+  },
+  {
+    "id": "bodh-gaya",
+    "name": "Bodh Gaya",
+    "region": "East",
+    "description": "Sacred Buddhist pilgrimage site where Buddha attained enlightenment",
+    "state": "Bihar",
+    "latitude": 24.6955,
+    "longitude": 84.9852,
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
+    "highlights": [
+      "Spirituality",
+      "Heritage",
+      "Culture"
+    ],
+    "bestTime": "November-February"
+  }
 ]
