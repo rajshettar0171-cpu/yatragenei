@@ -10,9 +10,17 @@
       "entryFee": "Free (paid activities)",
       "openingHours": "9:00 AM - 6:00 PM",
       "crowdScore": 8,
-      "tags": ["adventure", "paragliding", "nature", "photography"],
-      "instagramCaptions": ["Paragliding over the mountains in Manali! 🪂 #SolangValley", "Best views from the sky!"],
-      "imageUrl": "solang_valley_paragliding_adventure.png",
+      "tags": [
+        "adventure",
+        "paragliding",
+        "nature",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Paragliding over the mountains in Manali! 🪂 #SolangValley",
+        "Best views from the sky!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -20,14 +28,22 @@
       "name": "Rohtang Pass",
       "description": "High mountain pass with stunning views, skiing in winter, and adventure activities",
       "lat": 32.3721,
-      "lng": 77.2480,
+      "lng": 77.248,
       "bestTime": "May-October",
       "entryFee": "₹30 (entry)",
       "openingHours": "7:00 AM - 6:00 PM",
       "crowdScore": 9,
-      "tags": ["mountain pass", "adventure", "photography", "nature"],
-      "instagramCaptions": ["Road to heaven! #RohtangPass", "Where snow and sky meet!"],
-      "imageUrl": "rohtang_pass_mountain_views.png",
+      "tags": [
+        "mountain pass",
+        "adventure",
+        "photography",
+        "nature"
+      ],
+      "instagramCaptions": [
+        "Road to heaven! #RohtangPass",
+        "Where snow and sky meet!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -36,15 +52,23 @@
       "id": "spot-jakhu-temple-shimla",
       "name": "Jakhu Temple",
       "description": "Ancient temple at Shimla's highest point with Hanuman statue and panoramic views",
-      "lat": 31.1070,
+      "lat": 31.107,
       "lng": 77.1734,
       "bestTime": "Early morning for peaceful visits",
       "entryFee": "Free",
       "openingHours": "6:00 AM - 9:00 PM",
       "crowdScore": 7,
-      "tags": ["temple", "culture", "nature", "photography"],
-      "instagramCaptions": ["Standing at Shimla's highest point! 🏔️ #JakhuTemple", "Ancient Hanuman temple with views!"],
-      "imageUrl": "jakhu_temple_shimla_hilltop.png",
+      "tags": [
+        "temple",
+        "culture",
+        "nature",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Standing at Shimla's highest point! 🏔️ #JakhuTemple",
+        "Ancient Hanuman temple with views!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -57,8 +81,16 @@
       "entryFee": "Free",
       "openingHours": "Always open",
       "crowdScore": 9,
-      "tags": ["shopping", "food", "culture", "photography"],
-      "instagramCaptions": ["Mall Road magic! ✨ #ShimlaVibes", "Evening strolls at their best!"],
+      "tags": [
+        "shopping",
+        "food",
+        "culture",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Mall Road magic! ✨ #ShimlaVibes",
+        "Evening strolls at their best!"
+      ],
       "imageUrl": "shimla_mall_road_colonial_beauty.png",
       "isHiddenGem": 0
     }
@@ -74,9 +106,17 @@
       "entryFee": "Free",
       "openingHours": "Always open",
       "crowdScore": 7,
-      "tags": ["spirituality", "culture", "food", "trekking"],
-      "instagramCaptions": ["Spiritual haven in the mountains! 🧘 #McLeodGanj", "Tibetan culture at its finest!"],
-      "imageUrl": "mcleod_ganj_monastery_spiritual.png",
+      "tags": [
+        "spirituality",
+        "culture",
+        "food",
+        "trekking"
+      ],
+      "instagramCaptions": [
+        "Spiritual haven in the mountains! 🧘 #McLeodGanj",
+        "Tibetan culture at its finest!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1504681869696-d977e4a3b40a?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -89,9 +129,17 @@
       "entryFee": "Free",
       "openingHours": "Sunrise to Sunset",
       "crowdScore": 5,
-      "tags": ["nature", "photography", "trekking", "relaxation"],
-      "instagramCaptions": ["Mirror of the mountains! 🏞️ #DalLake", "Serenity at 3000 meters!"],
-      "imageUrl": "dal_lake_alpine_serene.png",
+      "tags": [
+        "nature",
+        "photography",
+        "trekking",
+        "relaxation"
+      ],
+      "instagramCaptions": [
+        "Mirror of the mountains! 🏞️ #DalLake",
+        "Serenity at 3000 meters!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 1
     }
   ],
@@ -106,9 +154,17 @@
       "entryFee": "₹100 (boating)",
       "openingHours": "6:00 AM - 6:00 PM",
       "crowdScore": 8,
-      "tags": ["lake", "boating", "photography", "relaxation"],
-      "instagramCaptions": ["Perfect lake day! 🚤 #NainiLake", "Misty mornings at Nainital!"],
-      "imageUrl": "naini_lake_boating_sunset.png",
+      "tags": [
+        "lake",
+        "boating",
+        "photography",
+        "relaxation"
+      ],
+      "instagramCaptions": [
+        "Perfect lake day! 🚤 #NainiLake",
+        "Misty mornings at Nainital!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -121,9 +177,16 @@
       "entryFee": "Free",
       "openingHours": "6:00 AM - 8:00 PM",
       "crowdScore": 6,
-      "tags": ["temple", "spirituality", "culture"],
-      "instagramCaptions": ["Sacred lake temple! 🙏 #NainaDevi", "Spiritual beauty of Nainital!"],
-      "imageUrl": "nainital_temple_spiritual.png",
+      "tags": [
+        "temple",
+        "spirituality",
+        "culture"
+      ],
+      "instagramCaptions": [
+        "Sacred lake temple! 🙏 #NainaDevi",
+        "Spiritual beauty of Nainital!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -138,9 +201,17 @@
       "entryFee": "Free (requires permit for some sections)",
       "openingHours": "24 hours",
       "crowdScore": 7,
-      "tags": ["lake", "photography", "nature", "adventure"],
-      "instagramCaptions": ["Colors of Pangong! 🌈 #PangongLake", "Highest motorable road views!"],
-      "imageUrl": "pangong_lake_pristine_wilderness.png",
+      "tags": [
+        "lake",
+        "photography",
+        "nature",
+        "adventure"
+      ],
+      "instagramCaptions": [
+        "Colors of Pangong! 🌈 #PangongLake",
+        "Highest motorable road views!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -148,14 +219,21 @@
       "name": "Khardung La Pass",
       "description": "World's highest motorable road pass with breathtaking Himalayan views",
       "lat": 34.2688,
-      "lng": 77.5780,
+      "lng": 77.578,
       "bestTime": "June-September",
       "entryFee": "₹50",
       "openingHours": "6:00 AM - 5:00 PM",
       "crowdScore": 8,
-      "tags": ["mountain pass", "adventure", "photography"],
-      "instagramCaptions": ["On top of the world! 🏔️ #KhardungLa", "5000+ meters of pure adventure!"],
-      "imageUrl": "khardung_la_extreme_altitude.png",
+      "tags": [
+        "mountain pass",
+        "adventure",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "On top of the world! 🏔️ #KhardungLa",
+        "5000+ meters of pure adventure!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -170,9 +248,17 @@
       "entryFee": "₹50 (Indians), ₹200 (Foreigners)",
       "openingHours": "9:00 AM - 5:00 PM",
       "crowdScore": 9,
-      "tags": ["heritage", "photography", "architecture", "culture"],
-      "instagramCaptions": ["The Pink Palace! 🏛️ #HawaMahal", "Every angle is Instagram gold!"],
-      "imageUrl": "hawa_mahal_palace_architecture.png",
+      "tags": [
+        "heritage",
+        "photography",
+        "architecture",
+        "culture"
+      ],
+      "instagramCaptions": [
+        "The Pink Palace! 🏛️ #HawaMahal",
+        "Every angle is Instagram gold!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -185,9 +271,17 @@
       "entryFee": "₹75 (Indians), ₹600 (Foreigners)",
       "openingHours": "9:30 AM - 5:00 PM",
       "crowdScore": 7,
-      "tags": ["heritage", "culture", "history", "architecture"],
-      "instagramCaptions": ["Royal architecture at its best! 👑 #CityPalace", "Where history lives!"],
-      "imageUrl": "jaipur_city_palace_royal.png",
+      "tags": [
+        "heritage",
+        "culture",
+        "history",
+        "architecture"
+      ],
+      "instagramCaptions": [
+        "Royal architecture at its best! 👑 #CityPalace",
+        "Where history lives!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -197,14 +291,22 @@
       "name": "Baga Beach",
       "description": "Goa's most popular beach with vibrant nightlife and water sports",
       "lat": 15.5878,
-      "lng": 73.7430,
+      "lng": 73.743,
       "bestTime": "Evening (5:00 PM - 8:00 PM)",
       "entryFee": "Free",
       "openingHours": "Always accessible",
       "crowdScore": 9,
-      "tags": ["beach", "nightlife", "water sports", "food"],
-      "instagramCaptions": ["Sunset at Baga! 🌅 #BagaBeach", "Beach shack vibes!"],
-      "imageUrl": "baga_beach_tropical_paradise.png",
+      "tags": [
+        "beach",
+        "nightlife",
+        "water sports",
+        "food"
+      ],
+      "instagramCaptions": [
+        "Sunset at Baga! 🌅 #BagaBeach",
+        "Beach shack vibes!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -217,9 +319,17 @@
       "entryFee": "Free (jeep charges extra)",
       "openingHours": "Sunrise to Sunset",
       "crowdScore": 7,
-      "tags": ["waterfall", "nature", "trekking", "photography"],
-      "instagramCaptions": ["Milky falls! 🌊 #DudhsagarFalls", "Nature's power on display!"],
-      "imageUrl": "dudhsagar_waterfall_cascade.png",
+      "tags": [
+        "waterfall",
+        "nature",
+        "trekking",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Milky falls! 🌊 #DudhsagarFalls",
+        "Nature's power on display!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -234,9 +344,17 @@
       "entryFee": "₹100-200 (varies by plantation)",
       "openingHours": "9:00 AM - 5:00 PM",
       "crowdScore": 6,
-      "tags": ["agriculture", "nature", "food", "photography"],
-      "instagramCaptions": ["Emerald green horizons! 🍵 #TeaPlantations", "Where tea comes from!"],
-      "imageUrl": "munnar_tea_plantation_landscape.png",
+      "tags": [
+        "agriculture",
+        "nature",
+        "food",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Emerald green horizons! 🍵 #TeaPlantations",
+        "Where tea comes from!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -249,9 +367,17 @@
       "entryFee": "₹150 (entry & vehicle)",
       "openingHours": "6:00 AM - 1:00 PM",
       "crowdScore": 5,
-      "tags": ["trekking", "adventure", "nature", "wildlife"],
-      "instagramCaptions": ["South India's highest! 🏔️ #AnamudiPeak", "Sunrise from 2695 meters!"],
-      "imageUrl": "anamudi_peak_highest_mountain.png",
+      "tags": [
+        "trekking",
+        "adventure",
+        "nature",
+        "wildlife"
+      ],
+      "instagramCaptions": [
+        "South India's highest! 🏔️ #AnamudiPeak",
+        "Sunrise from 2695 meters!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -266,24 +392,40 @@
       "entryFee": "₹50",
       "openingHours": "24 hours (sunrise timing varies)",
       "crowdScore": 8,
-      "tags": ["photography", "nature", "adventure", "sunrise"],
-      "instagramCaptions": ["First rays on Kanchendzonga! 🌅 #TigerHill", "Sunrise perfection!"],
-      "imageUrl": "tiger_hill_sunrise_peak.png",
+      "tags": [
+        "photography",
+        "nature",
+        "adventure",
+        "sunrise"
+      ],
+      "instagramCaptions": [
+        "First rays on Kanchendzonga! 🌅 #TigerHill",
+        "Sunrise perfection!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
       "id": "spot-toy-train-darjeeling",
       "name": "Toy Train",
       "description": "UNESCO World Heritage narrow-gauge railway through tea gardens and villages",
-      "lat": 27.0410,
+      "lat": 27.041,
       "lng": 88.2663,
       "bestTime": "Morning (8:00 AM - 1:00 PM)",
       "entryFee": "₹350-800 (varies by class)",
       "openingHours": "Scheduled departures",
       "crowdScore": 8,
-      "tags": ["railway", "history", "photography", "adventure"],
-      "instagramCaptions": ["All aboard the heritage train! 🚂 #ToyTrain", "Vintage travel through mountains!"],
-      "imageUrl": "darjeeling_toy_train_heritage.png",
+      "tags": [
+        "railway",
+        "history",
+        "photography",
+        "adventure"
+      ],
+      "instagramCaptions": [
+        "All aboard the heritage train! 🚂 #ToyTrain",
+        "Vintage travel through mountains!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -298,24 +440,40 @@
       "entryFee": "Varies (permits required)",
       "openingHours": "Seasonal",
       "crowdScore": 5,
-      "tags": ["trekking", "mountain", "adventure", "photography"],
-      "instagramCaptions": ["Majestic peak views! ⛰️ #Kanchendzonga", "Trek to legend!"],
-      "imageUrl": "sikkim_kanchendzonga_mountain.png",
+      "tags": [
+        "trekking",
+        "mountain",
+        "adventure",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Majestic peak views! ⛰️ #Kanchendzonga",
+        "Trek to legend!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
       "id": "spot-tsomogo-lake",
       "name": "Tsomogo Lake",
       "description": "Scenic glacial lake surrounded by rhododendrons and mountain views",
-      "lat": 27.5870,
+      "lat": 27.587,
       "lng": 88.3951,
       "bestTime": "March-May (flowers) & September-November",
       "entryFee": "₹100",
       "openingHours": "6:00 AM - 5:00 PM",
       "crowdScore": 4,
-      "tags": ["lake", "nature", "photography", "trekking"],
-      "instagramCaptions": ["Mirror lake magic! 💎 #TsomogoLake", "Hidden Sikkim beauty!"],
-      "imageUrl": "tsomogo_lake_alpine_flowers.png",
+      "tags": [
+        "lake",
+        "nature",
+        "photography",
+        "trekking"
+      ],
+      "instagramCaptions": [
+        "Mirror lake magic! 💎 #TsomogoLake",
+        "Hidden Sikkim beauty!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 1
     }
   ],
@@ -324,14 +482,22 @@
       "id": "spot-virupaksha-temple",
       "name": "Virupaksha Temple",
       "description": "Ancient temple complex with intricate stone carvings and historic significance",
-      "lat": 15.3350,
+      "lat": 15.335,
       "lng": 76.4789,
       "bestTime": "Morning (7:00 AM - 10:00 AM)",
       "entryFee": "Free (donations welcome)",
       "openingHours": "24 hours",
       "crowdScore": 7,
-      "tags": ["heritage", "temple", "history", "architecture"],
-      "instagramCaptions": ["Ancient temple of Hampi! 🏛️ #Virupaksha", "Where history stands still!"],
+      "tags": [
+        "heritage",
+        "temple",
+        "history",
+        "architecture"
+      ],
+      "instagramCaptions": [
+        "Ancient temple of Hampi! 🏛️ #Virupaksha",
+        "Where history stands still!"
+      ],
       "imageUrl": "hampi_temple_ancient_carvings.png",
       "isHiddenGem": 0
     },
@@ -345,9 +511,17 @@
       "entryFee": "Free",
       "openingHours": "Sunrise to Sunset",
       "crowdScore": 5,
-      "tags": ["photography", "sunset", "heritage", "trekking"],
-      "instagramCaptions": ["Sunset over the boulders! 🌅 #HemakutaHill", "Hampi at its best!"],
-      "imageUrl": "hampi_hemakuta_sunset_boulders.png",
+      "tags": [
+        "photography",
+        "sunset",
+        "heritage",
+        "trekking"
+      ],
+      "instagramCaptions": [
+        "Sunset over the boulders! 🌅 #HemakutaHill",
+        "Hampi at its best!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -362,8 +536,16 @@
       "entryFee": "₹2000-5000 (houseboat cruise)",
       "openingHours": "24 hours (boats)",
       "crowdScore": 8,
-      "tags": ["backwater", "boating", "nature", "relaxation"],
-      "instagramCaptions": ["Venice of the East! 🚤 #Alleppey", "Houseboat paradise!"],
+      "tags": [
+        "backwater",
+        "boating",
+        "nature",
+        "relaxation"
+      ],
+      "instagramCaptions": [
+        "Venice of the East! 🚤 #Alleppey",
+        "Houseboat paradise!"
+      ],
       "imageUrl": "alleppey_houseboat_lagoon.png",
       "isHiddenGem": 0
     },
@@ -377,9 +559,17 @@
       "entryFee": "₹50",
       "openingHours": "9:00 AM - 5:00 PM",
       "crowdScore": 6,
-      "tags": ["photography", "architecture", "nature", "sunset"],
-      "instagramCaptions": ["Iconic lighthouse! 🔴 #AllepeyLighthouse", "Perfect sunset spot!"],
-      "imageUrl": "alleppey_lighthouse_sunset.png",
+      "tags": [
+        "photography",
+        "architecture",
+        "nature",
+        "sunset"
+      ],
+      "instagramCaptions": [
+        "Iconic lighthouse! 🔴 #AllepeyLighthouse",
+        "Perfect sunset spot!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -394,9 +584,17 @@
       "entryFee": "Free",
       "openingHours": "Always accessible",
       "crowdScore": 8,
-      "tags": ["beach", "swimming", "photography", "relaxation"],
-      "instagramCaptions": ["Paradise beach! 🏝️ #RadhanagarBeach", "Blue waters of Andaman!"],
-      "imageUrl": "radhanagar_beach_pristine_paradise.png",
+      "tags": [
+        "beach",
+        "swimming",
+        "photography",
+        "relaxation"
+      ],
+      "instagramCaptions": [
+        "Paradise beach! 🏝️ #RadhanagarBeach",
+        "Blue waters of Andaman!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -409,9 +607,17 @@
       "entryFee": "₹50 (Indians), ₹200 (Foreigners)",
       "openingHours": "9:00 AM - 4:30 PM",
       "crowdScore": 7,
-      "tags": ["history", "heritage", "culture", "photography"],
-      "instagramCaptions": ["Historic prison & museum! 📜 #CellularJail", "Freedom's history!"],
-      "imageUrl": "cellular_jail_heritage_museum.png",
+      "tags": [
+        "history",
+        "heritage",
+        "culture",
+        "photography"
+      ],
+      "instagramCaptions": [
+        "Historic prison & museum! 📜 #CellularJail",
+        "Freedom's history!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     }
   ],
@@ -426,9 +632,17 @@
       "entryFee": "Free (trek varies)",
       "openingHours": "Always accessible",
       "crowdScore": 6,
-      "tags": ["trekking", "waterfall", "nature", "adventure"],
-      "instagramCaptions": ["Misty mountains of Cherrapunji! 🌫️ #Cherrapunji", "Living root bridges!"],
-      "imageUrl": "cherrapunji_misty_mountains.png",
+      "tags": [
+        "trekking",
+        "waterfall",
+        "nature",
+        "adventure"
+      ],
+      "instagramCaptions": [
+        "Misty mountains of Cherrapunji! 🌫️ #Cherrapunji",
+        "Living root bridges!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 0
     },
     {
@@ -441,10 +655,19 @@
       "entryFee": "Free (guide recommended)",
       "openingHours": "6:00 AM - 6:00 PM",
       "crowdScore": 4,
-      "tags": ["nature", "trekking", "photography", "heritage"],
-      "instagramCaptions": ["Nature's engineering! 🌳 #LivingRootBridges", "Ancient wooden bridges!"],
-      "imageUrl": "living_root_bridge_engineering.png",
+      "tags": [
+        "nature",
+        "trekking",
+        "photography",
+        "heritage"
+      ],
+      "instagramCaptions": [
+        "Nature's engineering! 🌳 #LivingRootBridges",
+        "Ancient wooden bridges!"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "isHiddenGem": 1
     }
-  ]
+  ],
+  "spots": []
 }

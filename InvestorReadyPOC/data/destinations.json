@@ -7,8 +7,12 @@
     "state": "Himachal Pradesh",
     "latitude": 32.2396,
     "longitude": 77.1887,
-    "imageUrl": "manali_mountain_adventure.png",
-    "highlights": ["Trekking", "Adventure", "Mountains"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Adventure",
+      "Mountains"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -19,8 +23,12 @@
     "state": "Himachal Pradesh",
     "latitude": 31.1048,
     "longitude": 77.1734,
-    "imageUrl": "shimla_colonial_charm.png",
-    "highlights": ["Mall Road", "Jakhu Temple", "Adventure"],
+    "imageUrl": "https://images.unsplash.com/photo-1552631081-5b0c71f87d20?w=800&q=80",
+    "highlights": [
+      "Mall Road",
+      "Jakhu Temple",
+      "Adventure"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -29,10 +37,14 @@
     "region": "North",
     "description": "Spiritual hub in the Himalayas, home to Tibetan culture and adventure sports",
     "state": "Himachal Pradesh",
-    "latitude": 32.2190,
-    "longitude": 76.3260,
-    "imageUrl": "dharamshala_hero.png",
-    "highlights": ["Tibetan Culture", "Trekking", "Spiritual"],
+    "latitude": 32.219,
+    "longitude": 76.326,
+    "imageUrl": "https://images.pexels.com/photos/4576673/pexels-photo-4576673.jpeg?w=800&h=600&fit=crop",
+    "highlights": [
+      "Tibetan Culture",
+      "Trekking",
+      "Spiritual"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -43,8 +55,12 @@
     "state": "Himachal Pradesh",
     "latitude": 32.5408,
     "longitude": 75.9922,
-    "imageUrl": "dalhousie_hero.png",
-    "highlights": ["Colonial Architecture", "Trekking", "Nature"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Colonial Architecture",
+      "Trekking",
+      "Nature"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -55,8 +71,12 @@
     "state": "Uttarakhand",
     "latitude": 29.3919,
     "longitude": 79.4504,
-    "imageUrl": "nainital_hero.png",
-    "highlights": ["Lake", "Adventure", "Shopping"],
+    "imageUrl": "https://images.unsplash.com/photo-1514282401047-7e6e5d708b74?w=800&q=80",
+    "highlights": [
+      "Lake",
+      "Adventure",
+      "Shopping"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -67,8 +87,12 @@
     "state": "Uttarakhand",
     "latitude": 30.4627,
     "longitude": 78.0646,
-    "imageUrl": "mussoorie_hero.png",
-    "highlights": ["Mall Road", "Scenic Views", "Adventure"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Mall Road",
+      "Scenic Views",
+      "Adventure"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -79,8 +103,12 @@
     "state": "Uttarakhand",
     "latitude": 30.0136,
     "longitude": 79.5904,
-    "imageUrl": "auli_hero.png",
-    "highlights": ["Skiing", "Snow Sports", "Adventure"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Skiing",
+      "Snow Sports",
+      "Adventure"
+    ],
     "bestTime": "December-February"
   },
   {
@@ -90,9 +118,13 @@
     "description": "High-altitude desert region with breathtaking landscapes, monasteries, and adventure",
     "state": "Ladakh",
     "latitude": 34.1526,
-    "longitude": 77.5770,
+    "longitude": 77.577,
     "imageUrl": "ladakh_pangong_lake_pristine_waters.png",
-    "highlights": ["Mountain Passes", "Monasteries", "Adventure"],
+    "highlights": [
+      "Mountain Passes",
+      "Monasteries",
+      "Adventure"
+    ],
     "bestTime": "June-September"
   },
   {
@@ -103,8 +135,12 @@
     "state": "Himachal Pradesh",
     "latitude": 32.3721,
     "longitude": 77.4364,
-    "imageUrl": "kasol_hero.png",
-    "highlights": ["Trekking", "Nature", "Backpacking"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Nature",
+      "Backpacking"
+    ],
     "bestTime": "March-June & September-November"
   },
   {
@@ -115,8 +151,12 @@
     "state": "Delhi",
     "latitude": 28.7041,
     "longitude": 77.1025,
-    "imageUrl": "delhi_hero.png",
-    "highlights": ["Culture", "History", "Shopping"],
+    "imageUrl": "https://images.unsplash.com/photo-1518729759-7b4167e5cf12?w=800&q=80",
+    "highlights": [
+      "Culture",
+      "History",
+      "Shopping"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -127,8 +167,12 @@
     "state": "Uttar Pradesh",
     "latitude": 27.1751,
     "longitude": 78.0421,
-    "imageUrl": "agra_taj_mahal_majestic_monument.png",
-    "highlights": ["Taj Mahal", "Heritage", "Photography"],
+    "imageUrl": "https://images.unsplash.com/photo-1505694312128-e2fe5c8e6b2b?w=800&q=80",
+    "highlights": [
+      "Taj Mahal",
+      "Heritage",
+      "Photography"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -139,8 +183,12 @@
     "state": "Rajasthan",
     "latitude": 26.9124,
     "longitude": 75.7873,
-    "imageUrl": "jaipur_pink_city_aerial_view.png",
-    "highlights": ["City Palace", "Hawa Mahal", "Culture"],
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
+    "highlights": [
+      "City Palace",
+      "Hawa Mahal",
+      "Culture"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -151,8 +199,12 @@
     "state": "Rajasthan",
     "latitude": 24.5855,
     "longitude": 73.7144,
-    "imageUrl": "udaipur_hero.png",
-    "highlights": ["Lake Palace", "Culture", "Romance"],
+    "imageUrl": "https://images.unsplash.com/photo-1517653131501-975a9cc6d640?w=800&q=80",
+    "highlights": [
+      "Lake Palace",
+      "Culture",
+      "Romance"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -163,8 +215,12 @@
     "state": "Rajasthan",
     "latitude": 26.2389,
     "longitude": 73.0243,
-    "imageUrl": "jodhpur_hero.png",
-    "highlights": ["Mehrangarh Fort", "Desert", "Culture"],
+    "imageUrl": "https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=800&q=80",
+    "highlights": [
+      "Mehrangarh Fort",
+      "Desert",
+      "Culture"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -175,8 +231,12 @@
     "state": "Rajasthan",
     "latitude": 26.9124,
     "longitude": 70.9312,
-    "imageUrl": "desert_golden_dunes.png",
-    "highlights": ["Camel Safari", "Desert", "Architecture"],
+    "imageUrl": "https://images.unsplash.com/photo-1523995462138-f0ee8f518127?w=800&q=80",
+    "highlights": [
+      "Camel Safari",
+      "Desert",
+      "Architecture"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -188,7 +248,11 @@
     "latitude": 24.5926,
     "longitude": 72.7156,
     "imageUrl": "mount_abu_hero.png",
-    "highlights": ["Temples", "Nature", "Scenic Views"],
+    "highlights": [
+      "Temples",
+      "Nature",
+      "Scenic Views"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -199,8 +263,12 @@
     "state": "Goa",
     "latitude": 15.2993,
     "longitude": 73.8243,
-    "imageUrl": "goa_beach_paradise_sunset.png",
-    "highlights": ["Beaches", "Food", "Relaxation"],
+    "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Food",
+      "Relaxation"
+    ],
     "bestTime": "November-February"
   },
   {
@@ -212,7 +280,11 @@
     "latitude": 20.4283,
     "longitude": 72.8479,
     "imageUrl": "daman_hero.png",
-    "highlights": ["Beaches", "Water Sports", "Heritage"],
+    "highlights": [
+      "Beaches",
+      "Water Sports",
+      "Heritage"
+    ],
     "bestTime": "November-February"
   },
   {
@@ -223,8 +295,12 @@
     "state": "Gujarat",
     "latitude": 23.7421,
     "longitude": 69.8194,
-    "imageUrl": "kutch_hero.png",
-    "highlights": ["Festival", "Desert", "Crafts"],
+    "imageUrl": "https://images.unsplash.com/photo-1523995462138-f0ee8f518127?w=800&q=80",
+    "highlights": [
+      "Festival",
+      "Desert",
+      "Crafts"
+    ],
     "bestTime": "October-March"
   },
   {
@@ -235,8 +311,12 @@
     "state": "Karnataka",
     "latitude": 14.5545,
     "longitude": 74.3163,
-    "imageUrl": "gokarna_hero.png",
-    "highlights": ["Beaches", "Trekking", "Relaxation"],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Trekking",
+      "Relaxation"
+    ],
     "bestTime": "November-February"
   },
   {
@@ -247,8 +327,12 @@
     "state": "Kerala",
     "latitude": 10.5869,
     "longitude": 77.0595,
-    "imageUrl": "munnar_tea_plantations_green_landscape.png",
-    "highlights": ["Tea Plantations", "Nature", "Trekking"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Tea Plantations",
+      "Nature",
+      "Trekking"
+    ],
     "bestTime": "October-May"
   },
   {
@@ -259,8 +343,12 @@
     "state": "Tamil Nadu",
     "latitude": 11.4102,
     "longitude": 76.6955,
-    "imageUrl": "ooty_hero.png",
-    "highlights": ["Botanical Garden", "Lake", "Nature"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Botanical Garden",
+      "Lake",
+      "Nature"
+    ],
     "bestTime": "October-May"
   },
   {
@@ -271,8 +359,12 @@
     "state": "Tamil Nadu",
     "latitude": 10.2381,
     "longitude": 77.4892,
-    "imageUrl": "kodaikanal_hero.png",
-    "highlights": ["Trekking", "Nature", "Photography"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Trekking",
+      "Nature",
+      "Photography"
+    ],
     "bestTime": "October-May"
   },
   {
@@ -283,8 +375,12 @@
     "state": "Karnataka",
     "latitude": 12.3381,
     "longitude": 75.7402,
-    "imageUrl": "coorg_hero.png",
-    "highlights": ["Coffee Plantations", "Adventure", "Nature"],
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
+    "highlights": [
+      "Coffee Plantations",
+      "Adventure",
+      "Nature"
+    ],
     "bestTime": "October-May"
   },
   {
@@ -295,8 +391,12 @@
     "state": "Kerala",
     "latitude": 11.6271,
     "longitude": 76.1094,
-    "imageUrl": "wayanad_hero.png",
-    "highlights": ["Wildlife", "Waterfalls", "Adventure"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Wildlife",
+      "Waterfalls",
+      "Adventure"
+    ],
     "bestTime": "June-September or October-May"
   },
   {
@@ -305,10 +405,14 @@
     "region": "South",
     "description": "UNESCO World Heritage site with ancient ruins and unique boulder landscape",
     "state": "Karnataka",
-    "latitude": 15.3350,
+    "latitude": 15.335,
     "longitude": 76.4789,
-    "imageUrl": "hampi_ancient_temple_ruins.png",
-    "highlights": ["Heritage", "History", "Photography"],
+    "imageUrl": "https://images.unsplash.com/photo-1516024915325-3e36e0c67e58?w=800&q=80",
+    "highlights": [
+      "Heritage",
+      "History",
+      "Photography"
+    ],
     "bestTime": "November-March"
   },
   {
@@ -319,8 +423,12 @@
     "state": "Kerala",
     "latitude": 9.4981,
     "longitude": 76.3388,
-    "imageUrl": "alleppey_backwaters_houseboat_paradise.png",
-    "highlights": ["Backwaters", "Boat Tours", "Relaxation"],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Backwaters",
+      "Boat Tours",
+      "Relaxation"
+    ],
     "bestTime": "November-February"
   },
   {
@@ -329,10 +437,14 @@
     "region": "East",
     "description": "Land of the Thunderbolt in West Bengal, famous for tea gardens and mountain railways",
     "state": "West Bengal",
-    "latitude": 27.0410,
+    "latitude": 27.041,
     "longitude": 88.2663,
-    "imageUrl": "darjeeling_tiger_hill_sunrise_peak.png",
-    "highlights": ["Tea Gardens", "Mountain Railway", "Culture"],
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "highlights": [
+      "Tea Gardens",
+      "Mountain Railway",
+      "Culture"
+    ],
     "bestTime": "October-April"
   },
   {
@@ -341,10 +453,14 @@
     "region": "East",
     "description": "Enchanting Himalayan state known for biodiversity and pristine landscapes",
     "state": "Sikkim",
-    "latitude": 27.5330,
+    "latitude": 27.533,
     "longitude": 88.5122,
     "imageUrl": "sikkim_hero.png",
-    "highlights": ["Kanchendzonga", "Adventure", "Nature"],
+    "highlights": [
+      "Kanchendzonga",
+      "Adventure",
+      "Nature"
+    ],
     "bestTime": "October-April"
   },
   {
@@ -356,7 +472,11 @@
     "latitude": 25.5788,
     "longitude": 91.8933,
     "imageUrl": "meghalaya_hero.png",
-    "highlights": ["Waterfalls", "Living Root Bridges", "Nature"],
+    "highlights": [
+      "Waterfalls",
+      "Living Root Bridges",
+      "Nature"
+    ],
     "bestTime": "October-April"
   },
   {
@@ -367,8 +487,12 @@
     "state": "Assam",
     "latitude": 26.6244,
     "longitude": 93.1541,
-    "imageUrl": "kaziranga_hero.png",
-    "highlights": ["Wildlife", "Safari", "Nature"],
+    "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=800&q=80",
+    "highlights": [
+      "Wildlife",
+      "Safari",
+      "Nature"
+    ],
     "bestTime": "October-April"
   },
   {
@@ -379,8 +503,12 @@
     "state": "Andaman & Nicobar",
     "latitude": 11.7401,
     "longitude": 92.6586,
-    "imageUrl": "andaman_hero.png",
-    "highlights": ["Beaches", "Water Sports", "Diving"],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    "highlights": [
+      "Beaches",
+      "Water Sports",
+      "Diving"
+    ],
     "bestTime": "November-May"
   },
   {
@@ -392,7 +520,11 @@
     "latitude": 24.6955,
     "longitude": 84.9852,
     "imageUrl": "bodh_gaya_hero.png",
-    "highlights": ["Spirituality", "Heritage", "Culture"],
+    "highlights": [
+      "Spirituality",
+      "Heritage",
+      "Culture"
+    ],
     "bestTime": "November-February"
   }
 ]
