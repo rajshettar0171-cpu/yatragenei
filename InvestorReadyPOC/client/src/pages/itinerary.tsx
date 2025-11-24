@@ -30,6 +30,7 @@ export default function Itinerary() {
   const searchParams = new URLSearchParams(window.location.search);
 
   const params = {
+    destination: searchParams.get("destination") || "shimla",
     days: parseInt(searchParams.get("days") || "2"),
     budget: searchParams.get("budget") || "medium",
     travelerType: searchParams.get("travelerType") || "solo",
@@ -65,7 +66,7 @@ export default function Itinerary() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `shimla-itinerary-${new Date().toISOString().split("T")[0]}.json`;
+    a.download = `${params.destination}-itinerary-${new Date().toISOString().split("T")[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
