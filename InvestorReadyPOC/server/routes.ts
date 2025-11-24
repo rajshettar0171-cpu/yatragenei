@@ -313,6 +313,69 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // GET /api/destination-guide/:destination - Comprehensive smart travel planning
+  app.get("/api/destination-guide/:destination", async (req, res) => {
+    try {
+      const destination = req.params.destination;
+      storage.setDestination(destination);
+
+      const { getSeasonalInfo, getDestinationTips, getOptimalVisitTime } = await import("./services/destination-guide");
+      const spots = await storage.getAllSpots(destination);
+      const destInfo = getDestinations();
+      const destDetails = destInfo.find((d: any) => d.id === destination);
+
+      if (!destDetails) {
+        return res.status(404).json({ error: "Destination not found" });
+      }
+
+      // Get all places
+      const topPlaces = spots.slice(0, 5);
+      const hiddenGems = spots.filter((s: any) => s.isHiddenGem === 1 && s.crowdScore <= 5);
+
+      const guide = {
+        destination: destDetails.name,
+        region: destDetails.region,
+        state: destDetails.state,
+        description: destDetails.description,
+        imageUrl: destDetails.imageUrl,
+        coordinates: {
+          lat: destDetails.latitude,
+          lng: destDetails.longitude
+        },
+        totalPlaces: spots.length,
+        topPlaces: topPlaces.map((s: any) => ({
+          name: s.name,
+          description: s.description,
+          crowdScore: s.crowdScore,
+          bestTime: s.bestTime,
+          entryFee: s.entryFee,
+          openingHours: s.openingHours,
+          imageUrl: s.imageUrl,
+          tags: s.tags,
+          coordinates: { lat: s.lat, lng: s.lng }
+        })),
+        hiddenGems: hiddenGems.slice(0, 3).map((s: any) => ({
+          name: s.name,
+          description: s.description,
+          crowdScore: s.crowdScore,
+          bestTime: s.bestTime,
+          imageUrl: s.imageUrl,
+          tags: s.tags
+        })),
+        seasons: getSeasonalInfo(destination),
+        bestTimeToVisit: getOptimalVisitTime(destination),
+        smartTips: getDestinationTips(destination),
+        highlights: destDetails.highlights || [],
+        activities: Array.from(new Set(spots.flatMap((s: any) => s.tags))).slice(0, 8)
+      };
+
+      res.json(guide);
+    } catch (error: any) {
+      console.error("Error generating destination guide:", error);
+      res.status(400).json({ error: error.message || "Failed to generate destination guide" });
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }

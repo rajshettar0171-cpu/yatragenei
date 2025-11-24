@@ -143,13 +143,22 @@ export default function Destinations() {
                             </div>
                           </div>
 
-                          <Button
-                            className="w-full mt-4 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 text-white group"
-                            onClick={() => handleSelectDestination(dest.id)}
-                          >
-                            Plan Trip
-                            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                          </Button>
+                          <div className="space-y-2">
+                            <Button
+                              className="w-full bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 text-white group"
+                              onClick={() => handleSelectDestination(dest.id)}
+                            >
+                              Plan Trip
+                              <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                            </Button>
+                            <Button
+                              variant="outline"
+                              className="w-full border-purple-400 text-purple-300 hover:bg-purple-600/20"
+                              onClick={() => setLocation(`/travel-planner?destination=${dest.id}`)}
+                            >
+                              📅 Travel Guide
+                            </Button>
+                          </div>
                         </CardContent>
                       </Card>
                     ))}
