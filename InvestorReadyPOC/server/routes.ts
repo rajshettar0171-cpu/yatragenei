@@ -376,6 +376,112 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // GET /api/reviews/:spot - Get community reviews for a spot
+  app.get("/api/reviews/:spot", async (req, res) => {
+    try {
+      const { getReviewsForSpot, getAverageRating, getAverageCrowdLevel, getCrowdUpdate } = await import("./services/community-reviews");
+      const spot = req.params.spot;
+      const reviews = getReviewsForSpot(spot);
+      const avgRating = getAverageRating(spot);
+      const avgCrowd = getAverageCrowdLevel(spot);
+      const crowdUpdate = getCrowdUpdate(spot);
+
+      res.json({
+        spot,
+        reviews: reviews.slice(0, 5),
+        stats: {
+          averageRating: avgRating,
+          averageCrowdLevel: avgCrowd,
+          totalReviews: reviews.length,
+          helpfulCount: reviews.reduce((sum, r) => sum + r.helpful, 0)
+        },
+        liveUpdate: crowdUpdate,
+        reviewCount: reviews.length
+      });
+    } catch (error: any) {
+      res.status(400).json({ error: error.message });
+    }
+  });
+
+  // GET /api/weather-alerts/:destination - Get weather alerts
+  app.get("/api/weather-alerts/:destination", async (req, res) => {
+    try {
+      const { getWeatherAlerts, getWeatherForecast, getWeatherRecommendations } = await import("./services/weather-alerts");
+      const destination = req.params.destination;
+      const alerts = getWeatherAlerts(destination);
+      const forecast = getWeatherForecast(destination);
+      const recommendations = forecast.length > 0 ? getWeatherRecommendations(forecast[0]) : [];
+
+      res.json({
+        destination,
+        alerts,
+        forecast: forecast.slice(0, 3),
+        recommendations,
+        lastUpdated: new Date().toISOString()
+      });
+    } catch (error: any) {
+      res.status(400).json({ error: error.message });
+    }
+  });
+
+  // GET /api/packing-list/:destination/:season/:days - Get personalized packing list
+  app.get("/api/packing-list/:destination/:season/:days", async (req, res) => {
+    try {
+      const { getPackingList, getPackingChecklist } = await import("./services/packing-list");
+      const destination = req.params.destination;
+      const season = req.params.season;
+      const days = parseInt(req.params.days) || 3;
+      
+      const packingList = getPackingList(season, "sunny");
+      const checklist = getPackingChecklist(destination, season, days);
+
+      res.json({
+        destination,
+        season,
+        days,
+        packingList,
+        printableChecklist: checklist,
+        tips: packingList.tips,
+        weight_warning: days > 5 ? "Consider packing less - focus on essentials" : "Pack can be lighter for short trips"
+      });
+    } catch (error: any) {
+      res.status(400).json({ error: error.message });
+    }
+  });
+
+  // GET /api/cost-estimate/:destination/:days/:budget/:season - Calculate trip cost
+  app.get("/api/cost-estimate/:destination/:days/:budget/:season", async (req, res) => {
+    try {
+      const { calculateTripCost, getSavingsTipsByDate, getPriceComparison } = await import("./services/cost-calculator");
+      const destination = req.params.destination;
+      const days = parseInt(req.params.days) || 3;
+      const budget = req.params.budget as "low" | "medium" | "high";
+      const season = req.params.season;
+
+      const estimate = calculateTripCost(destination, days, budget, season);
+      const today = new Date();
+      const tips = getSavingsTipsByDate(season, today.getDay());
+      const comparison = getPriceComparison(destination, budget, days);
+
+      res.json({
+        destination,
+        days,
+        budget,
+        season,
+        estimate,
+        costBreakdown: estimate.breakdown,
+        savingsTips: tips,
+        priceComparison: comparison,
+        formatted: {
+          total: `₹${estimate.total.toLocaleString('en-IN')}`,
+          daily: `₹${estimate.daily.toLocaleString('en-IN')}`
+        }
+      });
+    } catch (error: any) {
+      res.status(400).json({ error: error.message });
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }

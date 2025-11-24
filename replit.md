@@ -27,7 +27,9 @@ Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generate
 **Core Algorithms**:
 1.  **Itinerary Generation**: Spot scoring based on interest, crowd, and hidden gem bonuses. Haversine formula for distance, route optimization by opening hours and proximity, intelligent travel mode selection, and cost tiering.
 2.  **Chat Assistant**: Enhanced rule-based NLP for intent matching (budget, crowd, weather, hidden gems, alternatives). Provides intelligent responses with savings tips, crowd predictions, weather advisories, and hidden gem discovery. Designed to be LLM-ready.
-**Data Model**: In-memory JSON mock data for 15 curated Shimla spots, alerts, scraped content (Instagram/blog posts), and transient itineraries.
+**Data Model**: In-memory JSON mock data for 34 Indian destination spots with alerts, scraped content, itineraries, and transient data. Expandable storage interface for PostgreSQL migration.
+**Community & Real-Time**: User reviews with 1-5 star ratings, real-time crowd predictions, live updates with trend analysis (increasing/decreasing/stable).
+**Smart Features**: Weather alerts with 3-day forecasts and safety recommendations. Personalized packing lists by season/weather with categorized checklists. Dynamic trip cost calculator with seasonal multipliers and budget tiers (low/medium/high). All features use mock data but designed for real API integration.
 **Development vs. Production**: Dev mode with Vite middleware and auto-restart; Prod mode serves static assets.
 **Design System & UI Patterns**: HSL-based color system with CSS custom properties, Tailwind's spacing scale, mobile-first responsive strategy. Interaction patterns include skeleton loaders, toast notifications for errors, and ARIA-compliant accessibility.
 **Image Strategy**: All images sourced directly from Unsplash/Pexels CDN, location-specific and CC0 licensed.
@@ -50,5 +52,31 @@ Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generate
 
 **Current State**: Fully self-contained with JSON mock data. Uses **Unsplash** (https://unsplash.com) and **Pexels** (https://www.pexels.com) CDNs for CC0 licensed, high-quality destination and attraction images. No other external APIs are integrated.
 
-**Future Integrations (Stubbed)**: LLM providers (OpenAI/Anthropic), web scraping (Instagram Graph API), mapping services (Google Maps API/Mapbox), weather APIs (OpenWeatherMap), government data, and vector databases (Pinecone/Weaviate).
-**Database Migration Path**: PostgreSQL via Neon is configured in `drizzle.config.ts` for future migration.
+**Currently Implemented Services**:
+- **Community Reviews** (`services/community-reviews.ts`) - User ratings, crowd metrics, live updates
+- **Packing Lists** (`services/packing-list.ts`) - Season/weather-based personalized packing
+- **Weather Alerts** (`services/weather-alerts.ts`) - 3-day forecasts, safety recommendations
+- **Cost Calculator** (`services/cost-calculator.ts`) - Budget estimation with seasonal pricing
+
+**New Frontend Pages**:
+- **Trip Details** (`pages/trip-details.tsx`) - Tabbed interface (Reviews, Weather, Packing, Costs)
+- **Travel Planner Enhanced** - Added "Trip Details" button for quick access
+
+**Future Integrations (Stubbed)**: LLM providers (OpenAI/Anthropic), web scraping (Instagram Graph API), mapping services (Google Maps API/Mapbox), real weather APIs (OpenWeatherMap), government data, and vector databases (Pinecone/Weaviate). Real-time IoT crowd sensors for attractions.
+**Database Migration Path**: PostgreSQL via Neon is configured in `drizzle.config.ts` for future migration. Storage interface supports seamless swap from in-memory to Drizzle ORM.
+
+## Recent Changes (November 24, 2025)
+
+**Smart Travel Planning Feature** - Added comprehensive travel guide with seasonal recommendations, best visit times, hidden gems discovery, and smart tips for all 34 destinations.
+
+**4 New Community-Focused Services**:
+1. **Community Reviews & Crowd Updates** - 5-star reviews with real-time crowd predictions, helpful metrics
+2. **Personalized Packing Lists** - Season/weather-specific items, checklists, smart packing tips
+3. **Weather Integration** - 3-day forecasts, safety alerts, activity recommendations
+4. **Smart Cost Calculator** - Dynamic pricing by season/budget tier, daily/total estimates, savings tips
+
+**API Endpoints** (4 new):
+- `GET /api/reviews/:spot` - Community reviews and crowd data
+- `GET /api/weather-alerts/:destination` - Weather intelligence
+- `GET /api/packing-list/:destination/:season/:days` - Personalized packing
+- `GET /api/cost-estimate/:destination/:days/:budget/:season` - Trip costs

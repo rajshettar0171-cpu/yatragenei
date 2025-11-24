@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import Destinations from "@/pages/destinations";
 import Itinerary from "@/pages/itinerary";
 import TravelPlanner from "@/pages/travel-planner";
+import TripDetails from "@/pages/trip-details";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/home" component={Home} />
       <Route path="/destinations" component={Destinations} />
       <Route path="/travel-planner" component={TravelPlanner} />
+      <Route path="/trip-details" component={TripDetails} />
       <Route path="/itinerary" component={Itinerary} />
       <Route path="/admin" component={Admin} />
       <Route component={NotFound} />

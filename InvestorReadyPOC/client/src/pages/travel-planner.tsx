@@ -94,7 +94,12 @@ export default function TravelPlanner() {
             <ArrowLeft size={24} />
           </button>
           <h1 className="text-2xl font-bold">Smart Travel Planner</h1>
-          <div className="w-10" />
+          <Button 
+            onClick={() => setLocation(`/trip-details?destination=${destination}`)}
+            className="bg-blue-600 hover:bg-blue-700"
+          >
+            📋 Trip Details
+          </Button>
         </div>
       </div>
 
