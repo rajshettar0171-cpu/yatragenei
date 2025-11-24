@@ -55,9 +55,9 @@ export class MemStorage implements IStorage {
 
   private loadInitialData() {
     try {
-      // Load spots for all destinations
+      // Load spots for all 20 destinations
       const allSpotsData = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "spots-data.json"), "utf-8")
+        readFileSync(join(process.cwd(), "data", "all-spots-data.json"), "utf-8")
       );
       
       // Add destination info to spots
@@ -70,27 +70,30 @@ export class MemStorage implements IStorage {
 
       // Load alerts for all destinations
       const alertsData = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "multi-alerts.json"), "utf-8")
+        readFileSync(join(process.cwd(), "data", "mock-alerts.json"), "utf-8")
       );
       alertsData.forEach((alert: Alert) => {
         this.alerts.set(alert.id, alert);
       });
 
-      // Load blog posts
-      const blogPosts = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "blog_posts.json"), "utf-8")
+      // Load scraped content (blogs + Instagram posts)
+      const scrapedData = JSON.parse(
+        readFileSync(join(process.cwd(), "data", "mock-scraped-content.json"), "utf-8")
       );
-      blogPosts.forEach((post: ScrapedContent) => {
-        this.scrapedContent.set(post.id, post);
-      });
+      
+      // Load blog posts
+      if (scrapedData.blog_posts) {
+        scrapedData.blog_posts.forEach((post: ScrapedContent) => {
+          this.scrapedContent.set(post.id, post);
+        });
+      }
 
       // Load Instagram posts
-      const instaPosts = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "insta_posts.json"), "utf-8")
-      );
-      instaPosts.forEach((post: ScrapedContent) => {
-        this.scrapedContent.set(post.id, post);
-      });
+      if (scrapedData.instagram_posts) {
+        scrapedData.instagram_posts.forEach((post: ScrapedContent) => {
+          this.scrapedContent.set(post.id, post);
+        });
+      }
 
       console.log(`Loaded ${this.spots.size} spots from all destinations, ${this.alerts.size} alerts, ${this.scrapedContent.size} scraped items`);
     } catch (error) {

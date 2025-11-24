@@ -313,6 +313,24 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // GET /api/itinerary/:id/download - Download itinerary as JSON
+  app.get("/api/itinerary/:id/download", async (req, res) => {
+    try {
+      const itinerary = await storage.getItineraryById(req.params.id);
+      
+      if (!itinerary) {
+        return res.status(404).json({ error: "Itinerary not found" });
+      }
+
+      res.setHeader("Content-Type", "application/json");
+      res.setHeader("Content-Disposition", `attachment; filename="itinerary-${req.params.id}.json"`);
+      res.json(itinerary);
+    } catch (error: any) {
+      console.error("Error downloading itinerary:", error);
+      res.status(400).json({ error: error.message || "Failed to download itinerary" });
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }
