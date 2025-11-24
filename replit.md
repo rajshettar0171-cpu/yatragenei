@@ -7,7 +7,7 @@ TravelAI is an AI-powered travel assistant proof-of-concept focused on personali
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
-Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generated images.
+Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generated images, must be specific to each location.
 
 ## System Architecture
 
@@ -95,9 +95,11 @@ Image sourcing: Use real images from internet (Unsplash/Pexels) - no AI-generate
 - Assets: All images sourced from internet (Unsplash/Pexels CDN, no local assets)
 
 **Image Strategy**: 
-- All 34 destination images use Unsplash/Pexels URLs (CC0 licensed, no attribution required)
-- All 25 attraction images use Unsplash/Pexels URLs for rich visual experience
+- All 34 destination images use location-specific Unsplash/Pexels URLs (CC0 licensed, no attribution required)
+- Examples: Manali mountains, Shimla colonial architecture, Goa beaches, Jaisalmer desert, Taj Mahal, Hawa Mahal
+- All 25 attraction images use location-specific URLs for rich visual experience
 - Images load directly from CDN with quality parameters (w=800&q=80 for destinations, w=600&q=80 for attractions)
+- Images embedded directly into React components (destinations.tsx, itinerary.tsx, home.tsx)
 - No local image generation or storage required
 
 **Scalability Considerations**: Monorepo structure allows future extraction of backend into separate service. Storage interface enables database swap without refactoring. API design follows RESTful conventions for easy client generation (e.g., OpenAPI).
