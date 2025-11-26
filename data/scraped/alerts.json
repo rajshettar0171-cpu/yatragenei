@@ -1,0 +1,102 @@
+[
+  {
+    "id": "alert-road-closure-1",
+    "type": "road_closure",
+    "severity": "high",
+    "title": "Shimla-Kufri Road Partially Closed",
+    "description": "Road repair work ongoing between Mall Road junction and Kufri. Expect delays of 30-45 minutes. Alternate route via Chharabra available but adds 20 minutes to journey. Work expected to complete by November 30th.",
+    "affectedAreas": ["Kufri", "Green Valley", "Chharabra"],
+    "timestamp": "2024-11-22T08:00:00Z",
+    "destinationId": "shimla"
+  },
+  {
+    "id": "alert-weather-1",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Light Rain Expected This Weekend",
+    "description": "Meteorological department forecasts light to moderate rainfall on November 23-24. Temperature may drop to 8°C. Carry umbrellas and warm layers. Roads may become slippery, drive carefully. Beautiful post-rain views expected!",
+    "affectedAreas": ["Shimla", "Kufri", "Summer Hill", "Tara Devi"],
+    "timestamp": "2024-11-21T18:00:00Z",
+    "destinationId": "shimla"
+  },
+  {
+    "id": "alert-event-1",
+    "type": "event",
+    "severity": "low",
+    "title": "Winter Carnival at The Ridge",
+    "description": "Annual Winter Carnival happening at The Ridge from November 25-28. Cultural performances, local food stalls, and handicraft exhibition. Free entry. Expect increased crowds near Mall Road and Ridge area during evening hours (5 PM - 9 PM).",
+    "affectedAreas": ["The Ridge", "Mall Road", "Scandal Point"],
+    "timestamp": "2024-11-20T10:00:00Z",
+    "destinationId": "shimla"
+  },
+  {
+    "id": "alert-maintenance-1",
+    "type": "maintenance",
+    "severity": "medium",
+    "title": "Jakhu Ropeway Maintenance",
+    "description": "Jakhu Ropeway will be closed for annual maintenance on November 26-27. Trek route to Jakhu Temple remains open. Alternative: Take taxi to base and trek remaining distance (approximately 1 km uphill).",
+    "affectedAreas": ["Jakhu Temple", "Ridge Top"],
+    "timestamp": "2024-11-19T12:00:00Z",
+    "destinationId": "shimla"
+  },
+  {
+    "id": "alert-goa-surf",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Goa Swell Advisory",
+    "description": "IMD predicts 1.8 m swell height along Ashwem–Arambol between Nov 24-26. Strong rip currents during afternoon high tide. Surf early mornings and avoid swimming in flagged zones.",
+    "affectedAreas": ["Ashwem", "Arambol"],
+    "timestamp": "2024-11-23T06:00:00Z",
+    "destinationId": "goa"
+  },
+  {
+    "id": "alert-goa-road",
+    "type": "road_closure",
+    "severity": "low",
+    "title": "NH66 Night Diversion",
+    "description": "Mumbai–Goa Highway (NH66) shut 10 PM–5 AM near Poladpur ghat for rockfall mitigation until Dec 5. Daytime traffic open but speed restricted.",
+    "affectedAreas": ["NH66", "Poladpur"],
+    "timestamp": "2024-11-18T11:00:00Z",
+    "destinationId": "goa"
+  },
+  {
+    "id": "alert-manali-pass",
+    "type": "road_closure",
+    "severity": "high",
+    "title": "Rohtang Permit Cap Reached",
+    "description": "Daily tourist permit quota for Rohtang Pass hit by 8 AM. Apply online a day earlier or shift to Hamta circuit. Snow chain mandatory after KM 32.",
+    "affectedAreas": ["Rohtang Pass", "Manali"],
+    "timestamp": "2024-10-29T04:30:00Z",
+    "destinationId": "manali"
+  },
+  {
+    "id": "alert-manali-weather",
+    "type": "weather",
+    "severity": "medium",
+    "title": "Spiti Route Black Ice Warning",
+    "description": "Night lows at -8°C around Kunzum La causing early morning black ice. Two-wheelers advised to cross after 9 AM once BRO clears frost.",
+    "affectedAreas": ["Kunzum La", "Spiti"],
+    "timestamp": "2024-10-28T20:00:00Z",
+    "destinationId": "manali"
+  },
+  {
+    "id": "alert-meghalaya-rain",
+    "type": "weather",
+    "severity": "low",
+    "title": "Shillong Skies Clear",
+    "description": "After a week of showers, skies turning clear from Oct 20. Perfect window for Dawki river kayaking and Laitlum photography.",
+    "affectedAreas": ["Shillong", "Dawki"],
+    "timestamp": "2024-10-19T09:30:00Z",
+    "destinationId": "meghalaya-shillong-cherrapunji-dawki"
+  },
+  {
+    "id": "alert-jaisalmer-event",
+    "type": "event",
+    "severity": "low",
+    "title": "Desert Folk Nights",
+    "description": "Sam Sand Dunes hosting night folk concerts + astronomy walk Nov 27-30. 800 seats only; book via RTDC counters.",
+    "affectedAreas": ["Sam Sand Dunes"],
+    "timestamp": "2024-11-12T13:00:00Z",
+    "destinationId": "jaisalmer"
+  }
+]

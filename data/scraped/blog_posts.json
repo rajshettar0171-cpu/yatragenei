@@ -1,0 +1,68 @@
+[
+  {
+    "id": "blog-post-1",
+    "source": "Blog - Mountain Wanderer",
+    "title": "Hidden Gems of Shimla: Beyond Mall Road",
+    "destinationId": "shimla",
+    "content": "Most tourists stick to Mall Road and Jakhu Temple, but Shimla's true magic lies in its lesser-known corners. Chadwick Falls during monsoon was a revelation – the 3 km trek through deodar forests felt like walking through a nature documentary. Tara Devi sunrise drives, the Green Valley pull-out, Summer Hill pine walks, and artisan stops at Lakkar Bazaar make the perfect slow-travel loop.",
+    "geoTags": ["Chadwick Falls", "Tara Devi Temple", "Green Valley", "Summer Hill", "Lakkar Bazaar"],
+    "tags": ["offbeat", "hidden-gem", "nature", "culture"],
+    "url": "https://mountainwanderer.com/hidden-gems-shimla",
+    "timestamp": "2024-11-15T08:30:00Z"
+  },
+  {
+    "id": "blog-post-2",
+    "source": "Blog - Budget Traveler India",
+    "title": "Shimla on a Shoestring: 3-Day Budget Guide",
+    "destinationId": "shimla",
+    "content": "Shimla doesn't have to break the bank! Rode the Kalka toy train, trekked up Jakhu instead of taking the ropeway, refueled at Ashiana for ₹150, and chased sunsets at The Ridge. Chadwick Falls trek + Christ Church evening choir + bargaining at Lakkar Bazaar kept the ₹3k budget intact.",
+    "geoTags": ["Mall Road", "Jakhu Temple", "Chadwick Falls", "Christ Church", "Viceregal Lodge", "Lakkar Bazaar"],
+    "tags": ["budget-travel", "tips", "food", "trekking"],
+    "url": "https://budgettravelerindia.com/shimla-budget-guide",
+    "timestamp": "2024-11-10T14:20:00Z"
+  },
+  {
+    "id": "blog-post-3",
+    "source": "Blog - Family Vacation Diaries",
+    "title": "Shimla with Kids: Family-Friendly Itinerary",
+    "destinationId": "shimla",
+    "content": "Jakhu ropeway rides, Kufri pony loops, Annandale picnics, and The Ridge ice-cream walks kept our kids entertained. Wake & Bake pancakes, Ashiana's Himachali dham, and toy shopping at Lakkar Bazaar made rewards for the steep walks.",
+    "geoTags": ["Jakhu Temple", "Kufri", "Annandale", "Mall Road", "The Ridge", "Lakkar Bazaar"],
+    "tags": ["family-friendly", "kids", "activities", "food"],
+    "url": "https://familyvacationdiaries.com/shimla-with-kids",
+    "timestamp": "2024-11-18T10:15:00Z"
+  },
+  {
+    "id": "blog-post-4",
+    "source": "Blog - Coastal Collective",
+    "title": "Goa by Road + Rental Scooters",
+    "destinationId": "goa",
+    "content": "Bombay–Goa NH66 is freshly resurfaced, so we drove down then rented retro scooters at Anjuna to hop between surf-friendly Ashwem mornings, Arambol drum circles, and Reis Magos fort photo ops. Must-eats: Vinayak’s fish thali in Assagao, Kokni Kanteen in Panjim, and late-night serradura at Joseph Bar.",
+    "geoTags": ["Anjuna", "Ashwem", "Arambol", "Panjim"],
+    "tags": ["road-trip", "food", "photography", "adventure"],
+    "url": "https://coastalcollective.in/goa-road-scooter-guide",
+    "timestamp": "2024-10-02T09:00:00Z"
+  },
+  {
+    "id": "blog-post-5",
+    "source": "Blog - Himalayan Torque",
+    "title": "Manali + Spiti Bike Circuit",
+    "destinationId": "manali",
+    "content": "Rented Royal Enfields at Manali, acclimatized with Solang Valley hikes, then tackled the Atal Tunnel toward Spiti. Stopovers: Keylong cafes, Chandra Taal sunrise photography, and pin valley hot springs. Carry jerry cans, patch kits, and learn to adjust chain tension before you climb Kunzum La.",
+    "geoTags": ["Manali", "Spiti", "Keylong", "Kunzum"],
+    "tags": ["biking", "adventure", "photography", "nature"],
+    "url": "https://himalayantorque.com/manali-spiti-bike-route",
+    "timestamp": "2024-09-12T06:45:00Z"
+  },
+  {
+    "id": "blog-post-6",
+    "source": "Blog - Monsoon Nomad",
+    "title": "Meghalaya for Nature + Foodies",
+    "destinationId": "meghalaya-shillong-cherrapunji-dawki",
+    "content": "Base in Shillong for cafe culture (Try Trattoria’s pork rice) then hire a local cab to Cherrapunji’s double-decker root bridges. Kayak Dawki’s crystal river, chase Nohkalikai Falls, and photograph Laitlum Canyon at golden hour. Best months: October to April when skies stay clear.",
+    "geoTags": ["Shillong", "Cherrapunji", "Dawki", "Laitlum"],
+    "tags": ["nature", "food", "photography", "adventure"],
+    "url": "https://monsoonnomad.com/meghalaya-root-bridges",
+    "timestamp": "2024-08-24T12:10:00Z"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "insta-1",
+    "source": "Instagram - @himalayan_soul",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Chasing waterfalls in the Himalayas! 💦 Chadwick Falls is a hidden paradise just 3 km from Summer Hill. The monsoon has this beauty roaring! Trekked through misty deodar forests and had the entire place to ourselves. Shimla, you keep surprising me! 🌲 #ChadwickFalls #HiddenShimla #MonsoonMagic",
+    "geoTags": ["Chadwick Falls", "Summer Hill", "Shimla"],
+    "tags": ["hidden_gem"],
+    "url": null,
+    "timestamp": "2024-11-20T09:45:00Z"
+  },
+  {
+    "id": "insta-2",
+    "source": "Instagram - @wanderlust_india",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Kufri crowds today were INSANE! 😅 Two hours in traffic just to reach the pony stand. Visit before 8 AM or shift to Green Valley for the same views minus the chaos. #Kufri #CrowdAlert",
+    "geoTags": ["Kufri", "Green Valley", "Shimla"],
+    "tags": ["crowd-update"],
+    "url": null,
+    "timestamp": "2024-11-22T15:30:00Z"
+  },
+  {
+    "id": "insta-3",
+    "source": "Instagram - @foodie_mountains",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Hidden gem alert! 🍛 Tiny dhaba near Lakkar Bazaar serving Sidu + Madra for ₹120. Grandma’s recipe, crazy good! #ShimlaFood #HiddenGem",
+    "geoTags": ["Lakkar Bazaar", "Shimla"],
+    "tags": ["hidden_gem", "food"],
+    "url": null,
+    "timestamp": "2024-11-19T13:00:00Z"
+  },
+  {
+    "id": "insta-4",
+    "source": "Instagram - @photography_peaks",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Golden hour at The Ridge with Christ Church silhouettes never gets old. Tripods allowed if you arrive before 5 pm. #ShimlaSunset #Photography",
+    "geoTags": ["The Ridge", "Christ Church", "Shimla"],
+    "tags": ["photography"],
+    "url": null,
+    "timestamp": "2024-11-21T18:45:00Z"
+  },
+  {
+    "id": "insta-5",
+    "source": "Instagram - @solo_girl_traveler",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Solo morning at Viceregal Lodge 🌲 Quiet lawns, zero crowds, ₹50 entry. Perfect journaling spot! #SoloTravel #Shimla",
+    "geoTags": ["Viceregal Lodge", "Shimla"],
+    "tags": ["hidden_gem", "relaxation"],
+    "url": null,
+    "timestamp": "2024-11-17T11:20:00Z"
+  },
+  {
+    "id": "insta-6",
+    "source": "Instagram - @adventure_junkies",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Jakhu sunrise trek = natural stair master! Start 5:30 AM, carry monkey-proof bags, skip the ropeway. #JakhuTrek #Adventure",
+    "geoTags": ["Jakhu Temple", "Shimla"],
+    "tags": ["trekking", "adventure"],
+    "url": null,
+    "timestamp": "2024-11-16T07:00:00Z"
+  },
+  {
+    "id": "insta-7",
+    "source": "Instagram - @heritage_explorer",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Himachal State Museum = art nerd paradise 🎨 Miniature paintings, zero noise, ₹50 ticket. #Culture",
+    "geoTags": ["Himachal State Museum", "Shimla"],
+    "tags": ["culture"],
+    "url": null,
+    "timestamp": "2024-11-14T12:30:00Z"
+  },
+  {
+    "id": "insta-8",
+    "source": "Instagram - @weekend_warriors",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Green Valley pit-stop > Kufri madness. Pine carpet as far as you can see and no vendors! #Nature #HiddenGem",
+    "geoTags": ["Green Valley", "Shimla"],
+    "tags": ["hidden_gem", "nature"],
+    "url": null,
+    "timestamp": "2024-11-18T16:00:00Z"
+  },
+  {
+    "id": "insta-9",
+    "source": "Instagram - @couple_travels",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Coffee dates at Scandal Point ☕ Sunset light, street musicians, and colonial balconies. #CoupleTravel",
+    "geoTags": ["Scandal Point", "Shimla"],
+    "tags": ["relaxation"],
+    "url": null,
+    "timestamp": "2024-11-20T17:15:00Z"
+  },
+  {
+    "id": "insta-10",
+    "source": "Instagram - @spiritual_seeker",
+    "destinationId": "shimla",
+    "title": null,
+    "content": "Tara Devi sunrise prayers 🙏 Wooden temple, pine scent, barely any tourists. 20 min forest walk from parking. #SpiritualShimla",
+    "geoTags": ["Tara Devi Temple", "Shimla"],
+    "tags": ["hidden_gem", "culture"],
+    "url": null,
+    "timestamp": "2024-11-15T06:30:00Z"
+  },
+  {
+    "id": "insta-11",
+    "source": "Instagram - @coastlinecrush",
+    "destinationId": "goa",
+    "title": null,
+    "content": "Sunrise surf at Ashwem, sunset vinyl set at Artjuna, midnight bebinca run in Panjim. Rented a Vespa + surf rack. #Goa #ScooterLife",
+    "geoTags": ["Ashwem", "Panjim"],
+    "tags": ["road-trip", "food", "adventure"],
+    "url": null,
+    "timestamp": "2024-11-05T07:50:00Z"
+  },
+  {
+    "id": "insta-12",
+    "source": "Instagram - @highpasshunters",
+    "destinationId": "manali",
+    "title": null,
+    "content": "Rohtang sunrise ride! ❄️ Took the first convoy, dodged black ice, and hit the snow wall viewpoint before crowds. Rent @enfieldersmanali and carry oxygen cans. #Manali #BikeTrip",
+    "geoTags": ["Rohtang Pass", "Manali"],
+    "tags": ["adventure", "biking"],
+    "url": null,
+    "timestamp": "2024-10-28T05:20:00Z"
+  },
+  {
+    "id": "insta-13",
+    "source": "Instagram - @northeastnature",
+    "destinationId": "meghalaya-shillong-cherrapunji-dawki",
+    "title": null,
+    "content": "Living root bridge hikes hit different! 3500 steps to Nongriat, lime soda reward, turquoise plunge pools as payoff. #Meghalaya #Nature",
+    "geoTags": ["Nongriat", "Cherrapunji"],
+    "tags": ["nature", "photography"],
+    "url": null,
+    "timestamp": "2024-10-18T09:15:00Z"
+  },
+  {
+    "id": "insta-14",
+    "source": "Instagram - @desertframes",
+    "destinationId": "jaisalmer",
+    "title": null,
+    "content": "Sam sand dunes under the Orion belt 🌌 Camel caravans + dune bashing + rooftop folk gigs. Hire a 4x4 from town, return under the Milky Way. #Jaisalmer",
+    "geoTags": ["Sam Sand Dunes", "Jaisalmer"],
+    "tags": ["adventure", "photography"],
+    "url": null,
+    "timestamp": "2024-11-08T22:40:00Z"
+  }
+]

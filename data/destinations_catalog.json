@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "agra",
+    "name": "Agra",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Cities & Culture",
+    "categories": [
+      "Cities & Culture"
+    ],
+    "interests": [
+      "culture",
+      "food",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} is perfect for heritage precinct walks, craft markets, and fusion diners."
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "almora",
+    "name": "Almora",
+    "region": "North India",
+    "state": "Uttarakhand",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "andaman",
+    "name": "Andaman",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Islands",
+    "categories": [
+      "Islands"
+    ],
+    "interests": [
+      "relaxation",
+      "adventure",
+      "nature",
+      "photography",
+      "food"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} offers lagoon dives, bioluminescent beaches, and hammock afternoons."
+  },
+  {
+    "id": "auli",
+    "name": "Auli",
+    "region": "North India",
+    "state": "Uttarakhand",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Dec–Feb (prime ski season)",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Major Cities",
+    "categories": [
+      "Major Cities"
+    ],
+    "interests": [
+      "food",
+      "culture",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} delivers urban energy—coffee labs, indie art, and midnight food streets."
+  },
+  {
+    "id": "bodh-gaya",
+    "name": "Bodh Gaya",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Cultural & Heritage",
+    "categories": [
+      "Cultural & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "food",
+      "shopping"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} highlights UNESCO temples, ritual arts, and iconic street food."
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Major Cities",
+    "categories": [
+      "Major Cities"
+    ],
+    "interests": [
+      "food",
+      "culture",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} delivers urban energy—coffee labs, indie art, and midnight food streets."
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "dalhousie",
+    "name": "Dalhousie",
+    "region": "North India",
+    "state": "Himachal Pradesh",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "daman",
+    "name": "Daman",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Coastal Areas",
+    "categories": [
+      "Coastal Areas"
+    ],
+    "interests": [
+      "relaxation",
+      "photography",
+      "adventure",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} keeps breezy drives, cliffside photo stops, and water sports within reach."
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Oct–Apr (clear Kanchenjunga views)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala",
+    "region": "North India",
+    "state": "Himachal Pradesh",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "diu",
+    "name": "Diu",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Coastal Areas",
+    "categories": [
+      "Coastal Areas"
+    ],
+    "interests": [
+      "relaxation",
+      "photography",
+      "adventure",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} keeps breezy drives, cliffside photo stops, and water sports within reach."
+  },
+  {
+    "id": "gangtok",
+    "name": "Gangtok",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters",
+      "Coastal Areas"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Nov–Feb (dry season)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Heritage & Temple Destinations",
+    "categories": [
+      "Heritage & Temple Destinations"
+    ],
+    "interests": [
+      "culture",
+      "relaxation",
+      "photography",
+      "shopping"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} spotlights temple rituals, gopuram silhouettes, and sacred tanks."
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Major Cities",
+    "categories": [
+      "Major Cities"
+    ],
+    "interests": [
+      "food",
+      "culture",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} delivers urban energy—coffee labs, indie art, and midnight food streets."
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "region": "West India",
+    "state": "Rajasthan",
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer",
+    "region": "West India",
+    "state": "Rajasthan",
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical",
+      "Desert & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "jim-corbett-national-park",
+    "name": "Jim Corbett National Park",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Nature & Trekking Spots",
+    "categories": [
+      "Nature & Trekking Spots"
+    ],
+    "interests": [
+      "trekking",
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} rewards trekkers with alpine meadows, root bridges, and waterfall scrambles."
+  },
+  {
+    "id": "jodhpur",
+    "name": "Jodhpur",
+    "region": "West India",
+    "state": "Rajasthan",
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical",
+      "Desert & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "kalimpong",
+    "name": "Kalimpong",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "kasol",
+    "name": "Kasol",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Nature & Trekking Spots",
+    "categories": [
+      "Nature & Trekking Spots"
+    ],
+    "interests": [
+      "trekking",
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} rewards trekkers with alpine meadows, root bridges, and waterfall scrambles."
+  },
+  {
+    "id": "kaziranga-national-park",
+    "name": "Kaziranga National Park",
+    "region": "East India",
+    "state": "Assam",
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Nov–Apr (park open)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "kheerganga",
+    "name": "Kheerganga",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Nature & Trekking Spots",
+    "categories": [
+      "Nature & Trekking Spots"
+    ],
+    "interests": [
+      "trekking",
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} rewards trekkers with alpine meadows, root bridges, and waterfall scrambles."
+  },
+  {
+    "id": "kodaikanal",
+    "name": "Kodaikanal",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Cultural & Heritage",
+    "categories": [
+      "Cultural & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "food",
+      "shopping"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} highlights UNESCO temples, ritual arts, and iconic street food."
+  },
+  {
+    "id": "konark",
+    "name": "Konark",
+    "region": "East India",
+    "state": "Odisha",
+    "primaryCategory": "Cultural & Heritage",
+    "categories": [
+      "Cultural & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "food",
+      "shopping"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} highlights UNESCO temples, ritual arts, and iconic street food."
+  },
+  {
+    "id": "kovalam",
+    "name": "Kovalam",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "kumarakom",
+    "name": "Kumarakom",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "kutch",
+    "name": "Kutch",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Desert & Heritage",
+    "categories": [
+      "Desert & Heritage"
+    ],
+    "interests": [
+      "adventure",
+      "culture",
+      "photography",
+      "shopping"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} blends desert drives, camel safaris, and fort sunsets."
+  },
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "June–Sept (road window)",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "lonavala-khandala",
+    "name": "Lonavala-Khandala",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "madurai",
+    "name": "Madurai",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Heritage & Temple Destinations",
+    "categories": [
+      "Heritage & Temple Destinations"
+    ],
+    "interests": [
+      "culture",
+      "relaxation",
+      "photography",
+      "shopping"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} spotlights temple rituals, gopuram silhouettes, and sacred tanks."
+  },
+  {
+    "id": "mahabaleshwar",
+    "name": "Mahabaleshwar",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "mahabalipuram",
+    "name": "Mahabalipuram",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Heritage & Temple Destinations",
+    "categories": [
+      "Heritage & Temple Destinations"
+    ],
+    "interests": [
+      "culture",
+      "relaxation",
+      "photography",
+      "shopping"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} spotlights temple rituals, gopuram silhouettes, and sacred tanks."
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "region": "North India",
+    "state": "Himachal Pradesh",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Dec–Feb for snow · Mar–Jun for treks",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "mcleod-ganj",
+    "name": "McLeod Ganj",
+    "region": "North India",
+    "state": "Himachal Pradesh",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "meghalaya",
+    "name": "Meghalaya",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "mount-abu",
+    "name": "Mount Abu",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Cities & Culture",
+    "categories": [
+      "Cities & Culture"
+    ],
+    "interests": [
+      "culture",
+      "food",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} is perfect for heritage precinct walks, craft markets, and fusion diners."
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie",
+    "region": "North India",
+    "state": "Uttarakhand",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "nainital",
+    "name": "Nainital",
+    "region": "North India",
+    "state": "Uttarakhand",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "nicobar-islands",
+    "name": "Nicobar Islands",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Islands",
+    "categories": [
+      "Islands"
+    ],
+    "interests": [
+      "relaxation",
+      "adventure",
+      "nature",
+      "photography",
+      "food"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} offers lagoon dives, bioluminescent beaches, and hammock afternoons."
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "pune",
+    "name": "Pune",
+    "region": "West India",
+    "state": null,
+    "primaryCategory": "Cities & Culture",
+    "categories": [
+      "Cities & Culture"
+    ],
+    "interests": [
+      "culture",
+      "food",
+      "shopping",
+      "photography"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} is perfect for heritage precinct walks, craft markets, and fusion diners."
+  },
+  {
+    "id": "puri",
+    "name": "Puri",
+    "region": "East India",
+    "state": "Odisha",
+    "primaryCategory": "Cultural & Heritage",
+    "categories": [
+      "Cultural & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "food",
+      "shopping"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} highlights UNESCO temples, ritual arts, and iconic street food."
+  },
+  {
+    "id": "rameswaram",
+    "name": "Rameswaram",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Heritage & Temple Destinations",
+    "categories": [
+      "Heritage & Temple Destinations"
+    ],
+    "interests": [
+      "culture",
+      "relaxation",
+      "photography",
+      "shopping"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} spotlights temple rituals, gopuram silhouettes, and sacred tanks."
+  },
+  {
+    "id": "ranikhet",
+    "name": "Ranikhet",
+    "region": "North India",
+    "state": "Uttarakhand",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "region": "North India",
+    "state": "Himachal Pradesh",
+    "primaryCategory": "Hill Stations & Mountain Regions",
+    "categories": [
+      "Hill Stations & Mountain Regions"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} is a classic hill circuit for pine walks, sunrise viewpoints, and chai pauses."
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim",
+    "region": "East India",
+    "state": null,
+    "primaryCategory": "Mountains & Nature",
+    "categories": [
+      "Mountains & Nature"
+    ],
+    "interests": [
+      "nature",
+      "trekking",
+      "photography",
+      "relaxation"
+    ],
+    "bestTime": "Oct–April (mountains) · Nov–Feb (plains)",
+    "summary": "{name} is pure Northeast lushness with waterfalls, tea ridges, and cloud forests."
+  },
+  {
+    "id": "spiti-valley",
+    "name": "Spiti Valley",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Nature & Trekking Spots",
+    "categories": [
+      "Nature & Trekking Spots"
+    ],
+    "interests": [
+      "trekking",
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} rewards trekkers with alpine meadows, root bridges, and waterfall scrambles."
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "region": "West India",
+    "state": "Rajasthan",
+    "primaryCategory": "Cultural & Historical",
+    "categories": [
+      "Cultural & Historical",
+      "Desert & Heritage"
+    ],
+    "interests": [
+      "culture",
+      "photography",
+      "shopping",
+      "food"
+    ],
+    "bestTime": "Nov–Feb (coast) · Oct–March (desert)",
+    "summary": "{name} layers royal architecture, heritage walks, and buzzing bazaars."
+  },
+  {
+    "id": "valley-of-flowers",
+    "name": "Valley of Flowers",
+    "region": "North India",
+    "state": null,
+    "primaryCategory": "Nature & Trekking Spots",
+    "categories": [
+      "Nature & Trekking Spots"
+    ],
+    "interests": [
+      "trekking",
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestTime": "March–June & Sept–Nov",
+    "summary": "{name} rewards trekkers with alpine meadows, root bridges, and waterfall scrambles."
+  },
+  {
+    "id": "varkala",
+    "name": "Varkala",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Beaches & Backwaters",
+    "categories": [
+      "Beaches & Backwaters"
+    ],
+    "interests": [
+      "relaxation",
+      "food",
+      "photography",
+      "nature",
+      "adventure"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} mixes sunrise beach meditations with shack-side seafood and sunset cruises."
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  },
+  {
+    "id": "yercaud",
+    "name": "Yercaud",
+    "region": "South India",
+    "state": null,
+    "primaryCategory": "Hill Stations",
+    "categories": [
+      "Hill Stations"
+    ],
+    "interests": [
+      "trekking",
+      "photography",
+      "relaxation",
+      "nature"
+    ],
+    "bestTime": "Oct–March (hill) · Nov–Feb (coast)",
+    "summary": "{name} keeps temperatures mellow for tea estates, lake loops, and lazy promenades."
+  }
+]

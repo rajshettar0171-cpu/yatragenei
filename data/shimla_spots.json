@@ -1,0 +1,287 @@
+[
+  {
+    "id": "spot-jakhu-temple",
+    "name": "Jakhu Temple",
+    "description": "Ancient Hindu temple dedicated to Lord Hanuman, situated at Shimla's highest peak. Features a massive 108-foot Hanuman statue visible from across the city. Surrounded by dense deodar forests with panoramic mountain views.",
+    "lat": 31.1070,
+    "lng": 77.1734,
+    "bestTime": "Early morning (6:00 AM - 9:00 AM) for peaceful darshan and clear views",
+    "entryFee": "Free",
+    "openingHours": "6:00 AM - 9:00 PM",
+    "crowdScore": 7,
+    "tags": ["trekking", "culture", "nature", "photography"],
+    "instagramCaptions": [
+      "Standing tall at 8000 ft! The mighty Hanuman statue watches over Shimla. What a view! 🏔️ #JakhuTemple #ShimlaVibes",
+      "Hiked through pine forests to reach this ancient temple. Worth every step! 🌲 #TrekkingInShimla",
+      "Early morning prayers at Jakhu Temple - peace beyond words 🙏 #SpiritualJourney"
+    ],
+    "imageUrl": "jakhu_temple_shimla_attraction.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-kufri",
+    "name": "Kufri",
+    "description": "Scenic hill station 16 km from Shimla, famous for winter sports and adventure activities. Home to Himalayan Nature Park with rare fauna. Mahasu Peak offers breathtaking 360-degree Himalayan views.",
+    "lat": 31.0979,
+    "lng": 77.2645,
+    "bestTime": "December to February for snow activities, May to June for pleasant weather",
+    "entryFee": "₹30 (Nature Park)",
+    "openingHours": "9:00 AM - 6:00 PM",
+    "crowdScore": 8,
+    "tags": ["adventure", "nature", "photography", "family-friendly"],
+    "instagramCaptions": [
+      "Skiing in the Himalayas! Kufri never disappoints ⛷️ #WinterWonderland #KufriAdventures",
+      "Spotted rare Himalayan Monal birds at the Nature Park! 🦜 #WildlifePhotography",
+      "Pony rides to Mahasu Peak - childhood dreams coming true! 🐴 #KufriMoments"
+    ],
+    "imageUrl": "kufri_winter_adventure_spot.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-mall-road",
+    "name": "Mall Road",
+    "description": "Shimla's heart and soul - a colonial-era pedestrian promenade lined with Victorian architecture, cafes, shops, and bookstores. Perfect for evening strolls with mountain air and local shopping.",
+    "lat": 31.1048,
+    "lng": 77.1734,
+    "bestTime": "Evening (4:00 PM - 8:00 PM) for vibrant atmosphere",
+    "entryFee": "Free",
+    "openingHours": "Always open",
+    "crowdScore": 9,
+    "tags": ["shopping", "food", "culture", "photography"],
+    "instagramCaptions": [
+      "Golden hour at Mall Road - pure magic! ✨ #ShimlaGoldenHour #MallRoadDiaries",
+      "Sipping hot chocolate while browsing old bookstores. This is life! ☕📚 #MallRoadVibes",
+      "Colonial architecture meets mountain sunsets 🌅 #HeritageWalk"
+    ],
+    "imageUrl": "mall_road_shopping_district.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-christ-church",
+    "name": "Christ Church",
+    "description": "North India's second oldest church, built in 1857. Stunning neo-Gothic architecture with vibrant stained glass windows depicting faith, hope, charity, and fortitude. Iconic landmark visible across Shimla.",
+    "lat": 31.1041,
+    "lng": 77.1711,
+    "bestTime": "Morning (10:00 AM - 12:00 PM) or evening for beautiful light through stained glass",
+    "entryFee": "Free",
+    "openingHours": "8:00 AM - 6:00 PM",
+    "crowdScore": 6,
+    "tags": ["culture", "photography", "relaxation"],
+    "instagramCaptions": [
+      "167 years of history standing gracefully on The Ridge 🏛️ #ChristChurchShimla #HeritageMonument",
+      "The stained glass windows are pure artistry! Each tells a story 🎨 #ArchitectureLovers",
+      "Peaceful Sunday morning at this beautiful colonial church ⛪ #ShimlaDiaries"
+    ],
+    "imageUrl": "christ_church_landmark_shimla.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-the-ridge",
+    "name": "The Ridge",
+    "description": "Large open space in the heart of Shimla, offering unobstructed views of mountain ranges. Hub for cultural activities, fairs, and festivals. Connects Mall Road with Lakkar Bazaar.",
+    "lat": 31.1038,
+    "lng": 77.1703,
+    "bestTime": "Sunset (5:30 PM - 7:00 PM) for spectacular mountain views",
+    "entryFee": "Free",
+    "openingHours": "Always open",
+    "crowdScore": 8,
+    "tags": ["photography", "culture", "relaxation"],
+    "instagramCaptions": [
+      "Sunset from The Ridge hits different! Those mountain silhouettes 🏔️ #RidgeViews #ShimlaSunset",
+      "Festival celebrations at The Ridge - the energy is incredible! 🎉 #CulturalShimla",
+      "Perfect spot to just sit and watch the world go by ☁️ #MountainTherapy"
+    ],
+    "imageUrl": "the_ridge_viewpoint_shimla.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-viceregal-lodge",
+    "name": "Viceregal Lodge (Rashtrapati Niwas)",
+    "description": "Magnificent heritage building that served as British Viceroy's residence. Now houses Indian Institute of Advanced Study. Renaissance architecture surrounded by manicured gardens and pine forests.",
+    "lat": 31.0907,
+    "lng": 77.1673,
+    "bestTime": "Morning (10:00 AM - 1:00 PM) for guided tours",
+    "entryFee": "₹50 (Indians), ₹200 (Foreigners)",
+    "openingHours": "10:00 AM - 5:00 PM (Closed Mondays)",
+    "crowdScore": 5,
+    "tags": ["culture", "photography", "relaxation", "hidden-gem"],
+    "instagramCaptions": [
+      "Where history was made! Walking through Viceregal corridors 🏛️ #BritishIndia #ShimlaHeritage",
+      "The library here is a book lover's paradise! 📚 #AdvancedStudies",
+      "These gardens are straight out of a period drama! 🌹 #ViceregalLodge"
+    ],
+    "imageUrl": "viceregal_lodge_heritage_building.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-chadwick-falls",
+    "name": "Chadwick Falls",
+    "description": "Scenic waterfall plunging 67 meters through dense deodar forest. Most spectacular during monsoons. Peaceful 3 km trek from Summer Hill through pine-scented trails.",
+    "lat": 31.0682,
+    "lng": 77.1523,
+    "bestTime": "July to September (monsoon) for maximum water flow",
+    "entryFee": "Free",
+    "openingHours": "Always accessible (daylight hours recommended)",
+    "crowdScore": 4,
+    "tags": ["trekking", "nature", "photography", "adventure", "hidden-gem"],
+    "instagramCaptions": [
+      "Found this hidden waterfall gem! The trek was so peaceful 🌊 #ChadwickFalls #HiddenShimla",
+      "Monsoon magic! The waterfall is roaring this season 💦 #NatureLovers",
+      "Surrounded by deodar trees and mist - pure bliss! 🌲 #ShimlaOffbeat"
+    ],
+    "imageUrl": "chadwick_falls_natural_attraction.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-summer-hill",
+    "name": "Summer Hill",
+    "description": "Quiet hilltop suburb with Himachal Pradesh University campus. Mahatma Gandhi stayed here in 1945. Offers peaceful walks through oak and pine forests away from tourist crowds.",
+    "lat": 31.0788,
+    "lng": 77.1517,
+    "bestTime": "Morning (7:00 AM - 11:00 AM) for peaceful walks",
+    "entryFee": "Free",
+    "openingHours": "Always open",
+    "crowdScore": 3,
+    "tags": ["nature", "relaxation", "trekking", "hidden-gem"],
+    "instagramCaptions": [
+      "Where Gandhi ji found peace in the mountains 🙏 #SummerHill #HistoricalPlace",
+      "University campus walks with Himalayan views! Student life goals 🎓 #HPU",
+      "No tourists, just nature and tranquility 🍃 #OffbeatShimla"
+    ],
+    "imageUrl": "summer_hill_scenic_area.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-annandale",
+    "name": "Annandale",
+    "description": "Flat meadow ground used for polo, golf, and cricket during British era. Now an Army Heritage Museum and sports complex. Ideal for picnics with surrounding deodar forests.",
+    "lat": 31.0738,
+    "lng": 77.1834,
+    "bestTime": "Afternoon (2:00 PM - 5:00 PM) for sports activities",
+    "entryFee": "₹20 (Museum)",
+    "openingHours": "9:00 AM - 5:00 PM",
+    "crowdScore": 4,
+    "tags": ["nature", "relaxation", "culture"],
+    "instagramCaptions": [
+      "Picnic vibes at Annandale! Brought my own mountain view 🏞️ #ShimlaPicnic",
+      "Army Heritage Museum - fascinating stories of valor! 🎖️ #IndianArmy",
+      "Playing cricket where British officers once played polo! #HistoryInAction"
+    ],
+    "imageUrl": "annandale_recreation_ground.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-shimla-state-museum",
+    "name": "Himachal State Museum",
+    "description": "Colonial building housing Himachal's rich cultural heritage. Collections include miniature paintings, sculptures, coins, and tribal artifacts. Gandhi memorabilia gallery included.",
+    "lat": 31.0902,
+    "lng": 77.1717,
+    "bestTime": "Morning (10:00 AM - 1:00 PM)",
+    "entryFee": "₹50 (Indians), ₹200 (Foreigners)",
+    "openingHours": "10:00 AM - 1:30 PM, 2:00 PM - 5:00 PM (Closed Mondays and public holidays)",
+    "crowdScore": 3,
+    "tags": ["culture", "relaxation", "hidden-gem"],
+    "instagramCaptions": [
+      "Pahari miniature paintings are absolutely stunning! 🎨 #HimachalCulture #StateMuseum",
+      "Tribal artifacts tell such rich stories! Learning so much 📜 #MuseumDay",
+      "Gandhi ji's personal belongings on display - deeply moving 🙏 #History"
+    ],
+    "imageUrl": "viceregal_lodge_heritage_building.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-jakhoo-ropeway",
+    "name": "Jakhu Ropeway",
+    "description": "Scenic cable car ride offering aerial views of Shimla city and Himalayas. 5-minute journey from Ridge Top to Jakhu Temple. Convenient alternative to the steep trek.",
+    "lat": 31.1055,
+    "lng": 77.1720,
+    "bestTime": "Late afternoon (4:00 PM - 6:00 PM) for golden hour views",
+    "entryFee": "₹200 (Round trip)",
+    "openingHours": "9:00 AM - 6:00 PM",
+    "crowdScore": 7,
+    "tags": ["adventure", "photography", "family-friendly"],
+    "instagramCaptions": [
+      "Floating above the clouds! This ropeway view is unreal 🚡 #JakhooRopeway #AerialViews",
+      "Shortcut to temple with bonus mountain views! Best decision 🏔️ #ShimlaRopeway",
+      "Captured the entire city from up here! Photography heaven 📸 #BirdsEyeView"
+    ],
+    "imageUrl": "jakhu_temple_shimla_attraction.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-scandal-point",
+    "name": "Scandal Point",
+    "description": "Famous intersection on Mall Road where four roads meet. Legend says Maharaja of Patiala eloped with British Viceroy's daughter here. Popular meeting point with cafes.",
+    "lat": 31.1037,
+    "lng": 77.1721,
+    "bestTime": "Evening (5:00 PM - 7:00 PM)",
+    "entryFee": "Free",
+    "openingHours": "Always open",
+    "crowdScore": 9,
+    "tags": ["food", "culture", "photography"],
+    "instagramCaptions": [
+      "Standing at the legendary Scandal Point! History mixed with mystery 🤫 #ShimlaLegends",
+      "Best people-watching spot in Shimla! ☕ #MallRoad #ScandalPoint",
+      "Where scandalous romance became eternal legend 💕 #HistoricalRomance"
+    ],
+    "imageUrl": "mall_road_shopping_district.png",
+    "isHiddenGem": 0
+  },
+  {
+    "id": "spot-green-valley",
+    "name": "Green Valley (Bhattakufr)",
+    "description": "Lush valley viewpoint on Shimla-Kufri highway. Carpeted with dense pine and deodar forests. Perfect spot for photography and experiencing untouched Himalayan nature.",
+    "lat": 31.0912,
+    "lng": 77.2345,
+    "bestTime": "Early morning (6:00 AM - 9:00 AM) for mist-covered valleys",
+    "entryFee": "Free",
+    "openingHours": "Always accessible",
+    "crowdScore": 5,
+    "tags": ["nature", "photography", "relaxation", "hidden-gem"],
+    "instagramCaptions": [
+      "Valley of dreams! This green carpet goes on forever 💚 #GreenValleyShimla #NaturePhotography",
+      "Morning mist making this place look like a fantasy land! 🌫️ #HimalayanMorning",
+      "Pine tree meditation - found my zen! 🧘‍♀️ #MountainPeace"
+    ],
+    "imageUrl": "summer_hill_scenic_area.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-tara-devi-temple",
+    "name": "Tara Devi Temple",
+    "description": "Ancient hilltop temple dedicated to Goddess Tara, located 11 km from Shimla. Peaceful atmosphere with breathtaking valley views. Military cantonment area adds to serenity.",
+    "lat": 31.0234,
+    "lng": 77.1145,
+    "bestTime": "Morning (6:00 AM - 10:00 AM)",
+    "entryFee": "Free",
+    "openingHours": "6:00 AM - 8:00 PM",
+    "crowdScore": 4,
+    "tags": ["culture", "trekking", "nature", "hidden-gem"],
+    "instagramCaptions": [
+      "Wooden temple architecture + Himalayan views = Divine! 🙏 #TaraDeviTemple #SpiritualShimla",
+      "Short trek through pine forests to reach this peaceful sanctuary 🌲 #TempleTrek",
+      "Locals say wishes made here come true! Sending mine to the mountains 💫 #FaithAndNature"
+    ],
+    "imageUrl": "jakhu_temple_shimla_attraction.png",
+    "isHiddenGem": 1
+  },
+  {
+    "id": "spot-lakkar-bazaar",
+    "name": "Lakkar Bazaar",
+    "description": "Traditional wooden crafts market below The Ridge. Famous for handcrafted walking sticks, wooden toys, traditional Himachali handicrafts, and warm woolen items. Authentic local shopping experience.",
+    "lat": 31.1025,
+    "lng": 77.1695,
+    "bestTime": "Afternoon (12:00 PM - 5:00 PM)",
+    "entryFee": "Free",
+    "openingHours": "10:00 AM - 8:00 PM",
+    "crowdScore": 6,
+    "tags": ["shopping", "culture", "hidden-gem"],
+    "instagramCaptions": [
+      "Found the most beautiful handcarved walking stick! Artisan work at its finest 🎋 #LakkarBazaar #LocalCrafts",
+      "Wooden toys bringing back childhood memories! Support local artisans 🪵 #HimachaliCrafts",
+      "Bargaining skills put to test! Got amazing woolen shawls 🧣 #ShimlaaShopping"
+    ],
+    "imageUrl": "mall_road_shopping_district.png",
+    "isHiddenGem": 1
+  }
+]
