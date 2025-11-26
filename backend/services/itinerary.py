@@ -691,4 +691,4 @@ INTEREST_BEHAVIORS: Dict[str, Dict[str, Any]] = {
         "travel": "Walk + tuk-tuk combo",
         "note": "Carry cash for micro vendors; many wrap purchases in newspaper.",
     },
-
+}

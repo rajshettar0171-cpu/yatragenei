@@ -1,43 +1,23 @@
-modules = ["nodejs-20"]
-[nix]
-channel = "stable-25_05"
-packages = ["unzip"]
+# Replit configuration for YatraGenie
 
-[agent]
-expertMode = true
+# Run both servers
+run = ["bash", "-c", "cd backend && python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 & cd ../frontend && npm install && npm run dev"]
 
-[workflows]
-runButton = "Project"
+# Language
+language = "python3"
 
-[[workflows.workflow]]
-name = "Project"
-mode = "parallel"
-author = "agent"
+# Entry point
+entrypoint = "backend/main.py"
 
-[[workflows.workflow.tasks]]
-task = "workflow.run"
-args = "Start application"
+# Environment variables
+[env]
+PYTHONPATH = "${PYTHONPATH}:."
+NEXT_PUBLIC_API_BASE_URL = "http://localhost:8000"
 
-[[workflows.workflow]]
-name = "Start application"
-author = "agent"
+# Packages to install
+[packages]
+python = "3.9"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd InvestorReadyPOC && npm run dev"
-waitForPort = 5000
-
-[workflows.workflow.metadata]
-outputType = "webview"
-
-[[ports]]
-localPort = 5000
-externalPort = 80
-
-[[ports]]
-localPort = 40579
-externalPort = 3001
-
-[[ports]]
-localPort = 45529
-externalPort = 3000
+# Always on (for web services)
+[deploy]
+run = ["bash", "-c", "cd backend && pip install -r requirements.txt && uvicorn backend.main:app --host 0.0.0.0 --port 8000"]
