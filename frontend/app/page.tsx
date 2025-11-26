@@ -16,7 +16,12 @@ import {
   ScrapedFeed,
 } from "@/lib/types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+// API base URL - set via environment variable in production
+// Falls back to localhost for local development
+const API_BASE = 
+  typeof window !== "undefined" 
+    ? (process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000")
+    : process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
 
 export default function HomePage() {
   const [destinations, setDestinations] = useState<DestinationMeta[]>([]);
@@ -36,37 +41,65 @@ export default function HomePage() {
 
   useEffect(() => {
     const loadDestinations = async () => {
-      const response = await fetch(`${API_BASE}/api/destinations`).then((res) => res.json());
-      const list: DestinationMeta[] = response.destinations ?? [];
-      setDestinations(list);
-      const defaultId =
-        list.find((dest) => dest.id === "shimla")?.id ?? list[0]?.id ?? "shimla";
-      setSelectedDestination(defaultId);
-      setAdminFilter(defaultId);
+      try {
+        const response = await fetch(`${API_BASE}/api/destinations`);
+        if (!response.ok) {
+          throw new Error(`Failed to load destinations: ${response.status}`);
+        }
+        const data = await response.json();
+        const list: DestinationMeta[] = data.destinations ?? [];
+        setDestinations(list);
+        const defaultId =
+          list.find((dest) => dest.id === "shimla")?.id ?? list[0]?.id ?? "shimla";
+        setSelectedDestination(defaultId);
+        setAdminFilter(defaultId);
+      } catch (error) {
+        console.error("Destinations bootstrap error", error);
+        setError("Failed to load destinations. Please refresh the page.");
+      }
     };
-    loadDestinations().catch((error) => console.error("Destinations bootstrap error", error));
+    loadDestinations();
   }, []);
 
   useEffect(() => {
     if (!selectedDestination) return;
     const loadSnapshot = async () => {
-      const snapshot = await fetch(`${API_BASE}/api/destination/${selectedDestination}`).then((res) =>
-        res.json()
-      );
-      setDestinationSnapshot(snapshot);
-      setAlerts(snapshot.alerts);
+      try {
+        const response = await fetch(`${API_BASE}/api/destination/${selectedDestination}`);
+        if (!response.ok) {
+          throw new Error(`Failed to load destination: ${response.status}`);
+        }
+        const snapshot = await response.json();
+        setDestinationSnapshot(snapshot);
+        setAlerts(snapshot.alerts || []);
+      } catch (error) {
+        console.error("Snapshot error", error);
+        setDestinationSnapshot(null);
+        setAlerts([]);
+      }
     };
-    loadSnapshot().catch((error) => console.error("Snapshot error", error));
+    loadSnapshot();
   }, [selectedDestination]);
 
   useEffect(() => {
     const query = adminFilter ? `?destination=${adminFilter}` : "";
     const loadFeed = async () => {
-      const feed = await fetch(`${API_BASE}/api/admin/scraped${query}`).then((res) => res.json());
-      setScrapedFeed(feed);
+      try {
+        const response = await fetch(`${API_BASE}/api/admin/scraped${query}`);
+        if (!response.ok) {
+          throw new Error(`Failed to load admin feed: ${response.status}`);
+        }
+        const feed = await response.json();
+        setScrapedFeed(feed);
+      } catch (error) {
+        console.error("Admin feed error", error);
+        setScrapedFeed({ blogs: [], insta: [], alerts: [] });
+      }
     };
-    loadFeed().catch((error) => console.error("Admin feed error", error));
+    loadFeed();
   }, [adminFilter]);
+
+  const [error, setError] = useState<string | null>(null);
 
   const onGenerate = async (formState: {
     days: number;
@@ -76,6 +109,7 @@ export default function HomePage() {
     month: string;
   }) => {
     setLoadingItinerary(true);
+    setError(null);
     try {
       setLastFormInterests(formState.interests);
       const response = await fetch(`${API_BASE}/api/itinerary`, {
@@ -90,8 +124,16 @@ export default function HomePage() {
           month: formState.month,
         }),
       });
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ detail: "Failed to generate itinerary" }));
+        throw new Error(errorData.detail || `Server error: ${response.status}`);
+      }
       const data = await response.json();
       setItinerary(data);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Failed to generate itinerary. Please try again.";
+      setError(message);
+      console.error("Itinerary generation error:", err);
     } finally {
       setLoadingItinerary(false);
     }
@@ -130,11 +172,21 @@ export default function HomePage() {
           },
         }),
       });
+      if (!response.ok) {
+        throw new Error(`Chat error: ${response.status}`);
+      }
       const data = await response.json();
       setChatMessages((prev) => [
         ...prev,
-        { role: "assistant", text: data.reply },
+        { role: "assistant", text: data.reply || "Sorry, I couldn't process that request." },
       ]);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Failed to send message";
+      setChatMessages((prev) => [
+        ...prev,
+        { role: "assistant", text: `Error: ${errorMessage}. Please try again.` },
+      ]);
+      console.error("Chat error:", err);
     } finally {
       setChatLoading(false);
     }
@@ -150,8 +202,15 @@ export default function HomePage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ itemId, destinationId }),
       });
+      if (!response.ok) {
+        throw new Error(`Failed to tag hidden gem: ${response.status}`);
+      }
       const data = await response.json();
-      setAdminStatus(`Hidden gem boost applied for ${data.destinationId}.`);
+      setAdminStatus(`Hidden gem boost applied for ${data.destinationId || destinationId}.`);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Failed to tag hidden gem";
+      setAdminStatus(`Error: ${message}`);
+      console.error("Tag hidden gem error:", err);
     } finally {
       setTaggingId(null);
     }
@@ -187,6 +246,21 @@ export default function HomePage() {
         )}
       </section>
 
+      {error && (
+        <div className="glass-panel rounded-3xl border border-red-500/50 bg-red-500/10 p-4 shadow-card">
+          <div className="flex items-center justify-between">
+            <p className="text-red-200">{error}</p>
+            <button
+              onClick={() => setError(null)}
+              className="text-red-400 hover:text-red-200"
+              aria-label="Dismiss error"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+      )}
+
       <TripForm
         loading={loadingItinerary}
         destinations={destinations}
@@ -196,6 +270,7 @@ export default function HomePage() {
           setAdminFilter(id);
           setItinerary(null);
           setDestinationSnapshot(null);
+          setError(null);
         }}
         onSubmit={onGenerate}
       />

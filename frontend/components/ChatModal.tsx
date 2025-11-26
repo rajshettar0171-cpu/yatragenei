@@ -29,9 +29,9 @@ export function ChatModal({ open, onClose, onSend, messages, loading }: Props) {
         >
           Close
         </button>
-        <h3 className="text-2xl font-semibold text-white">Ask the Shimla Ops Desk</h3>
+        <h3 className="text-2xl font-semibold text-white">Ask the Travel Assistant</h3>
         <p className="text-sm text-slate-400">
-          Try “Is Kufri crowded today?” or “Alternate for Kufri if roads closed.”
+          Try "Is this place crowded today?" or "What are some alternatives if roads are closed?"
         </p>
 
         <div className="mt-4 max-h-[360px] space-y-3 overflow-y-auto rounded-2xl border border-slate-800/60 bg-slate-950/40 p-4">

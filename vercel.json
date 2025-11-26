@@ -1,14 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/.next",
-  "devCommand": "cd frontend && npm run dev",
-  "installCommand": "cd frontend && npm install",
-  "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "https://your-backend-url.railway.app/api/$1"
-    }
-  ]
+  "//": "Minimal Vercel config. Build settings are configured in the Vercel dashboard (root = frontend).",
+  "rewrites": []
 }
 

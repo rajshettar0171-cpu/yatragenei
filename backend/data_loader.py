@@ -6,8 +6,17 @@ from typing import Any, Dict, List, Optional
 
 
 def _default_data_dir() -> Path:
-    """Resolve the base directory for mock data files."""
-    return Path(__file__).resolve().parent.parent / "data"
+    """Resolve the base directory for mock data files.
+    
+    Works in both development and production:
+    - Development: backend/data_loader.py -> parent/../data
+    - Production: backend/data_loader.py -> parent/../data (same structure)
+    """
+    # Get the directory where this file is located (backend/)
+    backend_dir = Path(__file__).resolve().parent
+    # Go up one level to project root, then into data/
+    data_dir = backend_dir.parent / "data"
+    return data_dir
 
 
 DATA_DIR = Path(os.getenv("TRAVEL_DATA_DIR", _default_data_dir()))

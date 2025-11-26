@@ -1,4 +1,4 @@
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -40,12 +40,19 @@ chat_service = ChatService(DATA_STORE)
 
 @app.get("/api/health")
 def health() -> Dict[str, Any]:
-    return {
-        "status": "ok",
-        "primaryDestination": "Shimla",
-        "spotsLoaded": len(DATA_STORE.spots),
-        "destinationsLoaded": len(DATA_STORE.destinations),
-    }
+    """Health check endpoint for deployment monitoring."""
+    try:
+        return {
+            "status": "ok",
+            "primaryDestination": "Shimla",
+            "spotsLoaded": len(DATA_STORE.spots) if hasattr(DATA_STORE, "spots") else 0,
+            "destinationsLoaded": len(DATA_STORE.destinations) if hasattr(DATA_STORE, "destinations") else 0,
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": str(e),
+        }
 
 
 @app.get("/api/destinations")
